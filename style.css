@@ -167,3 +167,67 @@ nav a:hover{transition: 0.4s;font-size:26px ;}
 .redes-footer img,.patrocinadores-footer img{margin-left: 10px;border: #0090D0 1px solid;padding: 5px;}
 .creditos-footer{padding: 12px 0;font-size: 10px;}
 .rede-footer img:hover,.patrocinadores-footer img:hover{background-color: white;}
+
+/**Responsividade header ;) **/
+
+@media screen and (max-width: 800px){
+
+  header span,header a,.glitch{font-size: 10px;}
+  .logo img{width: 40px;}
+}
+@media screen and (max-width: 550px){
+
+  header span,header a,.glitch{font-size: 8px;}
+  .logo img{width: 30px;}
+}
+@media screen and (max-width: 468px){
+  header span,header a,.glitch{font-size: 10px;}
+  nav{display: none;}
+  .logo{width: 100%}
+  .glitch{margin-left: 19%;}
+}
+/**Responsividade header FIM - FIM ;) **/
+
+/**Responsividade Next-Racing - Timer**/
+@media screen and (max-width:1200px){
+  .container-center{width: 90%;}
+}
+@media screen and (max-width:1080px){
+  .container-center{width: 96%;}
+}
+@media screen and (max-width:1010px){
+  .container-corrida{margin-left: 30%;}
+  
+}
+@media screen and (max-width:920px){
+  .container-header{font-size: 10px;}
+  .container-footer span{font-size: 16px;}
+  .left h2{font-size: 10px;}
+  .container-corrida{margin-left: 28%;}
+}
+@media screen and (max-width:841px){
+  .container-corrida{margin-left: 20%;}
+}
+@media screen and (min-width:768px){
+  .container-timer-celular{display: none;}
+}
+@media screen and (max-width:768px){
+  .container-timer{display: none;}
+  .container-timer-celular{display: flex;}
+}
+/**Container-timer-celular**/
+.container-timer-celular{padding: 10px 0;background-color: #00314d;width: 100%;justify-content: space-around;color: white;font-size: 12px;text-align: center;}
+.container-timer-celular-left h1{background-color: #0090d0;border-radius: 5px;padding: 5px;margin-top:3px}
+.lin0,.lin1{margin-bottom: 5px;}
+.lin2{display: flex;font-size: 6px;gap: 10px;margin-left: 28px;}
+.container-timer-celular-right img{width: 50px;border-radius: 5px;margin-top:5px;}
+
+/**Container-timer-celular-FIM-FIM**/
+@media screen and (max-width:410px){
+  .container-timer-celular{font-size: 9px;}
+  .container-timer-celular-left h1{padding: 3px;margin-top: 8px;}
+  .lin2{font-size: 5px;margin-left: 20px;}
+}
+@media screen and (max-width:375px){
+  .glitch{margin-left: 10%;}
+}
