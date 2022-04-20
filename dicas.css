@@ -1,0 +1,17 @@
+.dicas-h{width: 100%;background-color: #00314d;}
+.dicas-header{width: 60%;margin: 0 auto;display: flex;justify-content: space-around;height: 10vh;align-items: center;}
+.dicas-header span{padding-bottom: 3px;margin-left: 7px;}
+#btn-filter-dicas1{color: white;border-bottom: #0090D0 1px solid;}
+.dicas{width: 100%;background-color: #00314d;display: flex;flex: 1;height: 100vh;}
+.dicas-left{width: 10%;text-align: center;display: flex;flex-direction: column;gap: 10px;}
+.dicas-central{width: 80%;display: flex;justify-content: space-around;}
+.dicas-right{width: 10%;text-align: center;display: flex;flex-direction: column;gap: 10px;}
+.dicas-left-centralizar{margin: 0 auto;}
+.card-dica{width: 25%;height: 250px;border-bottom: #0090D0 1px solid;border-radius: 20px;transition-duration: 0.4s;}
+.card-dica-texto-left-1 img,.card-dica-texto-left-2 img{width: 50px;}
+.card-dica-img{border-radius: 20px;height: 60%;width: 100%;background-image: url(bandeiras/russia.png);background-position: center;background-repeat: no-repeat;background-size:cover;}
+.card-dica-texto-titulo{font-size: 12px;padding: 5px;text-align: center;}
+.card-dica-texto-left{width: 100%;}
+.card-dica-texto:hover{border-top-left-radius: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
+.card-dica-texto-total{display: flex;}
+.card-dica-texto{height: 40%;transition-duration: 0s;}

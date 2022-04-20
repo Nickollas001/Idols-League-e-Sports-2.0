@@ -32,14 +32,3 @@ cardVolante.addEventListener("mouseout",function(){
     imagemCardVolante.style.height= "300px";
 });
 //
-
-var cardF2 = document.querySelector("#Card-F2");
-
-cardF2.addEventListener("mouseover",function(){
-    var imagemCardF2 = document.querySelector(".categoria-card-imagem4");
-    imagemCardF2.style.height= "250px";
-});
-cardF2.addEventListener("mouseout",function(){
-    var imagemCardF2 = document.querySelector(".categoria-card-imagem4");
-    imagemCardF2.style.height= "300px";
-});
