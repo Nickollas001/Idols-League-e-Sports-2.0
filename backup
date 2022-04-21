@@ -51,3 +51,21 @@
         }
       }, 5000);
       </script>
+
+<span id="austria-circuit"><img src="logo.png"> <a href="#">Áustria</a> ></span>
+<a  href="#">Áustria</a>
+<a id="inglaterra-circuit" href="#">Inglaterra</a>
+<a id="alemanha-circuit" href="#">Alemanha</a>
+<a id="hungria-circuit" href="#">Hungria </a>
+<a id="belgica-circuit" href="#">Bélgica</a>
+<a id="italia-circuit" href="#">Itália</a>
+<a id="singapura-circuit" href="#">Singapura</a>
+<a id="russia-circuit" href="#">Rússia</a>
+
+
+background-image: url(imagens/background-provisiorio.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+#pista{border: 2px solid #0090D0;}
