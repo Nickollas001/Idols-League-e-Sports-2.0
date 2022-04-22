@@ -1,7 +1,10 @@
 .container{
     height: 100vh;
     flex: 1;
-    background-color: black ;
+    background-image: url("videos/257561993_667146804671564_7393978616971881944_n_AdobeCreativeCloudExpress.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     padding-left: 40px;
 }
