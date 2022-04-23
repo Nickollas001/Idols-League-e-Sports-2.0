@@ -41,7 +41,7 @@ cardF2.addEventListener("mouseout",function(){
     var imagemCardF2 = document.querySelector(".categoria-card-imagem4");
     imagemCardF2.style.height= "300px";
 });
-var menuBar = document.querySelector('#menu-mobile-btn');
+var menuBar = document.querySelector('.container-menu-mob');
 
 menuBar.addEventListener('click',(e)=>{
     e.preventDefault;
@@ -52,3 +52,6 @@ menuBar.addEventListener('click',(e)=>{
         menuMobile.classList.add('show-menu');
     }
 })
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
