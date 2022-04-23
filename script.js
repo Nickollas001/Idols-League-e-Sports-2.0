@@ -41,3 +41,14 @@ cardF2.addEventListener("mouseout",function(){
     var imagemCardF2 = document.querySelector(".categoria-card-imagem4");
     imagemCardF2.style.height= "300px";
 });
+var menuBar = document.querySelector('#menu-mobile-btn');
+
+menuBar.addEventListener('click',(e)=>{
+    e.preventDefault;
+    let menuMobile = document.querySelector('.mobile-menu');
+    if(menuMobile.classList.contains('show-menu')){
+        menuMobile.classList.remove('show-menu');
+    }else{
+        menuMobile.classList.add('show-menu');
+    }
+})
