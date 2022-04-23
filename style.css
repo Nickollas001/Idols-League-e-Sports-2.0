@@ -241,7 +241,7 @@ main{min-height: 100vh;flex: 1;}
 .header-mob{width: 100%;background-color: #0090d0;display: none;padding: 6px;}
 .header-mob-btn{width: 5%;height: 8%;right: 0;position: absolute;margin: 3px;display: flex;}
 .mobile-menu{width: 100%;height: 100vh;background-color: rgb(76 2 255 / 98%);position: absolute;opacity: 0;display: none;}
-.container-mobile{width: 95%;margin: 3% 0% 0% 10%;color: white;display: flex;justify-content: space-evenly;flex-direction: column;}
+.container-mobile{width: 95%;margin: 0% 0% 0% 10%;color: white;display: flex;justify-content: space-evenly;flex-direction: column;}
 .mobile-menu-titulo{width: 100%;height: 20px;display: flex;gap: 10px;}
 .mobile-menu-titulo img{height: 20px;width: 20px;}
 .links a{display: block;width: 50%;flex-direction: column;gap: 20px;margin-top: 30px;}
