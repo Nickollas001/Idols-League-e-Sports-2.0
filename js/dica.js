@@ -4,7 +4,7 @@ russia19.addEventListener("click",function(){
     var russia19info = document.getElementById("info-circuit-pista-piloto-russia");
     russia19info.classList.toggle("hide");     
 });
-var menuBar = document.querySelector('#menu-mobile-btn');
+var menuBar = document.querySelector('.container-menu-mob');
 
 menuBar.addEventListener('click',(e)=>{
     e.preventDefault;
@@ -15,3 +15,6 @@ menuBar.addEventListener('click',(e)=>{
         menuMobile.classList.add('show-menu');
     }
 })
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
