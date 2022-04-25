@@ -155,7 +155,7 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 #Card-Lauda{transition-duration: 0.4s;}
 #Card-Volante:hover{background-color: rgb(255 94 0);;transition-duration: 0.4s;color: white;}
 #Card-Volante{transition-duration: 0.4s;}
-#Card-F2:hover{background-color: #0090d0;transition-duration: 0.4s;color: white;}
+#Card-F2:hover{background-color: #0090d0;transition-duration: 0.4s;color: white;cursor: pointer;}
 #Card-F2{transition-duration: 0.4s;}
 
 /**Footer**/

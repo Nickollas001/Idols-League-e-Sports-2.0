@@ -41,6 +41,11 @@ cardF2.addEventListener("mouseout",function(){
     var imagemCardF2 = document.querySelector(".categoria-card-imagem4");
     imagemCardF2.style.height= "300px";
 });
+
+document.querySelector('#Card-F2').addEventListener('click', () => {
+    window.location = 'f2.html'
+  })
+
 var menuBar = document.querySelector('.container-menu-mob');
 
 menuBar.addEventListener('click',(e)=>{
