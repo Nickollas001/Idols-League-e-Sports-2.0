@@ -47,5 +47,14 @@ vmr_race = '02';
 vmr_sprint = '02';
 pd_race = '02';
 pd_sprint = '00';
+//pilotos f2
+ricardoDenis = 'Ricardo DENIS'
 
-console.log(one_position_race);
+
+document.getElementById('driver-ricardo-denis').value = ricardoDenis;
+document.getElementById(one_position)
+
+
+
+
+console.log(ricardoDenis);
