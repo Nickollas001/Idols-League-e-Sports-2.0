@@ -27,7 +27,7 @@
 .nome-da-pista{
     margin-left: 5px;
 }  
-.info-circuit-pista-piloto-russia{width: 75%;display: none;}
+.info-circuit-pista-piloto-russia,.info-circuit-pista-piloto-imola2021{width: 75%;display: none;}
 .circuit-pista{width: 50%;margin-top: 50px;color: white;margin-right: 12px;}
 .circuit-pista-texto{padding-bottom:10px;border-top: 1px solid #0090D0;border-bottom: 1px solid #0090D0;border-radius: 10px;}
 .circuit-pista li{list-style-type: none;display: flex;font-size: 10px;margin: 0px 10px;}
@@ -38,7 +38,7 @@
 .texto-left{margin-left: auto;}
 .piloto-hotlap{width: 40%;color: white;padding-top: 50px;font-size: 10px;text-align: center;}
 .piloto-hotlap h1{border: 1px solid #0090D0;padding: 3px 0px;margin-bottom: 3px;border-radius: 1px;}
-.piloto-hotlap img{width: 100%;border: 1px solid #0090D0;border-radius: 1px;}
+.piloto-hotlap img{width: 100%;border: 1px solid #0090D0;border-radius: 1px;height: 300px;}
 .btn-vervolta{width: 100%;text-decoration: none;color: white;border: 1px solid #0090D0;padding: 10px;}
 .btn-vervolta:hover{background-color: #0090D0;}
 .btn-vervolta a{text-decoration: none;color: grey;}
