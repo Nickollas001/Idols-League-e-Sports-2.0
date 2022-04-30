@@ -56,4 +56,5 @@
 .separador-ano-f1 ul{display: flex;gap: 20px;list-style-type: none;}
 .separador-ano-f1 ul li:hover{cursor: pointer;}
 .tabela-circuitos-2019{display: none;}
+.tabela-circuitos-2021{display: none;}
 .hide{display: flex !important ;}

@@ -8,9 +8,15 @@ var tabela_circuitos_2019 = document.getElementById("tabela-circuitos-2019");
 var f1_2019 = document.getElementById("f1-2019");
     f1_2019.addEventListener("click",function(){
         tabela_circuitos_2019.classList.toggle('hide');
+        tabela_circuitos_2021.classList.remove('hide');
 });
 
-
+var tabela_circuitos_2021 = document.getElementById("tabela-circuitos-2021");
+var f1_2021 = document.getElementById("f1-2021");
+    f1_2021.addEventListener("click",function(){
+        tabela_circuitos_2021.classList.toggle('hide');
+        tabela_circuitos_2019.classList.remove('hide');
+});
 var menuBar = document.querySelector('.container-menu-mob');
 
 menuBar.addEventListener('click',(e)=>{
