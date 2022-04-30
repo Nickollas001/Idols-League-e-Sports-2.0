@@ -46,6 +46,7 @@ document.querySelector('#Card-F2').addEventListener('click', () => {
     window.location = 'f2.html'
   })
 
+
 var menuBar = document.querySelector('.container-menu-mob');
 
 menuBar.addEventListener('click',(e)=>{
