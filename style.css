@@ -139,24 +139,24 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 
 .categorias{width: 98%;display: flex;margin: 12px auto;gap: 10px;background-color: #F3F3F3;}
 .categoria-card{width:24.5%;height: 400px;background-color: white;}
-.categoria-card-imagem{transition-duration: 0.4s;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/Senna.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
-.categoria-card-imagem2{transition-duration: 0.4s;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/niki\ lauda.png);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
-.categoria-card-imagem3{transition-duration: 0.4s;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/volante.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
-.categoria-card-imagem4{transition-duration: 0.4s;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/f2.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.categoria-card-imagem{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/Senna.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.categoria-card-imagem2{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/niki\ lauda.png);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.categoria-card-imagem3{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/volante.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.categoria-card-imagem4{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/f2.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-background{width: 100%;}
 .trofeu{width: 55px;height: 50px;margin: 4px 8px;}
 .categoria-card-texto{gap: 10px;display: flex;flex-direction: column;text-align: center;}
 .categoria-card-texto h1{margin-top:10px;text-align: center;font-size: 16px;font-family: boldf1;}
 .categoria-card-texto h2{font-size: 12px;}
-#card-senna-imagem{transition-duration: 0.4s;}
+#card-senna-imagem{transition-duration: 0.4s!important;}
 #Card-Senna:hover{background-color: #20ab20f0;transition-duration: 0.4s;color: white;}
-#Card-Senna{transition-duration: 0.4s;}
-#Card-Lauda:hover{background-color: rgb(224, 5, 5);transition-duration: 0.4s;color: white;}
-#Card-Lauda{transition-duration: 0.4s;}
-#Card-Volante:hover{background-color: rgb(255 94 0);;transition-duration: 0.4s;color: white;}
-#Card-Volante{transition-duration: 0.4s;}
-#Card-F2:hover{background-color: #0090d0;transition-duration: 0.4s;color: white;cursor: pointer;}
-#Card-F2{transition-duration: 0.4s;}
+#Card-Senna{transition-duration: 0.4s!important;}
+#Card-Lauda:hover{background-color: rgb(224, 5, 5);transition-duration: 0.4s!important;color: white;}
+#Card-Lauda{transition-duration: 0.4s!important;}
+#Card-Volante:hover{background-color: rgb(255 94 0);;transition-duration: 0.4s!important;color: white;}
+#Card-Volante{transition-duration: 0.4s!important;}
+#Card-F2:hover{background-color: #0090d0;transition-duration: 0.4s!important;color: white;cursor: pointer;}
+#Card-F2{transition-duration: 0.4s!important;}
 
 /**Footer**/
 .footer{width: 100%;height: 110px;background-color:#00314d;font-size: 10px;text-align: center;color: white;}
