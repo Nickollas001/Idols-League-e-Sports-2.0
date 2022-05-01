@@ -45,6 +45,7 @@
 .btn-vervolta a:hover{color: white;}
 .selecionado{border:2px solid #0090D0;color: white;}
 .bg-video {
+    display: flex;
     position:absolute;
     min-width: 100%;    
     width: 100%;
@@ -75,12 +76,20 @@
     .container{display: none;}
     .dicas-mob{display: flex!important;}
     .bg-video {  
-        width: auto;
-        min-width: auto;
+       display: none;
+    }
+       main{background-color: #00314d;}
 }
+@media screen and (max-width:450px){
+    .info-2{font-size: 10px;}
+    .dicas-mob{font-size: 13px;}
 }
+@media screen and (max-width:280px){
+    .info-2{font-size: 7px;}
+}
+
 /**Mobile**/
-.dicas-mob{margin: 0 auto;color: grey;flex-direction: column;display: flex;}
+.dicas-mob{margin: 0 auto;color: grey;flex-direction: column;display: none;width: 100%;}
 ul li{list-style-type: none;}
 body{width: 100%;background-color: rgb(0, 0, 0);}
 .seletor-f1-f2-mob{padding: 10px;}
@@ -95,7 +104,6 @@ body{width: 100%;background-color: rgb(0, 0, 0);}
 #russia-mob{display: flex;}
 .alinhar-direita{width: 30%;}
 #seletor-f1-mob,#russia-mob,#seletor-f1-2019-mob,#russia-mob-2019,#seletor-f2-mob,#seletor-f1-2021-mob,#imola-mob-2021{cursor: pointer;}
-#russia-mob-2019,#imola-mob-2021{width: 80vh;}
 .info-1 img{width: 100%;}
 .russia-f1-2019-mob-info,.imola-f1-2019-mob-info{margin:20px 0;display: none;flex-direction: column;}
 .info-2{color: white;margin: 12px 0px}
