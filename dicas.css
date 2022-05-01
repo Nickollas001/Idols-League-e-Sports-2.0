@@ -28,13 +28,13 @@
     margin-left: 5px;
 }  
 .info-circuit-pista-piloto-russia,.info-circuit-pista-piloto-imola2021{width: 75%;display: none;}
-.circuit-pista{width: 50%;margin-top: 50px;color: white;margin-right: 12px;}
+.circuit-pista{width: 50%;margin-top: 50px;color: white;margin-right: 30px;}
 .circuit-pista-texto{padding-bottom:10px;border-top: 1px solid #0090D0;border-bottom: 1px solid #0090D0;border-radius: 10px;}
 .circuit-pista li{list-style-type: none;display: flex;font-size: 10px;margin: 0px 10px;}
 .circuit-pista-titulo{color: white;font-size: 10px;padding-left: 10px;padding-top: 10px;border-top: 1px solid #0090D0;border-radius: 10px;}
 .circuit-pista-subtitulo{font-size: 7px;margin: 5px 10px;}
-.circuit-pista-img img{width: 100%;height: 100%;}
-.circuit-pista-img{height: 60%;border-top: 2px solid #0090D0;margin-top: 10px ;}
+.circuit-pista-img img{width: 100%;}
+.circuit-pista-img{border-top: 2px solid #0090D0;margin:10px 0;}
 .texto-left{margin-left: auto;}
 .piloto-hotlap{width: 40%;color: white;padding-top: 50px;font-size: 10px;text-align: center;}
 .piloto-hotlap h1{border: 1px solid #0090D0;padding: 3px 0px;margin-bottom: 3px;border-radius: 1px;}
@@ -45,7 +45,7 @@
 .btn-vervolta a:hover{color: white;}
 .selecionado{border:2px solid #0090D0;color: white;}
 .bg-video {
-    position:absolute   ;
+    position:absolute;
     min-width: 100%;    
     width: 100%;
     z-index: -100;
@@ -55,4 +55,53 @@
 .separador-ano-f1 ul li:hover{cursor: pointer;}
 .tabela-circuitos-2019{display: none;}
 .tabela-circuitos-2021{display: none;}
+.dicas-mob{display: none;}
 .hide{display: flex !important ;}
+@media screen and (max-width:930px){
+    .circuit-pista{margin-top: 3px;}
+    .circuit{padding: 0px;margin-top: 3px;}
+    .piloto-hotlap{padding: 0px;margin-top: 3px;}
+    .piloto-hotlap img{height: auto;}
+}
+@media screen and (max-width:880px) {
+    .circuit-pista-texto span{font-size:8px ;}
+    .circuit h1{font-size: 20px;}
+    .circuit,.circuit-pista-titulo h1,.piloto-hotlap h1{font-size: 11px;}
+}
+@media screen and (max-width:720px) {
+    .circuit-pista-texto span{font-size:6px ;}
+}
+@media screen and (max-width:610px){
+    .container{display: none;}
+    .dicas-mob{display: flex!important;}
+    .bg-video {  
+        width: auto;
+        min-width: auto;
+}
+}
+/**Mobile**/
+.dicas-mob{margin: 0 auto;color: grey;flex-direction: column;display: flex;}
+ul li{list-style-type: none;}
+body{width: 100%;background-color: rgb(0, 0, 0);}
+.seletor-f1-f2-mob{padding: 10px;}
+.seletor-f1-f2-mob ul{display: flex;justify-content: space-around;margin-bottom: 10px;}
+.seletor-f1-2019-f1-2021,.seletor-f2-2021{display: none;justify-content: space-evenly;margin-bottom: 10px;}
+.lista-f1-2019-mob,.lista-f1-2021-mob{display: none;padding: 10px;}
+.lista-f1-2019-mob li,.lista-f1-2021-mob li{display: flex;flex-direction: column;}
+.pontinhos-right{justify-content: right;}
+.hide{display: flex!important;}
+.selecionado-mob{border-bottom: 2px solid #0090d0;color: white;}
+.seletor-f1-2019-f1-2021 ul{display: flex;gap: 25px;}
+#russia-mob{display: flex;}
+.alinhar-direita{width: 30%;}
+#seletor-f1-mob,#russia-mob,#seletor-f1-2019-mob,#russia-mob-2019,#seletor-f2-mob,#seletor-f1-2021-mob,#imola-mob-2021{cursor: pointer;}
+#russia-mob-2019,#imola-mob-2021{width: 80vh;}
+.info-1 img{width: 100%;}
+.russia-f1-2019-mob-info,.imola-f1-2019-mob-info{margin:20px 0;display: none;flex-direction: column;}
+.info-2{color: white;margin: 12px 0px}
+.info-2 ul li{margin:5px 0px;}
+.info-2 ul li,.pista-mob{display: flex;flex-direction: row}
+.texto-left-mob{margin-left: auto;}
+.info-3{text-align: center;margin: 12px 0;}
+.btn-vervolta-mob{padding: 10px;border-radius: 2px;border: 2px solid #0090d0;text-decoration: none;color: rgb(255, 255, 255);}
+.btn-vervolta-mob:hover{background-color: #0090d0;}
