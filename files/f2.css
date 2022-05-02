@@ -3,7 +3,7 @@ ul li{list-style-type: none;}
 .container{width: 98%;margin: 0 auto;}
 .topo-classificacao{background-color: rgb(255, 255, 255);padding: 5px;border-bottom: 10px solid aqua;display: flex;}
 .itens-topo-classificacao{width: 70%;margin: 0 auto;display: flex;gap: 20px;background-color: white;}
-.itens-topo-classificacao ul{display: flex;gap: 20px;}
+.itens-topo-classificacao ul{display: flex;gap: 20px;margin: 0 auto;}
 
 .f2-idols-logo{height: 50px;}
 .item{text-align: center;display: flex;}
@@ -11,8 +11,7 @@ th{font-size: 14px;}
 td{font-size: 12px;}
 table{font-weight: bold;}
 .next-racing{background-color: black;height: 40px;display: flex;width: 100%;color: white;}
-.lado-esquerdo-next-racing{width: 50%;text-align: center;margin-top: 10px;}
-.lado-direito-next-racing{width: 50%;}
+.lado-esquerdo-next-racing{width: 100%;text-align: center;margin-top: 10px;}
 .next-racing-bandeiras{width: 50%;display: flex;gap: 55px;margin: 5px 0px 5px 110px}
 .next-racing-bandeiras img{width: 55px;height: 30px;}
 .tabela{width: 100%;background-color: rgb(255, 255, 255);}
