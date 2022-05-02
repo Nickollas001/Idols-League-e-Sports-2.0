@@ -72,47 +72,52 @@
     <main>
         <section class="container">
             <div class="topo-classificacao">
-                <img style="position: absolute;width: 66px;margin: 41px 0px 0px 20px;" src="logo.png" alt="">
-                <div class="itens-topo-classificacao">
-                    <ul>
-                        <li><img class="f2-idols-logo" src="imagens/f2 idols.webp" alt=""></li>
-                        <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
-                        <li style="text-align: center;">
-                            <h2 style="padding: 3px 16px;background-color: grey;border-radius: 9px;color: white;font-size: 13px;margin-bottom: 4px;">Temporada II</h2>
-                            <h1 style="font-size: 20px;">F2</h1>                            
-                        </li>
-                        <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
-                        <li style="display: flex;">
-                            <span><img style="height: 30px;margin-top: 10px;" src="imagens/yt_logo.png" alt=""></span>
-                            <span style="margin:15px 0px 0px 6px;font-weight: bold;">Idols League TV</span>
-                        </li>
-                        <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
-                        <li style="display: flex;">
-                            <span><img style="height: 30px;margin-top: 10px;" src="imagens/relagio pnsg_edited.webp" alt=""></span>
-                            <span style="margin-top: 18px;color: grey;">21h30</span>
-                        </li>
-                        <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
-                        <li style="display: flex;">
-                            <span><img style="height: 30px;margin-top: 10px;" src="imagens/symbol-PlayStation.webp" alt=""></span>
-                        </li>
-                        <li style="display: flex;">
-                            <span><img style="height: 30px;margin-top: 10px;background-color: red;border-radius: 6px;width: 50px;" src="imagens/ps4_symbol.png" alt=""></span>
-                        </li>
-                        <li style="display: flex;">
-                            <span><img style="height: 30px;margin-top: 10px;background-color: rgb(0, 238, 255);border-radius: 6px;width: 50px;" src="imagens/ps5_symbol.png" alt=""></span>
-                        </li>
-                    </ul>   
-                </div>
-            </div>
-            <div class="next-racing">
-                <div class="lado-esquerdo-next-racing">
-                    <span >Next Race: Grand Prix - Abu Dhabi <strong>03 Mar</strong></span>
-                </div>
+                <img style="position: absolute;width: 66px;margin: 60px 0px 0px 20px;" src="logo.png" alt="">
             </div>
             <div class="tabela">
                 <table>
-                    <!---imagens-->    
-                    <tr><!---header-->
+                    <thead>   
+                        <tr>
+                            <td colspan="18">
+                                <ul style="display: flex;gap: 20px;justify-content: center;padding: 10px;"> 
+                                    <li><img class="f2-idols-logo" src="imagens/f2 idols.webp" alt=""></li>
+                                    <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
+                                    <li style="text-align: center;">
+                                        <h2 style="padding: 3px 16px;background-color: grey;border-radius: 9px;color: white;font-size: 13px;margin-bottom: 4px;">Temporada II</h2>
+                                        <h1 style="font-size: 20px;">F2</h1>                            
+                                    </li>
+                                    <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
+                                    <li style="display: flex;">
+                                        <span><img style="height: 30px;margin-top: 10px;" src="imagens/yt_logo.png" alt=""></span>
+                                        <span style="margin:15px 0px 0px 6px;font-weight: bold;">Idols League TV</span>
+                                    </li>
+                                    <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
+                                    <li style="display: flex;">
+                                        <span><img style="height: 30px;margin-top: 10px;" src="imagens/relagio pnsg_edited.webp" alt=""></span>
+                                        <span style="margin-top: 18px;color: grey;">21h30</span>
+                                    </li>
+                                    <li><span style="padding-bottom: 26px;border-left: 1px solid rgb(223, 223, 223);"></span></li>
+                                    <li style="display: flex;">
+                                        <span><img style="height: 30px;margin-top: 10px;" src="imagens/symbol-PlayStation.webp" alt=""></span>
+                                    </li>
+                                    <li style="display: flex;">
+                                        <span><img style="height: 30px;margin-top: 10px;background-color: red;border-radius: 6px;width: 50px;" src="imagens/ps4_symbol.png" alt=""></span>
+                                    </li>
+                                    <li style="display: flex;">
+                                        <span><img style="height: 30px;margin-top: 10px;background-color: rgb(0, 238, 255);border-radius: 6px;width: 50px;" src="imagens/ps5_symbol.png" alt=""></span>
+                                    </li>
+                                </ul>   
+                            </td>
+                        </tr>
+
+                            <td style="padding: 4px 5px;background-color: aqua;" colspan="18";></td>
+                        </tr>
+                        <tr style="color: white;background-color: black;">
+                            <td style=" text-align: center;padding: 10px 5px;" colspan="18" id="td-car">Next Race: Grandd Prix - Abu Dhabi <strong>03 Mar</strong></td>
+                        </tr>
+                    </thead>
+                    <!---bandeiras-->
+                    <tr>
                         <th style="color: white;">.</th>
                         <th style="color: white;">.</th>
                         <th style="color: white;">.</th>
@@ -573,10 +578,14 @@
                         <td id="td-etapa">F</td>
                         <td id="td-etapa">F</td>
                     </tr>
+                    </tr>
+                    <!---footer-table--->
+                    <tfoot style="background-color: rgb(0, 0, 82);color: white;">
+                        <tr>
+                            <td style=" text-align: center;padding: 10px 5px;" colspan="18" id="td-car">DF: DIFERENÇA | CR: CORRIDAS | VT: VITÓRIAS | PP: POLE POSITION | MV: MELHOR VOLTA | PD: PILOTO DO DIA | SL: SUPER LICENÇA | PN: PUNIÇÕES</td>
+                        </tr>
+                    </tfoot>
                 </table>
-            </div>
-            <div class="info">
-                <span>DF: DIFERENÇA | CR: CORRIDAS | VT: VITÓRIAS | PP: POLE POSITION | MV: MELHOR VOLTA | PD: PILOTO DO DIA | SL: SUPER LICENÇA | PN: PUNIÇÕES </span>
             </div>
         </section>
     </main>
