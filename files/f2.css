@@ -1,6 +1,44 @@
-main{
-    background: url('../imagens/texte.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+main{width: 100%;}
+ul li{list-style-type: none;}
+.container{width: 98%;margin: 0 auto;}
+.topo-classificacao{background-color: rgb(255, 255, 255);padding: 5px;border-bottom: 10px solid aqua;display: flex;}
+.itens-topo-classificacao{width: 70%;margin: 0 auto;display: flex;gap: 20px;background-color: white;}
+.itens-topo-classificacao ul{display: flex;gap: 20px;}
+
+.f2-idols-logo{height: 50px;}
+.item{text-align: center;display: flex;}
+th{font-size: 14px;}
+td{font-size: 12px;}
+table{font-weight: bold;}
+.next-racing{background-color: black;height: 40px;display: flex;width: 100%;color: white;}
+.lado-esquerdo-next-racing{width: 50%;text-align: center;margin-top: 10px;}
+.lado-direito-next-racing{width: 50%;}
+.next-racing-bandeiras{width: 50%;display: flex;gap: 55px;margin: 5px 0px 5px 110px}
+.next-racing-bandeiras img{width: 55px;height: 30px;}
+.tabela{width: 100%;background-color: rgb(255, 255, 255);}
+
+.vit{background-color: yellow;}
+.fora{color: grey!important;}
+
+#pos{padding: 3px;}
+#driver{text-align: left;}
+#pts{padding: 0px 5px;}
+#df{color: gray;}
+#cr{color: gray;}
+#vt{color: gray;}
+#pp{color: gray;}
+#mv{color: gray;}
+#pq{color: gray;}
+#etapa{border-right: 1px solid black;font-size: 10px;}
+
+td{text-align: center;padding: 0px 14px;}
+
+
+#td-car{padding: 5px;font-size: 12px;text-align: right;}
+#td-pos{text-align: center;font-size: 13px;background-color: grey;border-radius: 6px;color: black;}
+#td-driver{padding: 3px 50px 3px 2px;font-size: 14px;text-align: left;}
+#td-pts{text-align: center;}
+#td-df{color: gray;font-weight: normal;}
+#td-etapa{border-right: 1px solid black;}
+
+.info{background-color: rgb(0, 0, 82);text-align: center;height: 20px;font-size: 12px;color: white;padding: 10px 0px 20px 0px;margin: 10px 0px;}
