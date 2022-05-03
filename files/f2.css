@@ -40,3 +40,4 @@ td{text-align: center;padding: 0px 14px;}
 @media screen and (max-width:768px){
     #td-driver,#td-car,#td-pos,th,td{font-size: 8px;}
 }
+.show-menu{opacity: 1;transition: 1s;display: flex;}
