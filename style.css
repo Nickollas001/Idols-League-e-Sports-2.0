@@ -286,3 +286,5 @@ main{min-height: 100vh;flex: 1;}
 .logo-mob-user{width: 30px;height: 30px;}
 .logo-mob-user img{width: 30px;height: 30px;}
 #logo-idols:hover{cursor: pointer;}
+
+.chat{justify-content: center;display: flex;bottom: auto;padding: 30px;}
