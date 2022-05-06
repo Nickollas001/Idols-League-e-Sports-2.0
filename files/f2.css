@@ -12,7 +12,7 @@ td{font-size: 12px;}
 table{font-weight: bold;}
 .tabela{width: 100%;background-color: rgb(255, 255, 255);}
 
-.vit{background-color: yellow;}
+.vit{background-color: rgb(255, 0, 128);}
 .fora{color: grey!important;}
 
 #pos{padding: 3px;}
