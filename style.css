@@ -139,7 +139,7 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 
 .categorias{width: 98%;display: flex;margin: 12px auto;gap: 10px;background-color: #F3F3F3;flex-wrap: wrap;}
 .categoria-card{width:24%;height: 400px;background-color: white;}
-.categoria-card-imagem-aniversario-idols{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/aniversario-idols.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.categoria-card-imagem-aniversario-idols{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url('imagens/aniversario-idols.jpg');width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-card-imagem{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/Senna.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-card-imagem2{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/niki\ lauda.png);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-card-imagem3{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/volante.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
