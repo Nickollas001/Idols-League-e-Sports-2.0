@@ -137,8 +137,9 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 .container-footer a{color: white;text-decoration: none;font-size: 20px;}
 .container-ico span{font-size: 22px;}
 
-.categorias{width: 98%;display: flex;margin: 12px auto;gap: 10px;background-color: #F3F3F3;}
-.categoria-card{width:24.5%;height: 400px;background-color: white;}
+.categorias{width: 98%;display: flex;margin: 12px auto;gap: 10px;background-color: #F3F3F3;flex-wrap: wrap;}
+.categoria-card{width:24%;height: 400px;background-color: white;}
+.categoria-card-imagem-aniversario-idols{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/aniversario-idols.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-card-imagem{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/Senna.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-card-imagem2{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/niki\ lauda.png);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .categoria-card-imagem3{transition-duration: 0.4s!important;justify-content:flex-end;height: 300px;display: flex;background-image: url(imagens/volante.jpg);width: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
@@ -150,6 +151,7 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 .categoria-card-texto h2{font-size: 12px;}
 #card-senna-imagem{transition-duration: 0.4s!important;}
 #Card-Senna:hover{background-color: #20ab20f0;transition-duration: 0.4s;color: white;}
+#Card-aniversario:hover{background-color: #ff00fff0;transition-duration: 0.4s;color: white;}
 #Card-Senna{transition-duration: 0.4s!important;}
 #Card-Lauda:hover{background-color: rgb(224, 5, 5);transition-duration: 0.4s!important;color: white;}
 #Card-Lauda{transition-duration: 0.4s!important;}

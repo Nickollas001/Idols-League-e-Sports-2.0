@@ -46,6 +46,16 @@ document.querySelector('#Card-F2').addEventListener('click', () => {
     window.location = 'f2.html'
   })
 
+  //
+var aniversarioIdols = document.querySelector("#Card-aniversario")
+aniversarioIdols.addEventListener("mouseover",function(){
+    var imagemCardAniversarioIdols = document.querySelector(".categoria-card-imagem-aniversario-idols");
+    imagemCardAniversarioIdols.style.height= "250px";
+});
+aniversarioIdols.addEventListener("mouseout",function(){
+    var imagemCardAniversarioIdols = document.querySelector(".categoria-card-imagem-aniversario-idols");
+    imagemCardAniversarioIdols.style.height= "300px";
+});
 
 var menuBar = document.querySelector('.container-menu-mob');
 
