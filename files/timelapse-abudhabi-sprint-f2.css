@@ -1,0 +1,35 @@
+*{padding: 0;margin: 0;}
+
+.timelapse{background-color: rgb(255, 255, 255);width: 100%;height: 100vh;}
+.titulo-timelapse{text-align: center;background-color: black;padding: 8px;color: white;font-size: 15px;}
+.pista{width: 100%;background-color: black;height: 60px;display: flex;
+}
+.progresso-pablo{width: 1%;background-color: black;height: 60px;transition: all 20.38s;}
+.progresso-gobbs{width: 1%;background-color: black;height: 60px;transition: all 21.2s;}
+.progresso-haroldo{width: 1%;background-color: black;height: 60px;transition: all 21.5s;}
+.progresso-floriano{width: 1%;background-color: black;height: 60px;transition: all 22.2s;}
+.progresso-tom{width: 1%;background-color: black;height: 60px;transition: all 22.33s;}
+.progresso-alcebiades{width: 1%;background-color: black;height: 60px;transition: all 22.5s;}
+.progresso-anderson{width: 1%;background-color: black;height: 60px;transition: all 23.2s;}
+.progresso-beto{width: 1%;background-color: black;height: 60px;transition: all 23.5s;}
+.progresso-tig{width: 1%;background-color: black;height: 60px;transition: all 24.2s;}
+.progresso-breakos{width: 1%;background-color: black;height: 60px;transition: all 24.5s;}
+.progresso-everton{width: 1%;height: 60px;transition: all 25.1s;background-color: black}
+.pista img{width: 55px;height: 45px;}
+.linha{position: absolute;width: 5%;height: 670px;right: 0;top: 0;margin: 2% 5% 0% 0%;
+    background-image: url('../imagens/QUADRICULADA-600x399.jpg');
+    background-repeat: repeat;
+    background-position:left;
+    background-size: contain;
+    transition: 1.4s;
+    opacity: 0;
+}
+.linha img{width: 100%;height: 100%;}
+
+.driver-car img,.driver span{z-index: 100;position: relative;}
+
+.position{opacity: 0;font-size: 14px;color: aqua;}
+
+@media screen and (max-width:1100px){
+    
+}
