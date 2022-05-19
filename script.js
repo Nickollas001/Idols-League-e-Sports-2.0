@@ -57,6 +57,11 @@ aniversarioIdols.addEventListener("mouseout",function(){
     imagemCardAniversarioIdols.style.height= "300px";
 });
 
+document.querySelector('#Card-aniversario').addEventListener('click', () => {
+    window.location = 'eventos/2anosidols.html'
+  })
+
+
 var menuBar = document.querySelector('.container-menu-mob');
 
 menuBar.addEventListener('click',(e)=>{

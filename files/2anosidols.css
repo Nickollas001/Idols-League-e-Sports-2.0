@@ -1,0 +1,43 @@
+main{width: 100%;}
+ul li{list-style-type: none;}
+.container{width: 98%;margin: 0 auto;}
+.topo-classificacao{background-color: rgb(255, 255, 255);padding: 5px;display: flex;}
+.itens-topo-classificacao{width: 70%;margin: 0 auto;display: flex;gap: 20px;background-color: white;}
+.itens-topo-classificacao ul{display: flex;gap: 20px;margin: 0 auto;}
+
+.f2-idols-logo{height: 50px;}
+.item{text-align: center;display: flex;}
+th{font-size: 14px;}
+td{font-size: 12px;}
+table{font-weight: bold;}
+.tabela{width: 76%;background-color: rgb(255, 255, 255);margin: 0 auto;}
+
+.vit{background-color: rgb(255, 0, 128);}
+.fora{color: grey!important;}
+
+#pos{padding: 3px;}
+#driver{text-align: left;}
+#pts{padding: 0px 5px;color: gray;}
+#df{color: gray;}
+#cr{color: gray;}
+#vt{color: gray;}
+#pp{color: gray;}
+#mv{color: gray;}
+#pq{color: gray;}
+#etapa{border-right: 1px solid black;font-size: 10px;}
+
+td{text-align: center;padding: 0px 14px;}
+
+
+#td-car{padding: 5px;font-size: 12px;text-align: right;}
+#td-pos{text-align: center;font-size: 13px;background-color: grey;border-radius: 6px;color: rgb(255, 255, 255);}
+#td-driver{padding: 3px 50px 3px 2px;font-size: 14px;text-align: left;}
+#td-pts{text-align: center;color: gray;}
+#td-df{color: gray;font-weight: normal;}
+#td-etapa{border-right: 1px solid black;}
+
+
+@media screen and (max-width:768px){
+    #td-driver,#td-car,#td-pos,th,td{font-size: 8px;}
+}
+.show-menu{opacity: 1;transition: 1s;display: flex;}

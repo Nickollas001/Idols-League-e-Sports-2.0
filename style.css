@@ -151,7 +151,7 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 .categoria-card-texto h2{font-size: 12px;}
 #card-senna-imagem{transition-duration: 0.4s!important;}
 #Card-Senna:hover{background-color: #20ab20f0;transition-duration: 0.4s;color: white;}
-#Card-aniversario:hover{background-color: #ff00fff0;transition-duration: 0.4s;color: white;}
+#Card-aniversario:hover{background-color: #ff00fff0;transition-duration: 0.4s;color: white;cursor: pointer;}
 #Card-Senna{transition-duration: 0.4s!important;}
 #Card-Lauda:hover{background-color: rgb(224, 5, 5);transition-duration: 0.4s!important;color: white;}
 #Card-Lauda{transition-duration: 0.4s!important;}
