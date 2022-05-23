@@ -9,6 +9,10 @@ cardSenna.addEventListener("mouseout",function(){
     var imagemCardSenna = document.querySelector(".categoria-card-imagem");
     imagemCardSenna.style.height= "300px";
 });
+document.querySelector('.categoria-card-imagem').addEventListener('click', () => {
+    window.location = 'senna.html'
+  })
+
 ///
 var cardLauda = document.querySelector("#Card-Lauda");
 
