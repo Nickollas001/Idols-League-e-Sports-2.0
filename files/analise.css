@@ -1,0 +1,36 @@
+main{
+    width: 100%;
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+input,select,textarea{
+    border: 2px solid#cfcfcf;
+    border-radius: 10px;
+    padding: 6px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.container{
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.formulario{
+    width: 400px;
+    
+    
+}
+label{margin-left: 3px;padding: 5px;font-family: boldf1;}
+#increver-se{
+    background-color: #fc00ff;
+    border: 2px solid #fc00ff;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px;
+}
