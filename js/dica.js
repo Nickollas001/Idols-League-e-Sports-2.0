@@ -30,21 +30,6 @@ var f1_2021 = document.getElementById("f1-2021");
         imola2021.classList.remove("selecionado");
         imola2021info.classList.remove("hide");  
 });
-var menuBar = document.querySelector('.container-menu-mob');
-
-menuBar.addEventListener('click',(e)=>{
-    e.preventDefault;
-    let menuMobile = document.querySelector('.mobile-menu');
-    if(menuMobile.classList.contains('show-menu')){
-        menuMobile.classList.remove('show-menu');
-    }else{
-        menuMobile.classList.add('show-menu');
-    }
-})
-function myFunction(x) {
-    x.classList.toggle("change");
-  };
-
 
   var seletor_f1_mob = document.getElementById("seletor-f1-mob");
   var seletor_f2_mob = document.getElementById("seletor-f2-mob");
