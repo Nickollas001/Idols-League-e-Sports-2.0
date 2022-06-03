@@ -1,7 +1,7 @@
 
 .container{width: 100%;}
 .titulo-regulamento{text-align: center;margin:13px 0;}
-.titulo-regulamento h1{font-size: 18px;font-family: boldf1;}
+.titulo-regulamento h1{font-size: 14px;font-family: boldf1;}
 .regulamento{width: 94%;margin: 0 auto;gap: 20px;}
-.regulamento h1{font-size: 16px;font-family: boldf1;background-color: yellow;display: inline-block;}
-.regulamento h2{font-size: 14px;}
+.regulamento h1{font-size: 13px;font-family: boldf1;background-color: yellow;display: inline-block;}
+.regulamento h2{font-size: 11px;}
