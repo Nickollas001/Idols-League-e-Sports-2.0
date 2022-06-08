@@ -72,3 +72,9 @@
   @media screen and (max-width:1000px){
     .container-footer span{font-size: 14px;}
   }
+  @media screen and (max-width:450px){
+    .right{font-size: 11px;}
+  }
+  @media screen and (max-width:320px){
+    .right{font-size: 10px;}
+  }
