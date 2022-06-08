@@ -34,3 +34,10 @@ label{margin-left: 3px;padding: 5px;font-family: boldf1;}
     width: 100%;
     padding: 8px;
 }
+
+@media screen and (max-width:450px){
+    .formulario{
+        width: 100%;
+    }
+    
+}
