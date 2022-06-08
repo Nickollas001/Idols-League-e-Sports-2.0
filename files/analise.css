@@ -35,9 +35,19 @@ label{margin-left: 3px;padding: 5px;font-family: boldf1;}
     padding: 8px;
 }
 
+.header-form h1{
+    font-family:boldf1;
+    font-size:20px;
+    text-align: center;
+}
+
 @media screen and (max-width:450px){
     .formulario{
         width: 100%;
+    }
+    .header-form h1{        
+        font-size: 17px;
+        padding: 8px;
     }
     
 }
