@@ -32,7 +32,7 @@ td{text-align: center;padding: 0px 14px;}
 #td-car{padding: 5px;font-size: 12px;text-align: right;}
 #td-pos{text-align: center;font-size: 13px;background-color: grey;border-radius: 6px;color: rgb(255, 255, 255);}
 #td-driver{padding: 3px 50px 3px 2px;font-size: 14px;text-align: left;}
-#td-pts{text-align: center;color: gray;}
+#td-pts{text-align: center;color: rgb(0, 0, 0);font-family: boldf1;font-size: 13px;}
 #td-df{color: gray;font-weight: normal;}
 #td-etapa{border-right: 1px solid black;}
 
