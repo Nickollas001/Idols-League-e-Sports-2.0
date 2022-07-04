@@ -45,6 +45,9 @@ td{text-align: center;padding: 0px 14px;}
 #td-df{color: gray;font-weight: normal;}
 #td-etapa{border-right: 1px solid black;}
 
+table{
+    border-spacing: 0px;
+}
 
 @media screen and (max-width:950px){
     .tabela{width: 100%;}
