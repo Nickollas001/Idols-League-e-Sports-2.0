@@ -30,17 +30,23 @@ td{text-align: center;padding: 0px 14px;}
 
 
 #td-car{padding: 5px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: right;
     display: flex;
     align-items: center;
     gap: 5px;
+    width: 115px;
 }
 #td-car img{
     width: 22px;
 }
 #td-pos{text-align: center;font-size: 13px;background-color: rgb(0, 0, 0);border-radius: 6px;color: rgb(255, 255, 255);}
-#td-driver{padding: 3px 50px 3px 2px;font-size: 14px;text-align: left;}
+#td-driver{width: 190px;
+    padding: 3px 5px 3px 5px;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+}
 #td-pts{text-align: center;color: rgb(0, 0, 0);font-family: boldf1;font-size: 13px;}
 #td-df{color: gray;font-weight: normal;}
 #td-etapa{border-right: 1px solid black;}
