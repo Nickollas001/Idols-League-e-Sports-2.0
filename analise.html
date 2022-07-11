@@ -97,7 +97,7 @@
         <h1>Pedido de Análise</h1>
     </div>
     <div class="formulario">
-        <form id="formulariof2" action="https://formsubmit.co/idolleague2020@gmail.com" method="POST">
+        <form id="formulariof2" action="https://formsubmit.co/idolleague2020@gmail.com" method="POST" enctype="multipart/form-data">
             <label for="grid">GRID</label>
             <select id="grid" name="Grid">
                 <option value="Senna">SENNA</option>
@@ -127,6 +127,10 @@
                 <option value="Otávio Fogaça">Otávio Fogaça </option>
                 <option value="Rafael Stahnke">Rafael Stahnke </option>
             </select>
+    </div>
+    <div class="formulario">
+        <label for="Email">Seu Email</label>
+        <input type="email" name="Email" placeholder="Seu Email" required>
     </div>
     <div class="formulario">
             <label for="pilotos-senna">Piloto a ser Investigado</label>
@@ -186,20 +190,19 @@
     </div>
     <div class="formulario">
         <label for="volta">Sua Onboard</label>
-        <input type="text" name="Onboard"  placeholder="Cole o Link da sua onboard AQUI! YOUTUBE" id="volta" required><br>
-        <label for="volta" style="color: red;font-size:10px;font-family:boldf1;margin-left: 0;padding: 0;">Não aceitamos LIVE, não aceitamos transmissão da Liga, aceitamos somente corte do incidente,caso viole essa regra seu pedido de análise não sera válido!</label>
+        <input type="file" name="onboard" accept="video/*" required>
     </div>
     <div class="formulario">
         <br><label for="name">Descreva o que aconteceu!</label>
-        <textarea name="mensagem" id="mensagem" cols="42" rows="10"></textarea required>
+        <textarea name="mensagem" id="mensagem" cols="42" rows="10" required></textarea>
     </div>
 
 
-    <button id="increver-se" type="submit" onclick="alerta()" value="Exibir Alert" >Enviar</button>
+    <button id="increver-se" type="submit">Enviar</button>
     <input type="hidden" name="_next" value="http://idolsleaguesports.com">
-    <input type="hidden" name="_autoresponse" value="Pedido de analise em andamento!">
     <input type="hidden" name="_template" value="table">
-        </form>
+    <input type="hidden" name="_subject" value="Novo Pedido de Análise!">
+    </form>
 
 </div>
 </main>
