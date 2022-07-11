@@ -138,7 +138,7 @@ nav a:hover{transition-duration: 0.4s;font-size:26px ;}
 
   /**Responsividade header ;) **/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 999px){
 
     header span,header a,.glitch{font-size: 10px;}
     .logo img{width: 40px;}
