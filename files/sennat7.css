@@ -6,4 +6,7 @@
     text-decoration: none;
     color: black;
     font-family: boldf1;
+    padding: 0px 10px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
 }
