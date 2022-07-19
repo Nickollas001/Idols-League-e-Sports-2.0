@@ -152,4 +152,60 @@
 }
 
 
-/*ETAPAS*/
+/*ETAPAS FIM*/
+
+
+/*ETAPAS MEDIA*/
+@media screen and (max-width:570px) {
+    .pais-etapas{
+        font-size: 17px;
+    }
+    .nome-etapa{
+        font-size: 9px;
+    }
+    .data{
+        font-size: 11px;
+    
+    }
+    .tipo{
+        font-size: 7px;
+    }
+    .bandeira{
+        width: 58px;
+    }
+    #abudhabi-text{
+        margin-right: 56px;
+    }
+    #gb-text{
+        margin-right: 34px;
+    }
+    #miami-text{
+        margin-right: 97px;
+    }
+    #hungria-text{
+        margin-right: 79px;
+    }
+    #arabiasaudita-text{
+        margin-right: 11px;
+    }
+    #italia-text{
+        margin-right: 109px;
+    }
+    #australia-text{
+        margin-right: 69px;
+    }
+    
+}
+/*ETAPAS MEDIA FIM */
+
+@media screen and (max-width:570px){
+    .conteudo h1{
+        font-size: 40px;
+    }
+    .conteudo img{
+        width: 170px;
+    }
+    .conteudo h2{
+        font-size: 13px;
+    }
+}
