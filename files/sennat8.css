@@ -110,11 +110,11 @@
 #italia{
     background-color: red;
 }
-#arabia-saudita{
+#cingapura{
     background-color: green;
 }
-#hungria{
-    background-color: red;
+#brasil{
+    background-color: rgb(9, 255, 0);
 }
 #eua{
     background-color: rgb(250, 0, 42);
@@ -122,24 +122,27 @@
 #abudhabi{
     background-color: aqua;
 }
+#gb{
+    background-color: rgb(0, 26, 255);
+}
 
 #abudhabi-text{
-    margin-right: 96px;
+    margin-right: 3px;
 }
 #gb-text{
-    margin-right: 58px;
+    margin-right: 0px;
 }
 #miami-text{
     margin-right: 167px;
 }
-#hungria-text{
-    margin-right: 137px;
+#brasil-text{
+    margin-right: 13px;
 }
-#arabiasaudita-text{
-    margin-right: 20px;
+#cingapura-text{
+    margin-right: 99px;
 }
 #italia-text{
-    margin-right: 190px;
+    margin-right: 42px;
 }
 #australia-text{
     margin-right: 119px;
@@ -175,25 +178,28 @@
         width: 58px;
     }
     #abudhabi-text{
-        margin-right: 56px;
+        margin-right: 1px;
     }
     #gb-text{
-        margin-right: 34px;
+        margin-right: 0px;
     }
     #miami-text{
-        margin-right: 97px;
+        margin-right: 119px;
     }
-    #hungria-text{
+    #brasil-text{
+        margin-right: 8px;
+    }
+    #cingapura-text{
         margin-right: 79px;
     }
-    #arabiasaudita-text{
-        margin-right: 11px;
-    }
     #italia-text{
-        margin-right: 109px;
+        margin-right: 26px;
     }
     #australia-text{
-        margin-right: 69px;
+        margin-right: 93px;
+    }
+    #eua-text{
+        margin-right: 22px;
     }
     
 }
