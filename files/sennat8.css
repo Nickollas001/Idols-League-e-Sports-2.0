@@ -14,12 +14,13 @@
     padding: 2px 5px;
 }
 .conteudo {
-    position: absolute;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    left: 35%;
-    top: 28%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-family: boldf1;
     letter-spacing: 2px;
     display: flex;
