@@ -63,14 +63,92 @@
 .etapas{
     margin: 10px;
 }
-.container-etapas{
+.const-etapas{
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
-.container-etapas li a{
-    text-decoration: none;
-    color: black;
+
+.bandeira{
+    width: 80px;
 }
+.bandeira img{
+    width: 100%;
+}
+.pais-etapas{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: boldf1;
+    font-size: 30px;
+    letter-spacing: 0.4px;
+    background-color: #c2c2c2;
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 3px;
+}
+.data{
+    background-color: #15151e;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+
+}
+.ico{
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #15151e;
+    font-size: 18px;
+}
+
+#australia{
+    background-color: blue;
+}
+#italia{
+    background-color: red;
+}
+#arabia-saudita{
+    background-color: green;
+}
+#hungria{
+    background-color: red;
+}
+#eua{
+    background-color: rgb(250, 0, 42);
+}
+#abudhabi{
+    background-color: aqua;
+}
+
+#abudhabi-text{
+    margin-right: 96px;
+}
+#gb-text{
+    margin-right: 58px;
+}
+#miami-text{
+    margin-right: 167px;
+}
+#hungria-text{
+    margin-right: 137px;
+}
+#arabiasaudita-text{
+    margin-right: 20px;
+}
+#italia-text{
+    margin-right: 190px;
+}
+#australia-text{
+    margin-right: 119px;
+}
+
+.tipo{
+    font-size: 11px;
+}
+.nome-etapa{
+    font-size: 14px;
+}
+
 
 /*ETAPAS*/
