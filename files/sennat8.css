@@ -1,5 +1,35 @@
-.container img{
+.container{
     width: 100%;
+    background-color: rgba(0,0,0,.5);
+    background-image: url('../circuitos/image-australia.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 375px;
+    color: white;
+}
+.container h2{
+    font-size: 16px;
+    background-color: #15151e;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.conteudo {
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    left: 35%;
+    top: 28%;
+    font-family: boldf1;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+.conteudo img{
+    width: 200px;
+}
+.conteudo h1{
+    font-size: 60px;
 }
 .menu{
     padding: 10px 0px;
@@ -13,3 +43,34 @@
     border-right: 1px solid grey;
     border-left: 1px solid grey;
 }
+.menu-etapa{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #15151e;
+    padding: 10px;
+}
+.menu-etapa a{
+    text-decoration: none;
+    color: white;
+    font-family: boldf1;
+    padding: 0px 10px;
+}
+.menu-etapa a:hover{
+    border-bottom: 2px solid red;
+}
+
+/*ETAPAS*/
+.etapas{
+    margin: 10px;
+}
+.container-etapas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container-etapas li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*ETAPAS*/
