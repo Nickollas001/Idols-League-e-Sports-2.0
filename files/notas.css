@@ -1,0 +1,46 @@
+.titulo-notas{
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.notas{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    border-top-right-radius: 25px;
+    border-right: solid 10px red;
+    border-top: solid 10px red;
+    margin:20px 20px;
+    padding: 10px 0px;
+}
+.notas h2{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.notas a{
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-size: 10px;
+}
+#d19-07{
+    margin-left: 20px;
+}
+#d20-07{
+    margin-left: 7px;
+}
+.const{
+    transition: 0.5s;
+    padding: 10px;
+}
+.const:hover{
+    cursor: pointer;
+    border-bottom: 2px solid red;
+    background-color: gainsboro;
+}
+.const a:hover{
+    color: blue;
+}
