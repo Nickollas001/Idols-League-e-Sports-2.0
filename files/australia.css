@@ -1,4 +1,4 @@
-.registro{
+.registro,.registro2,.registro3{
     margin:20px 20px;
     border-top-right-radius: 25px;
     border-right: solid 10px red;
@@ -10,7 +10,15 @@
     padding: 10px 0px;
     background-color: #c2c2c2;
 }
-.registro h1{
+.registro{
+    border-right: solid 10px #000000;
+    border-top: solid 10px #000000;
+}
+.registro3{
+    border-right: solid 10px #0090d0;
+    border-top: solid 10px #0090d0;
+}
+.registro h1,.registro2 h1,.registro3 h1{
     font-family: boldf1;
 }
 
@@ -58,7 +66,7 @@
     .logo-team{
         width: 20px;
     }
-    .registro{
+    .registro,.registro2,.registro3{
         font-size: 8px;
     }
 }
@@ -72,7 +80,7 @@
     .logo-team{
         width: 15px;
     }
-    .registro{
+    .registro,.registro2,.registro3{
         font-size: 8px;
     }
 }
@@ -89,7 +97,7 @@
     .logo-team{
         width: 25px;
     }
-    .registro{
+    .registro,.registro2,.registro3{
         font-size: 13px;
         flex-direction: column;
         gap: 20px;
@@ -111,7 +119,7 @@
     .logo-team{
         width: 19px;
     }
-    .registro h1{
+    .registro h1,.registro2 h1,.registro3 h1{
         font-size: 15px;
     }
 }
@@ -122,8 +130,19 @@
     .logo-team{
         width: 15px;
     }
-    .registro h1{
+    .registro h1,.registro2 h1,.registro3 h1{
         font-size: 13px;
-
     }
+}
+
+.circuit{
+    width: 50%;
+    margin: 10px;
+}
+.infos-circuit{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
