@@ -1,0 +1,128 @@
+.registro{
+    margin:20px 20px;
+    border-top-right-radius: 25px;
+    border-right: solid 10px red;
+    border-top: solid 10px red;
+    display: flex;
+    font-size: 10px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 10px 0px;
+    background-color: #c2c2c2;
+}
+.registro h1{
+    font-family: boldf1;
+}
+
+.infos{
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    display: flex;
+}
+.infos a{
+    text-decoration: none;
+    color: black;
+}
+.info-pole{
+    margin-left: 173px;
+}
+.info-vitoria{
+    margin-left: 70px;
+}
+.info-hotlaps{
+    margin-left: 89px;
+}
+.logo-team{
+    width: 25px;
+}
+.logo-team img{
+    width: 100%;
+}
+.infox{
+    align-items: center;
+    display: flex;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    gap: 3px;
+}
+
+@media screen and (max-width:1050px){
+    .infos{
+        gap: 2px;
+    }
+    .infox{
+        font-size: 10px;
+    }
+    .logo-team{
+        width: 20px;
+    }
+    .registro{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:1010px){
+    .infos{
+        gap: 2px;
+    }
+    .infox{
+        font-size: 8px;
+    }
+    .logo-team{
+        width: 15px;
+    }
+    .registro{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:780px){
+    .infos{
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .infox{
+        font-size: 16px;
+    }
+    .logo-team{
+        width: 25px;
+    }
+    .registro{
+        font-size: 13px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .info-pole{
+        margin-left: 0px;
+    }
+    .info-vitoria{
+        margin-left: 0px;
+    }
+    .info-hotlaps{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:640px){
+    .infox{
+        font-size: 11px;
+    }
+    .logo-team{
+        width: 19px;
+    }
+    .registro h1{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:470px){
+    .infox{
+        font-size: 8px;
+    }
+    .logo-team{
+        width: 15px;
+    }
+    .registro h1{
+        font-size: 13px;
+
+    }
+}
