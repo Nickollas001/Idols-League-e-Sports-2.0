@@ -44,3 +44,19 @@
 .const a:hover{
     color: blue;
 }
+
+@media screen and (max-width:965px){
+    .titulo-notas{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:700px){
+    .titulo-notas{
+        font-size: 5px;
+    }
+}
+@media screen and (max-width:445px){
+    .titulo-notas{
+        font-size: 4px;
+    }
+}
