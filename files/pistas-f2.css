@@ -1,0 +1,32 @@
+.container-circuit{
+    background-image: url('../imagens/circuit-header-block-full.png');
+    background-size: cover;
+    padding: 10px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container-circuit {color: white;
+    display: flex;
+    align-items: center;
+}
+.br{    
+    margin-left: 10px;
+    background-color: white;
+    color: white;
+    height: 9px;
+    flex: 1 1;
+    
+}
+.imagem-circuit{
+    width: 50%;
+}
+.imagem-circuit img{
+    width: 100%;
+}
+.info-curcuit{
+    width: 30%;
+}
+.A{width: 100%;}
