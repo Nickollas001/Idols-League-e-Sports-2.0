@@ -221,3 +221,8 @@
     text-decoration: none;
     color: black;
 }
+.tabelax{
+    margin: 0 auto;
+    width: 96%;
+    margin-top: 10px;
+}
