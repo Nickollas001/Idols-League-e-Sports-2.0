@@ -1,7 +1,7 @@
 .container{
     width: 100%;
     background-color: rgba(0,0,0,.5);
-    background-image: url('../circuitos/image-australia.jpg');
+    background-image: url('../circuitos/image-italia.jpg');
     background-position: center;
     background-size: cover;
     height: 375px;
@@ -155,12 +155,46 @@
     font-size: 14px;
 }
 
+.historico{
+    transition: 1s;
+    animation: 1s;
+    padding: 8px;
+    color: grey;
+
+}
+.historico:hover{
+    padding: 12px;
+    cursor: pointer;
+    color: black;
+
+}
+.download{
+    transition: 1s;
+    animation: 1s;
+    padding: 8px;
+    color: grey;
+
+}
+.download:hover{
+    padding: 12px;
+    cursor: pointer;
+    color: black;
+
+}
+
+
+
+
 
 /*ETAPAS FIM*/
 
 
 /*ETAPAS MEDIA*/
-@media screen and (max-width:570px) {
+
+@media screen and (max-width:800px) {
+    button{
+        font-size: 8px;
+    }
     .pais-etapas{
         font-size: 17px;
     }
@@ -201,7 +235,67 @@
     #eua-text{
         margin-right: 22px;
     }
+}
+@media screen and (max-width:570px) {
+    button{
+        font-size: 5px;
+        padding: 0px;
+    }
+    .pais-etapas{
+        font-size: 11px;
+        gap: 7px;
+    }
     
+    .nome-etapa{
+        font-size: 5px;
+    }
+    .data{
+        font-size: 8px;
+    
+    }
+    .tipo{
+        font-size: 5px;
+    }
+    .bandeira{
+        width: 50px;
+    }
+    #abudhabi-text{
+        margin-right: 1px;
+    }
+    #gb-text{
+        margin-right: 0px;
+    }
+    #miami-text{
+        margin-right: 66px;
+    }
+    #brasil-text{
+        margin-right: 5px;
+    }
+    #cingapura-text{
+        margin-right: 40px;
+    }
+    #italia-text{
+        margin-right: 16px;
+    }
+    #australia-text{
+        margin-right: 47px;
+    }
+    #eua-text{
+        margin-right: 2px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    button{
+        font-size: 4px;
+    }
+    .tipo{
+        font-size: 4px;
+    }
+    .data{
+        font-size: 6px;
+    
+    }
 }
 /*ETAPAS MEDIA FIM */
 

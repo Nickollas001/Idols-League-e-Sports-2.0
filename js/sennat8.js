@@ -8,3 +8,5 @@ vizualizarTabela.addEventListener("click",function(){
         tabela.classList.add('show-tabela');
     }
 });
+
+
