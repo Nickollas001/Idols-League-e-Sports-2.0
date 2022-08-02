@@ -122,6 +122,9 @@
     .registro h1,.registro2 h1,.registro3 h1{
         font-size: 15px;
     }
+    .infos-circuit{
+        font-size: 8px;
+    }
 }
 @media screen and (max-width:470px){
     .infox{
@@ -134,9 +137,14 @@
         font-size: 13px;
     }
 }
+@media screen and (min-width:1650px){
+    .info2{
+        width: 33.33%;
+    }
+}
 
 .circuit{
-    width: 50%;
+    width: 57%;
     margin: 10px;
 }
 .infos-circuit{
@@ -145,4 +153,10 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    
 }
+.info1{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
