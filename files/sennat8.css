@@ -225,4 +225,16 @@
     margin: 0 auto;
     width: 96%;
     margin-top: 10px;
+    opacity: 0;
+}
+.menu-tabela{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.show-tabela{
+    opacity: 1;
+    animation: 1s;
+    transition: 1s;
 }

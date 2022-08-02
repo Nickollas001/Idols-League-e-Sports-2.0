@@ -1,4 +1,5 @@
 
+
 var cardSenna = document.querySelector("#Card-Senna");
 
 cardSenna.addEventListener("mouseover",function(){
@@ -71,7 +72,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const nextRacing = "01 aug 2022 12:20:00 GMT-0300";
+const nextRacing = "08 aug 2022 21:30:00 GMT-0300";
 
 function countdown(){
     const nextRacingDate = new Date(nextRacing);
@@ -94,3 +95,4 @@ function formatTime(time){
 }
 countdown();
 setInterval(countdown,1000);
+
