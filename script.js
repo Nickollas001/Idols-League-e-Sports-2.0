@@ -1,5 +1,5 @@
 
-
+var cardLauda = document.querySelector("#Card-Lauda");
 var cardSenna = document.querySelector("#Card-Senna");
 
 cardSenna.addEventListener("mouseover",function(){
@@ -12,10 +12,14 @@ cardSenna.addEventListener("mouseout",function(){
 });
 document.querySelector('.categoria-card-imagem').addEventListener('click', () => {
     window.location = 'senna.html'
-  })
+  });
+
+  cardLauda.addEventListener('click', function(){
+    window.location = 'lauda.html'
+  });
 
 ///
-var cardLauda = document.querySelector("#Card-Lauda");
+
 
 cardLauda.addEventListener("mouseover",function(){
     var imagemCardLauda = document.querySelector(".categoria-card-imagem2");
