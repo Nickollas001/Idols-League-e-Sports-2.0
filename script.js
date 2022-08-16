@@ -79,16 +79,50 @@ const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
 const nextRacingBrasil = "22 aug 2022 21:30:00 GMT-0300";
-const nextRacingMiami = "29 aug 2022 21:30:00 GMT-0300";
+const nextRacingMiami = " 29 aug 2022 21:30:00 GMT-0300";
 const nextRacingSilverstone = "05 sep 2022 21:30:00 GMT-0300";
+const nextRacingEua = "12 sep 2022 21:30:00 GMT-0300";
 const nextRacingDateBrasil = new Date(nextRacingBrasil);
+const nextRacingDateSilverstone = new Date(nextRacingSilverstone);
 const nextRacingDateMiami = new Date(nextRacingMiami);
+const nextRacingDateEua = new Date(nextRacingEua);
 const currentDate = new Date();
 
+
+const nextEtapa = document.getElementById("etapax");
+const numberEtapa = document.getElementById("number_etapa");
+const dateEtapa = document.getElementById("date_etapa");
+const imagemEtapa = document.getElementById("imagem_etapa");
+
+const brasil = "Interlagos - BRASIL";
+const miami = "Miami - MIAMI";
+const silverstone = "Silverstone - GRÃ BETANHA";
+const eua = "Austin Texas - EUA";
+const abuDhabi = "Yas Marina - ABU DHABI";
+
+const etapa4 = "ETAPA 4";
+const etapa5 = "ETAPA 5";
+const etapa6 = "ETAPA 6";
+const etapa7 = "ETAPA 7";
+const etapa8 = "ETAPA 8";
+
+const date_etapa4 = "22 de Agosto";
+const date_etapa5 = "29 de Agosto";
+const date_etapa6 = "05 de Setembro";
+const date_etapa7 = "12 de Setembro";
+const date_etapa8 = "19 de Setembro";
+
+const teste = src="bandeiras/ec.png"
+
+var img = document.getElementById("img");
 
 function formatTime(time){
     return time < 10 ? `0${time}` :time;
 }
+
+
+
+
 
 if (currentDate < nextRacingDateBrasil){
     function countdown(){
@@ -104,6 +138,10 @@ if (currentDate < nextRacingDateBrasil){
         hoursEl.innerHTML = formatTime(hours);
         minsEl.innerHTML = formatTime(mins);
         secondsEl.innerHTML = formatTime(seconds);
+        nextEtapa.innerHTML = brasil;
+        numberEtapa.innerHTML = etapa4;
+        dateEtapa.innerHTML = date_etapa4;
+        img.setAttribute('src','bandeiras/br.png');
     }
     countdown();
     setInterval(countdown,1000); 
@@ -121,10 +159,14 @@ if (currentDate < nextRacingDateBrasil){
         hoursEl.innerHTML = formatTime(hours);
         minsEl.innerHTML = formatTime(mins);
         secondsEl.innerHTML = formatTime(seconds);
+        nextEtapa.innerHTML = miami;
+        numberEtapa.innerHTML = etapa5;
+        dateEtapa.innerHTML = date_etapa5;
+        img.setAttribute('src','bandeiras/us.png');
     }
     countdown();
     setInterval(countdown,1000); 
-}else{
+}else if(currentDate < nextRacingDateSilverstone){
     function countdown(){
         const nextRacing = "05 sep 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
@@ -138,10 +180,53 @@ if (currentDate < nextRacingDateBrasil){
         hoursEl.innerHTML = formatTime(hours);
         minsEl.innerHTML = formatTime(mins);
         secondsEl.innerHTML = formatTime(seconds);
+        nextEtapa.innerHTML = silverstone;
+        numberEtapa.innerHTML = etapa6;
+        dateEtapa.innerHTML = date_etapa6;
+        img.setAttribute('src','bandeiras/gb.png');
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}else if(currentDate < nextRacingDateEua){
+    function countdown(){
+        const nextRacing = "12 sep 2022 21:30:00 GMT-0300";
+        const nextRacingDate = new Date(nextRacing);
+        const currentDate = new Date();
+        const totalSeconds = (nextRacingDate - currentDate) / 1000;
+        const days = Math.floor(totalSeconds / 3600 /24);
+        const hours = Math.floor(totalSeconds / 3600) %24;
+        const mins = Math.floor(totalSeconds /60) %60;
+        const seconds = Math.floor(totalSeconds) %60;
+        daysEl.innerHTML = days;
+        hoursEl.innerHTML = formatTime(hours);
+        minsEl.innerHTML = formatTime(mins);
+        secondsEl.innerHTML = formatTime(seconds);
+        nextEtapa.innerHTML = eua;
+        numberEtapa.innerHTML = etapa7;
+        dateEtapa.innerHTML = date_etapa7;
+        img.setAttribute('src','bandeiras/us.png');
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}else{
+    function countdown(){
+        const nextRacing = "19 sep 2022 21:30:00 GMT-0300";
+        const nextRacingDate = new Date(nextRacing);
+        const currentDate = new Date();
+        const totalSeconds = (nextRacingDate - currentDate) / 1000;
+        const days = Math.floor(totalSeconds / 3600 /24);
+        const hours = Math.floor(totalSeconds / 3600) %24;
+        const mins = Math.floor(totalSeconds /60) %60;
+        const seconds = Math.floor(totalSeconds) %60;
+        daysEl.innerHTML = days;
+        hoursEl.innerHTML = formatTime(hours);
+        minsEl.innerHTML = formatTime(mins);
+        secondsEl.innerHTML = formatTime(seconds);
+        nextEtapa.innerHTML = abuDhabi;
+        numberEtapa.innerHTML = etapa8;
+        dateEtapa.innerHTML = date_etapa8;
+        img.setAttribute('src','bandeiras/abudhabi-emirados.png');
     }
     countdown();
     setInterval(countdown,1000); 
 }
-
-
-
