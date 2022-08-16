@@ -71,32 +71,77 @@ document.querySelector('#Card-aniversario').addEventListener('click', () => {
   })
 
 
+
+
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const nextRacing = "22 aug 2022 21:30:00 GMT-0300";
+const nextRacingBrasil = "22 aug 2022 21:30:00 GMT-0300";
+const nextRacingMiami = "29 aug 2022 21:30:00 GMT-0300";
+const nextRacingSilverstone = "05 sep 2022 21:30:00 GMT-0300";
+const nextRacingDateBrasil = new Date(nextRacingBrasil);
+const nextRacingDateMiami = new Date(nextRacingMiami);
+const currentDate = new Date();
 
-function countdown(){
-    const nextRacingDate = new Date(nextRacing);
-    const currentDate = new Date();
 
-    const totalSeconds = (nextRacingDate - currentDate) / 1000;
-
-    const days = Math.floor(totalSeconds / 3600 /24);
-    const hours = Math.floor(totalSeconds / 3600) %24;
-    const mins = Math.floor(totalSeconds /60) %60;
-    const seconds = Math.floor(totalSeconds) %60;
-    
-    daysEl.innerHTML = days;
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
-}
 function formatTime(time){
     return time < 10 ? `0${time}` :time;
 }
-countdown();
-setInterval(countdown,1000);
+
+if (currentDate < nextRacingDateBrasil){
+    function countdown(){
+        const nextRacing = "22 aug 2022 21:30:00 GMT-0300";
+        const nextRacingDate = new Date(nextRacing);
+        const currentDate = new Date();
+        const totalSeconds = (nextRacingDate - currentDate) / 1000;
+        const days = Math.floor(totalSeconds / 3600 /24);
+        const hours = Math.floor(totalSeconds / 3600) %24;
+        const mins = Math.floor(totalSeconds /60) %60;
+        const seconds = Math.floor(totalSeconds) %60;
+        daysEl.innerHTML = days;
+        hoursEl.innerHTML = formatTime(hours);
+        minsEl.innerHTML = formatTime(mins);
+        secondsEl.innerHTML = formatTime(seconds);
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}else if (currentDate < nextRacingDateMiami){
+    function countdown(){
+        const nextRacing = "29 aug 2022 21:30:00 GMT-0300";
+        const nextRacingDate = new Date(nextRacing);
+        const currentDate = new Date();
+        const totalSeconds = (nextRacingDate - currentDate) / 1000;
+        const days = Math.floor(totalSeconds / 3600 /24);
+        const hours = Math.floor(totalSeconds / 3600) %24;
+        const mins = Math.floor(totalSeconds /60) %60;
+        const seconds = Math.floor(totalSeconds) %60;
+        daysEl.innerHTML = days;
+        hoursEl.innerHTML = formatTime(hours);
+        minsEl.innerHTML = formatTime(mins);
+        secondsEl.innerHTML = formatTime(seconds);
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}else{
+    function countdown(){
+        const nextRacing = "05 sep 2022 21:30:00 GMT-0300";
+        const nextRacingDate = new Date(nextRacing);
+        const currentDate = new Date();
+        const totalSeconds = (nextRacingDate - currentDate) / 1000;
+        const days = Math.floor(totalSeconds / 3600 /24);
+        const hours = Math.floor(totalSeconds / 3600) %24;
+        const mins = Math.floor(totalSeconds /60) %60;
+        const seconds = Math.floor(totalSeconds) %60;
+        daysEl.innerHTML = days;
+        hoursEl.innerHTML = formatTime(hours);
+        minsEl.innerHTML = formatTime(mins);
+        secondsEl.innerHTML = formatTime(seconds);
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}
+
+
 
