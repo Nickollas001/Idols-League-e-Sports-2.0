@@ -76,7 +76,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const nextRacing = "15 aug 2022 21:30:00 GMT-0300";
+const nextRacing = "22 aug 2022 21:30:00 GMT-0300";
 
 function countdown(){
     const nextRacingDate = new Date(nextRacing);

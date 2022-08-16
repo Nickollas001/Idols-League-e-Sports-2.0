@@ -1,7 +1,7 @@
 .container{
     width: 100%;
     background-color: rgba(0,0,0,.5);
-    background-image: url('../circuitos/image-cingapura.jpg');
+    background-image: url('https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Brazil.jpg.transform/12col-retina/image.jpg');
     background-position: center;
     background-size: cover;
     height: 375px;
