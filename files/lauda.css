@@ -1,9 +1,6 @@
 .container{
     width: 100%;
     background-color: rgba(0,0,0,.5);
-    background-image: url('../circuitos/image-cingapura.jpg');
-    background-position: center;
-    background-size: cover;
     height: 375px;
     color: white;
 }
