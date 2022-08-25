@@ -56,6 +56,9 @@ if (currentDate < nextRacingDateBrasil){
     function countdown(){
         nextEtapa.innerHTML = silverstone;
         dateEtapa.innerHTML = date_etapa6;
+        container.style.background = "url('https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Great%20Britain.jpg.transform/12col-retina/image.jpg')"
+        container.style.backgroundSize = "cover"
+        container.style.backgroundPosition = "center";
     }
     countdown();
     setInterval(countdown,1000); 
@@ -63,6 +66,9 @@ if (currentDate < nextRacingDateBrasil){
     function countdown(){
         nextEtapa.innerHTML = eua;
         dateEtapa.innerHTML = date_etapa7;
+        container.style.background = "url('https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/USA.jpg.transform/12col-retina/image.jpg')"
+        container.style.backgroundSize = "cover"
+        container.style.backgroundPosition = "center";
     }
     countdown();
     setInterval(countdown,1000); 
@@ -70,6 +76,9 @@ if (currentDate < nextRacingDateBrasil){
     function countdown(){
         nextEtapa.innerHTML = abudhabi;
         dateEtapa.innerHTML = date_etapa8;
+        container.style.background = "url('https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Abu%20Dhabi.jpg.transform/12col-retina/image.jpg')"
+        container.style.backgroundSize = "cover"
+        container.style.backgroundPosition = "center";
     }
     countdown();
     setInterval(countdown,1000); 
