@@ -46,6 +46,9 @@ if (currentDate < nextRacingDateBrasil){
     function countdown(){
         nextEtapa.innerHTML = miami;
         dateEtapa.innerHTML = date_etapa5;
+        container.style.background = "url('https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Miami.jpg.transform/12col-retina/image.jpg')"
+        container.style.backgroundSize = "cover"
+        container.style.backgroundPosition = "center";
     }
     countdown();
     setInterval(countdown,1000); 
