@@ -1,5 +1,5 @@
 
-const nextRacingBrasil = "22 aug 2022 21:30:00 GMT-0300";
+const nextRacingBrasil = "10 aug 2022 21:30:00 GMT-0300";
 const nextRacingMiami = " 29 aug 2022 21:30:00 GMT-0300";
 const nextRacingSilverstone = "05 sep 2022 21:30:00 GMT-0300";
 const nextRacingEua = "12 sep 2022 21:30:00 GMT-0300";
@@ -49,4 +49,26 @@ if (currentDate < nextRacingDateBrasil){
     }
     countdown();
     setInterval(countdown,1000); 
+}else if (currentDate < nextRacingDateSilverstone){
+    function countdown(){
+        nextEtapa.innerHTML = silverstone;
+        dateEtapa.innerHTML = date_etapa6;
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}else if (currentDate < nextRacingDateEua){
+    function countdown(){
+        nextEtapa.innerHTML = eua;
+        dateEtapa.innerHTML = date_etapa7;
+    }
+    countdown();
+    setInterval(countdown,1000); 
+}else{
+    function countdown(){
+        nextEtapa.innerHTML = abudhabi;
+        dateEtapa.innerHTML = date_etapa8;
+    }
+    countdown();
+    setInterval(countdown,1000); 
 }
+

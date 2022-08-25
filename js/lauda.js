@@ -37,6 +37,7 @@ const austria = "AUSTRIA"
 const espanha = "ESPANHA"
 const italia = "ITÁLIA"
 
+
 const container = document.getElementById("container");
 
 
