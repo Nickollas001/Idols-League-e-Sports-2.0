@@ -23,7 +23,7 @@ const date_etapa8 = "19 Setembro";
 
 const brasil = "BRASIL"
 const miami = "MIAMI"
-const silverstone = "GRÃ BETANHA"
+const silverstone = "GRÃ BRETANHA"
 const eua = "ESTADOS UNIDOS"
 const abudhabi = "ABU DHABI"
 
