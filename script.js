@@ -96,7 +96,7 @@ const imagemEtapa = document.getElementById("imagem_etapa");
 
 const brasil = "Interlagos - BRASIL";
 const miami = "Miami - MIAMI";
-const silverstone = "Silverstone - GRÃ BETANHA";
+const silverstone = "Silverstone - GRÃ BRETANHA";
 const eua = "Austin Texas - EUA";
 const abuDhabi = "Yas Marina - ABU DHABI";
 
