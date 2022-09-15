@@ -4,6 +4,7 @@ var brasilDownloadTableSenna = document.getElementById("brasil-download-table-se
 var miamiDownloadTableSenna = document.getElementById("miami-download-table-senna");
 var monzaDownloadTableSenna = document.getElementById("monza-download-table-senna");
 var silverstoneDownloadTableSenna = document.getElementById("silverstone-download-table-senna");
+var euaDownloadTableSenna = document.getElementById("eua-download-table-senna");
 var historicoAustraliaSenna = document.getElementById("australia-historico-senna");
 
 
@@ -29,6 +30,10 @@ miamiDownloadTableSenna.addEventListener("click",function(){
 })
 silverstoneDownloadTableSenna.addEventListener("click",function(){
     window.location = '../tabelas/sennat8-etapa6.png'
+
+})
+euaDownloadTableSenna.addEventListener("click",function(){
+    window.location = '../tabelas/sennat8-etapa7.png'
 
 })
 
