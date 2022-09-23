@@ -1,3 +1,4 @@
+var austriaDownloadTableLauda = document.getElementById("download-table-f2-austria");
 var hungriaDownloadTableLauda = document.getElementById("download-table-f2-hungria");
 var imolaDownloadTableLauda = document.getElementById("download-table-f2-imola");
 var brasilDownloadTableLauda = document.getElementById("download-table-f2-brasil");
@@ -5,7 +6,10 @@ var miamiDownloadTableLauda = document.getElementById("download-table-f2-miami")
 
 
 
+austriaDownloadTableLauda.addEventListener("click",function(){
+    window.location = '../tabelas/F2-etapa6.png'
 
+});
 hungriaDownloadTableLauda.addEventListener("click",function(){
     window.location = '../tabelas/F2-etapa5.png'
 
