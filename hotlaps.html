@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotLaps | Idols League e-Sports</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dicas.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="files/media.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>  
+    <script>
+        $(function(){
+            $('#header').load('jquery/cabecalho.html');
+        });
+    </script>
+<div id="header"></div>
+<main>
+    <video class="bg-video" src="videos/257561993_667146804671564_7393978616971881944_n.mp4" autoplay loop></video>
+    <section class="container">
+        <div class="circuit">
+            <div class="circuit-titulo">
+                <h1>CIRCUIT</h1>
+                <div class="separador-ano-f1">
+                    <ul>
+                        <li><span id="f1-2019">F1 2019</span></li>
+                        <li><span id="f1-2021">F1 2021</span></li>
+                    </ul>
+                </div>
+            </div><!---circuit-titulo--->
+            <ul class="tabela-circuitos-2019" id="tabela-circuitos-2019">
+                <li class="pista" id="idrussia">
+                    <span class="nome-da-pista">RÚSSIA</span>
+                    <span class="traco-direita">></span>
+                </li>
+            </ul>
+            <ul class="tabela-circuitos-2021" id="tabela-circuitos-2021">
+                <li class="pista" id="idimola2021">
+                    <span class="nome-da-pista">IMOLA</span>
+                    <span class="traco-direita">></span>
+                </li>
+            </ul>
+        </div><!---circuit--->
+        <!---2019--->
+        <div id="info-circuit-pista-piloto-russia" class="info-circuit-pista-piloto-russia">
+            <div class="circuit-pista">
+                <div class="circuit-pista-titulo">
+                    <h1>RÚSSIA</h1>
+                </div><!---pista-titulo--->
+                    <div class="circuit-pista-img">
+                        <img src="circuitos/circuito-russia.png" >
+                    </div><!---circuit-pista-img--->
+                    <div class="circuit-pista-texto">
+                        <div class="circuit-pista-subtitulo">
+                            <h1>CIRCUIT INFORMATION</h1>
+                        </div>
+                       <ul>
+                           <li>
+                               <span>NAME</span>
+                                <span class="texto-left">SOCHI AUTODROM</span>
+                        </li>
+                           <li>
+                               <span>COMPRIMENTO</span>
+                                <span class="texto-left">5.848 KM</span>
+                        </li>
+                           <li>
+                               <span>RACE LAP RECORD</span>
+                                <span class="texto-left">1:32,070</span>
+                        </li>
+                       </ul>
+                    </div>
+            </div><!---pista--->
+            <div class="piloto-hotlap">
+                <h1>FELIPE ALMEIDA</h1>
+                <img src="pilotos/fezan.jpg">
+                <div class="btn-vervolta">
+                    <a href="https://www.youtube.com/watch?v=E_pGdEp3k-4&t=3s" target="_blank" rel="noopener noreferrer">VER VOLTA</a>
+                </div>
+            </div>
+        </div>
+        <!---2021--->
+        <div id="info-circuit-pista-piloto-imola2021" class="info-circuit-pista-piloto-imola2021">
+            <div class="circuit-pista">
+                <div class="circuit-pista-titulo">
+                    <h1>IMOLA</h1>
+                </div><!---pista-titulo--->
+                    <div class="circuit-pista-img">
+                        <img src="circuitos/circuito-imola.png" >
+                    </div><!---circuit-pista-img--->
+                    <div class="circuit-pista-texto">
+                        <div class="circuit-pista-subtitulo">
+                            <h1>CIRCUIT INFORMATION</h1>
+                        </div>
+                       <ul>
+                           <li>
+                               <span>NAME</span>
+                                <span class="texto-left">AUTODROMO ENZO E DINO FERRARI</span>
+                        </li>
+                           <li>
+                               <span>COMPRIMENTO</span>
+                                <span class="texto-left">4.909 KM</span>
+                        </li>
+                           <li>
+                               <span>RACE LAP RECORD</span>
+                                <span class="texto-left">1:14,139</span>
+                        </li>
+                       </ul>
+                    </div>
+            </div><!---pista--->
+            <div class="piloto-hotlap">
+                <h1>NELSON VIANNA</h1>
+                <img src="pilotos/nelson-vianna.png">
+                <div class="btn-vervolta">
+                    <a href="https://youtu.be/s2wXS9qSRU8" target="_blank" rel="noopener noreferrer">VER VOLTA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Mobile-container-->
+    <section class="dicas-mob">
+        <div class="seletor-f1-f2-mob">
+            <ul>
+                <li id=""><span id="seletor-f1-mob">F1</span></li>
+                <li id="seletor-f2-mob"><span>F2</span></li>
+            </ul>
+        </div>
+        <div class="seletor-f1-2019-f1-2021" id="seletor-f1-2019-f1-2021">
+            <ul>
+                <li><span id="seletor-f1-2019-mob">F1 2019</span></li>
+                <li><span id="seletor-f1-2021-mob">F1 2021</span></li>
+            </ul>
+        </div>
+        <!--f1-2019-->
+        <div class="lista-f1-2019-mob" id="lista-f1-2019-mob">
+            <ul>
+                <li>
+                    <ul class="pista-mob" id="pista-mob">
+                        <li><span id="russia-mob-2019">RÚSSIA</span></li>
+                    </ul>
+
+                    <section id="russia-f1-2019-mob-info" class="russia-f1-2019-mob-info">
+                        <div class="info-1">
+                            <img src="circuitos/circuito-russia.png" alt="">
+                        </div>
+
+                        <div class="info-2">
+                            <h1>Circuit Info</h1>
+                            <ul>
+                                <li>
+                                    <span>NAME</span>
+                                    <span class="texto-left-mob">SOCHI AUTODROM</span>
+                                </li>
+                                <li>
+                                    <span>COMPRIMENTO</span>
+                                    <span class="texto-left-mob">5.848 KM</span>
+                                </li>
+                                <li>
+                                    <span>RACE LAP RECORD</span>
+                                    <span class="texto-left-mob">1:32,070</span>
+                                </li>
+                                <li>
+                                    <span>PILOTO</span>
+                                    <span class="texto-left-mob">FELIPE ALMEIDA</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info-3">
+                            <a class="btn-vervolta-mob" target="_blank" href="https://www.youtube.com/watch?v=E_pGdEp3k-4&t=3s">VER VOLTA</a>
+                        </div>
+                    </section>
+                </li>
+            </ul>
+        </div>
+        <div class="lista-f1-2021-mob" id="lista-f1-2021-mob">
+            <ul>
+                <li>
+                    <ul class="pista-mob" id="pista-mob-2021">
+                        <li><span id="imola-mob-2021">IMOLA</span></li>
+                    </ul>
+
+                    <section id="imola-f1-2019-mob-info" class="imola-f1-2019-mob-info">
+                        <div class="info-1">
+                            <img src="circuitos/circuito-imola.png" alt="">
+                        </div>
+
+                        <div class="info-2">
+                            <h1>Circuit Info</h1>
+                            <ul>
+                                <li>
+                                    <span>NAME</span>
+                                    <span class="texto-left-mob">AUTODROMO ENZO E DINO FERRARI</span>
+                                </li>
+                                <li>
+                                    <span>COMPRIMENTO</span>
+                                    <span class="texto-left-mob">4.909 KM</span>
+                                </li>
+                                <li>
+                                    <span>RACE LAP RECORD</span>
+                                    <span class="texto-left-mob">1:14,139</span>
+                                </li>
+                                <li>
+                                    <span>PILOTO</span>
+                                    <span class="texto-left-mob">NELSON VIANNA</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info-3">
+                            <a class="btn-vervolta-mob" target="_blank" href="https://youtu.be/s2wXS9qSRU8">VER VOLTA</a>
+                        </div>
+                    </section>
+                </li>
+            </ul>
+        </div>
+        <div class="seletor-f2-2021" id="seletor-f2-2021">
+            <ul>
+                <li><span>F2 2021</span></li>
+            </ul>
+        </div>
+    </section>
+    <!---Mobile-container-->
+</main>
+<script src="js/dica.js"></script>
+<script src="root.js"></script>
+</body>
+</html>
+
+
+
