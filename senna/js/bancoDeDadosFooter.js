@@ -13,19 +13,19 @@ var ico4Imagem = document.getElementById("ico4-img")
 // Dados
 var nickCodeAlt = "Nick Code";
 var nickCodeUrl = "https://www.instagram.com/nick_code_/";
-var nickCodeImagem = "patrocinadores/nickcode_logo.jpg";
+var nickCodeImagem = "https://idolsleaguesports.com/patrocinadores/nickcode_logo.jpg";
 
 var gameCenterAlt = "Game Center"
 var gameCenterUrl = "https://www.instagram.com/gamecenterpaulista/";
-var gameCenterImagem = "patrocinadores/gamecenter-patrocinador.png"
+var gameCenterImagem = "https://idolsleaguesports.com/patrocinadores/gamecenter-patrocinador.png"
 
 var EspetaculArtAlt = "Espetacul Art";
 var EspetaculArtUrl = "https://www.instagram.com/espetacul.art/";
-var EspetaculArtImagem = "patrocinadores/espetacul-art.jpg";
+var EspetaculArtImagem = "https://idolsleaguesports.com/patrocinadores/espetacul-art.jpg";
 
 var cepacImagemAlt = "Cepac Imagem";
 var cepacImagemUrl = "https://www.instagram.com/cepac_fronteiras/";
-var cepacImagemImagem = "patrocinadores/cepac_imagem.jpg";
+var cepacImagemImagem = "https://idolsleaguesports.com/patrocinadores/cepac_imagem.jpg";
 
 
 // Icone 1

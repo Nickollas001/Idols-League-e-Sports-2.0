@@ -8,7 +8,7 @@
     <title>Etapas Senna | Idols League e-Sports</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../files/media.css">
-    <link rel="stylesheet" href="../files/sennat8.css">
+    <link rel="stylesheet" href="../files/sennat9.css">
     <link rel="stylesheet" href="../root.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
 </head>
@@ -17,12 +17,16 @@
         $(function(){
             $('#header').load('../jquery/cabecalho.html');
         });
+        $(function(){
+            $('#menu-temporada-senna').load('../jquery/menu-temporada-senna.html');
+        });
+        $(function(){
+        $('#footer').load('../jquery/footer.html');
+    });
     </script>
 <div id="header"></div>
 <main>
-    <div class="menu">
-        <a style="border-bottom: solid red;" href="../../senna.html">T8</a>
-        <a href="../../sennaT7.html">T7</a>
+    <div class="menu" id="menu-temporada-senna">
     </div>
     <div class="container" id="container">
         <div class="conteudo">
@@ -39,72 +43,17 @@
     <div class="etapas">
         <div class="const-etapas">
                 <div class="pais-etapas" >
-                    <span id="australia-text">Austrália <br> <h2 class="nome-etapa">Albert Park</h2></span>
-                    <span><img class="bandeira" src="../bandeiras/au.png" alt="Austrália"></span>
-                    <span class="ico" id="australia"><h2><br></h2></span>
-                    <h1 class="data">01 Agosto  <br> <strong class="tipo">Desempenho IGUAL</strong></h1>
-                    <button class="historico" id="australia-historico-senna">Histórico</button>
-                    <button class="download" id="australia-download-table-senna">Baixar Tabela</button>
+                    <span id="australia-text">Hungria <br> <h2 class="nome-etapa">Hungaroring</h2></span>
+                    <span><img class="bandeira" src="../bandeiras/hu.png" alt="Hungria"></span>
+                    <span class="ico" id="hungria"><h2><br></h2></span>
+                    <h1 class="data">17 Outubro  <br> <strong class="tipo">Desempenho IGUAL</strong></h1>
                 </div>
-            <div class="pais-etapas">
-                <span id="italia-text">Itália <br> <h2 class="nome-etapa">Monza - Qualy + Sprint + 50%</h2></span>
-                <span><img class="bandeira" src="../bandeiras/it.png" alt="Austrália"></span>
-                <span class="ico" id="italia"><h2><br></h2></span>
-                <h1 class="data">08 Agosto  <br> <strong class="tipo">Desempenho REAL</strong></h1>
-                <button class="download" id="monza-download-table-senna">Baixar Tabela</button>
-            </div>
-            <div class="pais-etapas">
-                <span id="cingapura-text">Cingapura <br> <h2 class="nome-etapa">Marina bay</h2></span>
-                <span><img class="bandeira" src="../bandeiras/cingapura.png" alt="Cingapura"></span>
-                <span class="ico" id="cingapura"><h2><br></h2></span>
-                <h1 class="data">15 Agosto  <br> <strong class="tipo">Desempenho IGUAL</strong></h1>
-                <button class="download" id="singapura-download-table-senna">Baixar Tabela</button>
-            </div>
-            <div class="pais-etapas">
-                <span id="brasil-text">Brasil <br> <h2 class="nome-etapa">Interlagos - Qualy + Sprint + 50%</h2></span>
-                <span><img class="bandeira" src="../bandeiras/br.png" alt="Hungria - Hungaroring"></span>
-                <span class="ico" id="brasil"><h2><br></h2></span>
-                <h1 class="data">22 Agosto  <br> <strong class="tipo">Desempenho REAL</strong></h1>
-                <button class="download" id="brasil-download-table-senna">Baixar Tabela</button>
-            </div>
-            <div class="pais-etapas">
-                <span id="miami-text">Miami <br> <h2 class="nome-etapa">Miami</h2></span>
-                <span><img class="bandeira" src="../bandeiras/us.png" alt="arabia saudita"></span>
-                <span class="ico" id="eua"><h2><br></h2></span>
-                <h1 class="data">29 Agosto  <br> <strong class="tipo">Desempenho IGUAL</strong></h1>
-                <button class="download" id="miami-download-table-senna">Baixar Tabela</button>
-            </div>
-            <div class="pais-etapas">
-                <span id="gb-text">Grã Betanha <br> <h2 class="nome-etapa">Silverstone - Qualy + Sprint + 50% </h2></span>
-                <span><img class="bandeira" src="../bandeiras/gb.png" alt="arabia saudita"></span>
-                <span class="ico" id="gb"><h2><br></h2></span>
-                <h1 class="data">05 Setembro  <br> <strong class="tipo">Desempenho REAL</strong></h1>
-                <button class="download" id="silverstone-download-table-senna">Baixar Tabela</button>
-            </div>
-            <div class="pais-etapas">
-                <span id="eua-text">Estados Unidos <br> <h2 class="nome-etapa">Austin Texas</h2></span>
-                <span><img class="bandeira" src="../bandeiras/us.png" alt="Austin Texas"></span>
-                <span class="ico" id="eua"><h2><br></h2></span>
-                <h1 class="data">12 Setembro  <br> <strong class="tipo">Desempenho REAL</strong></h1>
-                <button class="download" id="eua-download-table-senna">Baixar Tabela</button>
-            </div>
-            <div class="pais-etapas">
-                <span id="abudhabi-text">Abu Dhabi <br> <h2 class="nome-etapa">Yas Marina - Qualy + Sprint + 50%</h2></span>
-                <span><img class="bandeira" src="../bandeiras/abudhabi-emirados.png" alt="abudhabi-emirados"></span>
-                <span class="ico" id="abudhabi"><h2><br></h2></span>
-                <h1 class="data">19 Setembro  <br> <strong class="tipo">Desempenho IGUAL</strong></h1>
-            </div>
         </div><!---const-etapas--->
     </div>
 </main>
-<script>
-    $(function(){
-        $('#footer').load('../jquery/footer.html');
-    });
-</script>
 <div id="footer"></div> 
     <script src="../../root.js"></script>
     <script src="../js/etapas.js"></script>
-    <script src="../js/sennat8.js"></script>
+    <script src="../js/sennat9.js"></script>
 </body>
 </html>
