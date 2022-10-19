@@ -182,7 +182,7 @@ var guilhermeBarros = "Gui <STRONG> BARROS </STRONG>";
 var guilhermeBarrosImagem = "pilotos/guilhermeBarros.png";
 
 var jailsonMoura = "Jailson <STRONG> MOURA </STRONG>";
-var jailsonMouraImagem = "pilotos/jailsonmoura.png";
+var jailsonMouraImagem = "pilotos/jailsonMoura.png";
 
 var pabloMuller = "Pablo <STRONG> MULLER </STRONG>";
 var pabloMullerImagem = "pilotos/pabloMuller.png";
