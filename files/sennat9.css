@@ -387,7 +387,7 @@ td{
     border-spacing: 10px;
 }
 
-#cruzado{
+#cruzado, .cruzado{
     background-color: rgba(128, 128, 128, 0.589);
 }
 
@@ -395,3 +395,15 @@ table{
     border-spacing: 0px;
 }
 
+.mais{
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#help,#piloto12,#piloto13,#piloto14,#piloto15,#piloto16,#piloto17,#piloto18,#piloto19,#piloto20{
+    display: none;
+}
+.hide{
+    display: table-row!important;
+}
