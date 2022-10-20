@@ -407,3 +407,10 @@ table{
 .hide{
     display: table-row!important;
 }
+.ordena{
+    cursor: pointer;
+}
+
+th{
+    text-align: center!important;
+}

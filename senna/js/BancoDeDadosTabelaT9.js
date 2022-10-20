@@ -1,3 +1,4 @@
+
 var driver1 = document.getElementById("driver1");
 var driver1Imagem = document.getElementById("driver1-img");
 var lastro1 = document.getElementById("lastro1");
@@ -161,6 +162,11 @@ var DecimaSegundaPosicaoSprint = "00";
 var DecimaTerceiraPosicaoSprint = "00";
 var DecimaQuartaPosicaoSprint = "00";
 var DecimaQuintaPosicaoSprint = "00";
+var DecimaSextaPosicaoSprint = "00";
+var DecimaSetimaPosicaoSprint = "00";
+var DecimaOitavaPosicaoSprint = "00";
+var DecimaNonaPosicaoSprint = "00";
+var VigesimaPosicaoSprint = "00";
 
 
 
@@ -176,7 +182,7 @@ var talesManso = "Tales <STRONG> MANSO </STRONG>";
 var talesMansoImagem = "pilotos/talesManso.png";
 
 var brunoThomaz = "Bruno <STRONG> THOMAZ </STRONG>";
-var brunoThomazImagem = "pilotos/mazepin.png";
+var brunoThomazImagem = "pilotos/brunoThomaz.png";
 
 var guilhermeBarros = "Gui <STRONG> BARROS </STRONG>";
 var guilhermeBarrosImagem = "pilotos/guilhermeBarros.png";
@@ -203,28 +209,28 @@ var pedroPortela = "Pedro <STRONG> PORTELA </STRONG>";
 var pedroPortelaImagem = "pilotos/mazepin.png";
 
 var betoReinert = "Beto <STRONG> REINERT </STRONG>";
-var betoReinertImagem = "pilotos/betoReinert.jpg";
+var betoReinertImagem = "pilotos/betoReinert.png";
 
 var joaoVilla = "João <STRONG> VILLA </STRONG>";
 var joaoVillaImagem = "pilotos/mazepin.png";
 
 var rafaelStahnke = "Rafael <STRONG> STAHNKE </STRONG>";
-var rafaelStahnkeImagem = "pilotos/rafaelStahnke.jpg";
+var rafaelStahnkeImagem = "pilotos/rafaelStahnke.png";
 
 var douglasGobbs = "Douglas <STRONG> GOBBS </STRONG>";
-var douglasGobbsImagem = "pilotos/douglasGobbs.jpg";
+var douglasGobbsImagem = "pilotos/douglasGobbs.png";
 
 var felipeAlmeida = "Felipe <STRONG> ALMEIDA </STRONG>";
-var felipeAlmeidaImagem = "pilotos/felipeAlmeida.jpg";
+var felipeAlmeidaImagem = "pilotos/felipeAlmeida.png";
 
 var pauloHackbarth = "Paulo <STRONG> HACKBARTH </STRONG>";
-var pauloHackbarthImagem = "pilotos/pauloHack.jpg";
+var pauloHackbarthImagem = "pilotos/pauloHack.png";
 
 var otavioFogaca = "Otávio <STRONG> FOGAÇA </STRONG>";
 var otavioFogacaImagem = "pilotos/mazepin.png";
 
 var lucasPimentel = "Lucas <STRONG> PIMENTEL </STRONG>";
-var lucasPimentelImagem = "pilotos/lucasPimentel.jpg";
+var lucasPimentelImagem = "pilotos/lucasPimentel.png";
 
 // Fim Pilotos ->
 
@@ -853,6 +859,162 @@ $(document).ready(function bla() {
         });
     }
 });
+
+var naoSei = "0";
+var naoParticipou = "0";
+
+var poinstJoaoAnselmoT1 = naoSei;
+var poinstJoaoAnselmoT2 = naoSei;
+var poinstJoaoAnselmoT3 = naoSei;
+var poinstJoaoAnselmoT4 = naoSei;
+var poinstJoaoAnselmoT5 = naoSei;
+var poinstJoaoAnselmoT6 = "125";
+var poinstJoaoAnselmoT7 = "115";
+var poinstJoaoAnselmoT8 = "178";
+
+
+var poinstFelipeSilvaT1 = naoSei;
+var poinstFelipeSilvaT2 = naoSei;
+var poinstFelipeSilvaT3 = naoSei;
+var poinstFelipeSilvaT4 = naoSei;
+var poinstFelipeSilvaT5 = naoSei;
+var poinstFelipeSilvaT6 = naoParticipou;
+var poinstFelipeSilvaT7 = "89";
+var poinstFelipeSilvaT8 = "179";
+
+var poinstTalesMansoT1 = naoParticipou;
+var poinstTalesMansoT2 = naoParticipou;
+var poinstTalesMansoT3 = naoParticipou;
+var poinstTalesMansoT4 = naoParticipou;
+var poinstTalesMansoT5 = naoParticipou;
+var poinstTalesMansoT6 = naoParticipou;
+var poinstTalesMansoT7 = naoParticipou;
+var poinstTalesMansoT8 = naoParticipou;
+
+var poinstBrunoThomazT1 = naoParticipou;
+var poinstBrunoThomazT2 = naoParticipou;
+var poinstBrunoThomazT3 = naoParticipou;
+var poinstBrunoThomazT4 = naoParticipou;
+var poinstBrunoThomazT5 = naoParticipou;
+var poinstBrunoThomazT6 = naoParticipou;
+var poinstBrunoThomazT7 = naoParticipou;
+var poinstBrunoThomazT8 = naoParticipou;
+	
+var poinstguilhermeBarrosT1 = naoSei;
+var poinstguilhermeBarrosT2 = naoSei;
+var poinstguilhermeBarrosT3 = naoSei;
+var poinstguilhermeBarrosT4 = naoSei;
+var poinstguilhermeBarrosT5 = naoSei;
+var poinstguilhermeBarrosT6 = naoParticipou;
+var poinstguilhermeBarrosT7 = "63";
+var poinstguilhermeBarrosT8 = naoParticipou;
+	
+var poinstjailsonMouraT1 = naoSei;
+var poinstjailsonMouraT2 = naoSei;
+var poinstjailsonMouraT3 = naoSei;
+var poinstjailsonMouraT4 = naoSei;
+var poinstjailsonMouraT5 = naoSei;
+var poinstjailsonMouraT6 = "21";
+var poinstjailsonMouraT7 = naoParticipou;
+var poinstjailsonMouraT8 = "53";
+
+var poinstjailsonMouraT1F2 = naoParticipou;
+	
+var poinstpabloMullerT1 = naoSei;
+var poinstpabloMullerT2 = naoSei;
+var poinstpabloMullerT3 = naoSei;
+var poinstpabloMullerT4 = naoSei;
+var poinstpabloMullerT5 = naoSei;
+var poinstpabloMullerT6 = "83";
+var poinstpabloMullerT7 = "103";
+var poinstpabloMullerT8 = "107";
+
+var poinstpabloMullerT2Prost = "180";
+
+var poinstpabloMullerT1F2 = "06";
+	
+var poinstfredBederT1 = naoSei;
+var poinstfredBederT2 = naoSei;
+var poinstfredBederT3 = naoSei;
+var poinstfredBederT4 = naoSei;
+var poinstfredBederT5 = naoSei;
+var poinstfredBederT6 = naoSei;
+var poinstfredBederT7 = "86";
+var poinstfredBederT8 = naoParticipou;
+
+var poinstfredBederT2Prost = naoSei;
+
+var poinstfredBederT1F2 = naoSei;
+	
+var poinstraulSilvaT1 = naoParticipou;
+var poinstraulSilvaT2 = naoParticipou;
+var poinstraulSilvaT3 = naoParticipou;
+var poinstraulSilvaT4 = naoParticipou;
+var poinstraulSilvaT5 = naoParticipou;
+var poinstraulSilvaT6 = naoParticipou;
+var poinstraulSilvaT7 = naoParticipou;
+var poinstraulSilvaT8 = naoParticipou;
+
+var poinstraulSilvaT2Prost = naoParticipou;
+
+var poinstraulSilvaT1F2 = naoParticipou;
+	
+var poinstnelsonViannaT1 = naoSei;
+var poinstnelsonViannaT2 = "107";
+var poinstnelsonViannaT3 = "150";
+var poinstnelsonViannaT4 = "161";
+var poinstnelsonViannaT5 = naoSei;
+var poinstnelsonViannaT6 = "58";
+var poinstnelsonViannaT7 = "88";
+var poinstnelsonViannaT8 = naoParticipou;
+
+var poinstnelsonViannaT2Prost = naoSei;
+
+var poinstnelsonViannaT1F2 = "109";
+//Banco de Dados Ranking
+
+var driver1Ranking = document.getElementById("driver1Ranking").innerHTML  = joãoAnselmo;
+var pontos1Ranking = document.getElementById("pontos1Ranking").innerHTML = poinstJoaoAnselmo + parseInt(poinstJoaoAnselmoT8) + parseInt(poinstJoaoAnselmoT7) + parseInt(poinstJoaoAnselmoT6) + parseInt(poinstJoaoAnselmoT5) + parseInt(poinstJoaoAnselmoT4) + parseInt(poinstJoaoAnselmoT3) + parseInt(poinstJoaoAnselmoT2) + parseInt(poinstJoaoAnselmoT1);
+var GPs1 = document.getElementById("GPs1").innerHTML = "1"; 
+
+
+var driver2Ranking = document.getElementById("driver2Ranking").innerHTML  = felipeSilva;
+var pontos2Ranking = document.getElementById("pontos2Ranking").innerHTML = poinstFelipeSilva + parseInt(poinstFelipeSilvaT8) + parseInt(poinstFelipeSilvaT7) + parseInt(poinstFelipeSilvaT6) + parseInt(poinstFelipeSilvaT5) + parseInt(poinstFelipeSilvaT4) + parseInt(poinstFelipeSilvaT3) + parseInt(poinstFelipeSilvaT2) + parseInt(poinstFelipeSilvaT1);
+var GPs2 = document.getElementById("GPs2").innerHTML = "1"; 
+
+
+var driver3Ranking = document.getElementById("driver3Ranking").innerHTML  = brunoThomaz;
+var pontos3Ranking = document.getElementById("pontos3Ranking").innerHTML = poinstBrunoThomaz + parseInt(poinstBrunoThomazT8) + parseInt(poinstBrunoThomazT7) + parseInt(poinstBrunoThomazT6) + parseInt(poinstBrunoThomazT5) + parseInt(poinstBrunoThomazT4) + parseInt(poinstBrunoThomazT3) + parseInt(poinstBrunoThomazT2) + parseInt(poinstBrunoThomazT1);
+var GPs3 = document.getElementById("GPs3").innerHTML = "1"; 
+
+var driver4Ranking = document.getElementById("driver4Ranking").innerHTML  = talesManso;
+var pontos4Ranking = document.getElementById("pontos4Ranking").innerHTML = poinstTalesManso + parseInt(poinstTalesMansoT8) + parseInt(poinstTalesMansoT7) + parseInt(poinstTalesMansoT6) + parseInt(poinstTalesMansoT5) + parseInt(poinstTalesMansoT4) + parseInt(poinstTalesMansoT3) + parseInt(poinstTalesMansoT2) + parseInt(poinstTalesMansoT1);
+var GPs4 = document.getElementById("GPs4").innerHTML = "1"; 
+
+var driver5Ranking = document.getElementById("driver5Ranking").innerHTML  = guilhermeBarros;
+var pontos5Ranking = document.getElementById("pontos5Ranking").innerHTML = poinstguilhermeBarros + parseInt(poinstguilhermeBarrosT8) + parseInt(poinstguilhermeBarrosT7) + parseInt(poinstguilhermeBarrosT6) + parseInt(poinstguilhermeBarrosT5) + parseInt(poinstguilhermeBarrosT4) + parseInt(poinstguilhermeBarrosT3) + parseInt(poinstguilhermeBarrosT2) + parseInt(poinstguilhermeBarrosT1);
+var GPs5 = document.getElementById("GPs5").innerHTML = "1"; 
+
+var driver6Ranking = document.getElementById("driver6Ranking").innerHTML  = jailsonMoura;
+var pontos6Ranking = document.getElementById("pontos6Ranking").innerHTML = poinstjailsonMoura + parseInt(poinstjailsonMouraT8) + parseInt(poinstjailsonMouraT7) + parseInt(poinstjailsonMouraT6) + parseInt(poinstjailsonMouraT5) + parseInt(poinstjailsonMouraT4) + parseInt(poinstjailsonMouraT3) + parseInt(poinstjailsonMouraT2) + parseInt(poinstjailsonMouraT1);
+var GPs6 = document.getElementById("GPs6").innerHTML = "1"; 
+
+var driver7Ranking = document.getElementById("driver7Ranking").innerHTML  = pabloMuller;
+var pontos7Ranking = document.getElementById("pontos7Ranking").innerHTML = poinstpabloMuller + parseInt(poinstpabloMullerT8) + parseInt(poinstpabloMullerT7) + parseInt(poinstpabloMullerT6) + parseInt(poinstpabloMullerT5) + parseInt(poinstpabloMullerT4) + parseInt(poinstpabloMullerT3) + parseInt(poinstpabloMullerT2) + parseInt(poinstpabloMullerT1) + parseInt(poinstpabloMullerT2Prost) + parseInt(poinstpabloMullerT1F2);
+var GPs7 = document.getElementById("GPs7").innerHTML = "1"; 
+
+var driver8Ranking = document.getElementById("driver8Ranking").innerHTML  = fredBeder;
+var pontos8Ranking = document.getElementById("pontos8Ranking").innerHTML = poinstfredBeder + parseInt(poinstfredBederT8) + parseInt(poinstfredBederT7) + parseInt(poinstfredBederT6) + parseInt(poinstfredBederT5) + parseInt(poinstfredBederT4) + parseInt(poinstfredBederT3) + parseInt(poinstfredBederT2) + parseInt(poinstfredBederT1);
+var GPs8 = document.getElementById("GPs8").innerHTML = "1"; 
+
+var driver9Ranking = document.getElementById("driver9Ranking").innerHTML  = raulSilva;
+var pontos9Ranking = document.getElementById("pontos9Ranking").innerHTML = poinstraulSilva + parseInt(poinstraulSilvaT8) + parseInt(poinstraulSilvaT7) + parseInt(poinstraulSilvaT6) + parseInt(poinstraulSilvaT5) + parseInt(poinstraulSilvaT4) + parseInt(poinstraulSilvaT3) + parseInt(poinstraulSilvaT2) + parseInt(poinstraulSilvaT1);
+var GPs9 = document.getElementById("GPs9").innerHTML = "1"; 
+
+var driver10Ranking = document.getElementById("driver10Ranking").innerHTML  = nelsonVianna;
+var pontos10Ranking = document.getElementById("pontos10Ranking").innerHTML = poinstnelsonVianna + parseInt(poinstnelsonViannaT8) + parseInt(poinstnelsonViannaT7) + parseInt(poinstnelsonViannaT6) + parseInt(poinstnelsonViannaT5) + parseInt(poinstnelsonViannaT4) + parseInt(poinstnelsonViannaT3) + parseInt(poinstnelsonViannaT2) + parseInt(poinstnelsonViannaT1);
+var GPs10 = document.getElementById("GPs10").innerHTML = "1"; 
+
 
 
 

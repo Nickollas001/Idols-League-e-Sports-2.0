@@ -11,8 +11,19 @@
     <link rel="stylesheet" href="root.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
 </head>
 <body>
+    <script>
+        $(document).ready(function () {
+        $('#example').DataTable( {
+            "order": [[ 0, "desc" ]] //Ordena pela quarta coluna de forma descrescente
+        });
+        
+        
+});
+    </script>
     <script>
         $(function(){
             $('#header').load('jquery/cabecalho.html');
@@ -335,8 +346,266 @@
         </table>
     </section>
         <div class="mais">
-<button id="verMais"> Ver mais</button>
+            <button id="verMais"> Ver mais</button>
         </div>
+        <table id="example" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Pontuação</th>
+                    <th>Piloto</th>
+                    <th>Títulos</th>
+                    <th>Vitórias</th>
+                    <th>2°</th>
+                    <th>3°</th>
+                    <th>GPs</th>
+                    <th>Pódios</th>
+                    <th>Poles</th>
+                    <th>MV</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="pontos1Ranking"></td>
+                    <td id="driver1Ranking"></td>
+                    <td id="titulos1"></td>
+                    <td id="vitorias1"></td>
+                    <td id="segundosLugar1"></td>
+                    <td id="terceirosLugar1"></td>
+                    <td id="GPs1"></td>
+                    <td id="podios1"></td>
+                    <td id="poles1"></td>
+                    <td id="MV1"></td>
+                </tr>
+                <tr>
+                    <td id="pontos2Ranking"></td>
+                    <td id="driver2Ranking"></td>
+                    <td id="titulos2"></td>
+                    <td id="vitorias2"></td>
+                    <td id="segundosLugar2"></td>
+                    <td id="terceirosLugar2"></td>
+                    <td id="GPs2"></td>
+                    <td id="podios2"></td>
+                    <td id="poles2"></td>
+                    <td id="MV2"></td>
+                </tr>
+                <tr>
+                    <td id="pontos3Ranking"></td>
+                    <td id="driver3Ranking"></td>
+                    <td id="titulos3"></td>
+                    <td id="vitorias3"></td>
+                    <td id="segundosLugar3"></td>
+                    <td id="terceirosLugar3"></td>
+                    <td id="GPs3"></td>
+                    <td id="podios3"></td>
+                    <td id="poles3"></td>
+                    <td id="MV3"></td>
+                </tr>
+                <tr>
+                    <td id="pontos4Ranking"></td>
+                    <td id="driver4Ranking"></td>
+                    <td id="titulos4"></td>
+                    <td id="vitorias4"></td>
+                    <td id="segundosLugar4"></td>
+                    <td id="terceirosLugar4"></td>
+                    <td id="GPs4"></td>
+                    <td id="podios4"></td>
+                    <td id="poles4"></td>
+                    <td id="MV4"></td>
+                </tr>
+                <tr>
+                    <td id="pontos5Ranking"></td>
+                    <td id="driver5Ranking"></td>
+                    <td id="titulos5"></td>
+                    <td id="vitorias5"></td>
+                    <td id="segundosLugar5"></td>
+                    <td id="terceirosLugar5"></td>
+                    <td id="GPs5"></td>
+                    <td id="podios5"></td>
+                    <td id="poles5"></td>
+                    <td id="MV5"></td>
+                </tr>
+                <tr>
+                    <td id="pontos6Ranking"></td>
+                    <td id="driver6Ranking"></td>
+                    <td id="titulos6"></td>
+                    <td id="vitorias6"></td>
+                    <td id="segundosLugar6"></td>
+                    <td id="terceirosLugar6"></td>
+                    <td id="GPs6"></td>
+                    <td id="podios6"></td>
+                    <td id="poles6"></td>
+                    <td id="MV6"></td>
+                </tr>
+                <tr>
+                    <td id="pontos7Ranking"></td>
+                    <td id="driver7Ranking"></td>
+                    <td id="titulos7"></td>
+                    <td id="vitorias7"></td>
+                    <td id="segundosLugar7"></td>
+                    <td id="terceirosLugar7"></td>
+                    <td id="GPs7"></td>
+                    <td id="podios7"></td>
+                    <td id="poles7"></td>
+                    <td id="MV7"></td>
+                </tr>
+                <tr>
+                    <td id="pontos8Ranking"></td>
+                    <td id="driver8Ranking"></td>
+                    <td id="titulos8"></td>
+                    <td id="vitorias8"></td>
+                    <td id="segundosLugar8"></td>
+                    <td id="terceirosLugar8"></td>
+                    <td id="GPs8"></td>
+                    <td id="podios8"></td>
+                    <td id="poles8"></td>
+                    <td id="MV8"></td>
+                </tr>
+                <tr>
+                    <td id="pontos9Ranking"></td>
+                    <td id="driver9Ranking"></td>
+                    <td id="titulos9"></td>
+                    <td id="vitorias9"></td>
+                    <td id="segundosLugar9"></td>
+                    <td id="terceirosLugar9"></td>
+                    <td id="GPs9"></td>
+                    <td id="podios9"></td>
+                    <td id="poles9"></td>
+                    <td id="MV9"></td>
+                </tr>
+                <tr>
+                    <td id="pontos10Ranking"></td>
+                    <td id="driver10Ranking"></td>
+                    <td id="titulos10"></td>
+                    <td id="vitorias10"></td>
+                    <td id="segundosLugar10"></td>
+                    <td id="terceirosLugar10"></td>
+                    <td id="GPs10"></td>
+                    <td id="podios10"></td>
+                    <td id="poles10"></td>
+                    <td id="MV10"></td>
+                </tr>
+                <tr>
+                    <td id="pontos11Ranking"></td>
+                    <td id="driver11Ranking"></td>
+                    <td id="titulos11"></td>
+                    <td id="vitorias11"></td>
+                    <td id="segundosLugar11"></td>
+                    <td id="terceirosLugar11"></td>
+                    <td id="GPs11"></td>
+                    <td id="podios11"></td>
+                    <td id="poles11"></td>
+                    <td id="MV11"></td>
+                </tr>
+                <tr>
+                    <td id="pontos12Ranking"></td>
+                    <td id="driver12Ranking"></td>
+                    <td id="titulos12"></td>
+                    <td id="vitorias12"></td>
+                    <td id="segundosLugar12"></td>
+                    <td id="terceirosLugar12"></td>
+                    <td id="GPs12"></td>
+                    <td id="podios12"></td>
+                    <td id="poles12"></td>
+                    <td id="MV12"></td>
+                </tr>
+                <tr>
+                    <td id="pontos13Ranking"></td>
+                    <td id="driver13Ranking"></td>
+                    <td id="titulos13"></td>
+                    <td id="vitorias13"></td>
+                    <td id="segundosLugar13"></td>
+                    <td id="terceirosLugar13"></td>
+                    <td id="GPs13"></td>
+                    <td id="podios13"></td>
+                    <td id="poles13"></td>
+                    <td id="MV13"></td>
+                </tr>
+                <tr>
+                    <td id="pontos14Ranking"></td>
+                    <td id="driver14Ranking"></td>
+                    <td id="titulos14"></td>
+                    <td id="vitorias14"></td>
+                    <td id="segundosLugar14"></td>
+                    <td id="terceirosLugar14"></td>
+                    <td id="GPs14"></td>
+                    <td id="podios14"></td>
+                    <td id="poles14"></td>
+                    <td id="MV14"></td>
+                </tr>
+                <tr>
+                    <td id="pontos15Ranking"></td>
+                    <td id="driver15Ranking"></td>
+                    <td id="titulos15"></td>
+                    <td id="vitorias15"></td>
+                    <td id="segundosLugar15"></td>
+                    <td id="terceirosLugar15"></td>
+                    <td id="GPs15"></td>
+                    <td id="podios15"></td>
+                    <td id="poles15"></td>
+                    <td id="MV15"></td>
+                </tr>
+                <tr>
+                    <td id="pontos16Ranking"></td>
+                    <td id="driver16Ranking"></td>
+                    <td id="titulos16"></td>
+                    <td id="vitorias16"></td>
+                    <td id="segundosLugar16"></td>
+                    <td id="terceirosLugar16"></td>
+                    <td id="GPs16"></td>
+                    <td id="podios16"></td>
+                    <td id="poles16"></td>
+                    <td id="MV16"></td>
+                </tr>
+                <tr>
+                    <td id="pontos17Ranking"></td>
+                    <td id="driver17Ranking"></td>
+                    <td id="titulos17"></td>
+                    <td id="vitorias17"></td>
+                    <td id="segundosLugar17"></td>
+                    <td id="terceirosLugar17"></td>
+                    <td id="GPs17"></td>
+                    <td id="podios17"></td>
+                    <td id="poles17"></td>
+                    <td id="MV17"></td>
+                </tr>
+                <tr>
+                    <td id="pontos18Ranking"></td>
+                    <td id="driver18Ranking"></td>
+                    <td id="titulos18"></td>
+                    <td id="vitorias18"></td>
+                    <td id="segundosLugar18"></td>
+                    <td id="terceirosLugar18"></td>
+                    <td id="GPs18"></td>
+                    <td id="podios18"></td>
+                    <td id="poles18"></td>
+                    <td id="MV18"></td>
+                </tr>
+                <tr>
+                    <td id="pontos19Ranking"></td>
+                    <td id="driver19Ranking"></td>
+                    <td id="titulos19"></td>
+                    <td id="vitorias19"></td>
+                    <td id="segundosLugar19"></td>
+                    <td id="terceirosLugar19"></td>
+                    <td id="GPs19"></td>
+                    <td id="podios19"></td>
+                    <td id="poles19"></td>
+                    <td id="MV19"></td>
+                </tr>
+                <tr>
+                    <td id="pontos20Ranking"></td>
+                    <td id="driver20Ranking"></td>
+                    <td id="titulos20"></td>
+                    <td id="vitorias20"></td>
+                    <td id="segundosLugar20"></td>
+                    <td id="terceirosLugar20"></td>
+                    <td id="GPs20"></td>
+                    <td id="podios20"></td>
+                    <td id="poles20"></td>
+                    <td id="MV20"></td>
+                </tr>
+            </tbody>
+        </table>
 </main>
 <div id="footer"></div>
     <script src="js/sennat9.js"></script>
