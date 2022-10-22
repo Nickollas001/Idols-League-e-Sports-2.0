@@ -539,100 +539,112 @@ var PosicaolucasPimentelBahreinSprint = NaC;
 
 //POLES
 
-var poleTalesMansoVal = "1";
+//Pole Haroldo França F2 T2... S2= 56,376 S3= 1:41.161
+
+
+var poleTalesMansoT9 = "1";
 // GP DA HUNGRIA ETAPA 1 T9 = 1;15.440
 
-var poleBrunoThomazVal = "0";
-var poleJoaoAnselmoVal = "0";
-var poleFelipeSilvaVal = "0";
-var poleguilhermeBarrosVal = "0";
-var polejailsonMouraVal = "0";
-var polepabloMullerVal = "0";
-var polefredBederVal = "0";
-var poleraulSilvaVal = "0";
-var polenelsonViannaVal = "0";
-var poleandersonRodriguesVal = "0";
-var polepedroPortelaVal = "0";
-var polebetoReinertVal = "0";
-var polejoaoVillaVal = "0";
-var polerafaelStahnkeVal = "0";
-var poledouglasGobbsVal = "0";
-var polefelipeAlmeidaVal = "0";
-var polepauloHackbarthVal = "0";
-var poleotavioFogacaVal = "0";
-var polelucasPimentelVal = "0";
+var poleBrunoThomazT9 = "0";
+var poleJoaoAnselmoT9 = "0";
+var poleFelipeSilvaT9 = "0";
+var poleguilhermeBarrosT9 = "0";
+var polejailsonMouraT9 = "0";
+
+//POLES PABLO MULLER
+var polepabloMullerT9 = "0";
+var polePabloMullerF1T2 = "0";
+var polePabloMullerF2T2 = "3";
+var polePabloMullerTotal = parseInt(polePabloMullerF2T2) + parseInt(polePabloMullerF1T2) + parseInt(polepabloMullerT9);
+//Pole F2 = Abu Dhabi 1:47,750... S1= 20,015 S2= 1:04,441 S3=1:47,750
+//Pole F2 = Brasil 1:16.161
+//Pole F2 = Inglaterra 1:38,565... Transmissão não pegou os setores
+
+var polefredBederT9 = "0";
+var poleraulSilvaT9 = "0";
+var polenelsonViannaT9 = "0";
+var poleandersonRodriguesT9 = "0";
+var polepedroPortelaT9 = "0";
+var polebetoReinertT9 = "0";
+var polejoaoVillaT9 = "0";
+var polerafaelStahnkeT9 = "0";
+var poledouglasGobbsT9 = "0";
+var polefelipeAlmeidaT9 = "0";
+var polepauloHackbarthT9 = "0";
+var poleotavioFogacaT9 = "0";
+var polelucasPimentelT9 = "0";
 //Piloto do Dia
 
-var PilotoDoDiaTalesMansoVal = "0";
+var PilotoDoDiaTalesMansoT9 = "0";
 
-var PilotoDoDiaBrunoThomazVal = "1";
+var PilotoDoDiaBrunoThomazT9 = "1";
 // GP DA HUNGRIA ETAPA 1 T9
 
-var PilotoDoDiaJoaoAnselmoVal = "0";
-var PilotoDoDiaFelipeSilvaVal = "0";
-var PilotoDoDiaguilhermeBarrosVal = "0";
-var PilotoDoDiajailsonMouraVal = "0";
-var PilotoDoDiapabloMullerVal = "0";
-var PilotoDoDiafredBederVal = "0";
-var PilotoDoDiaraulSilvaVal = "0";
-var PilotoDoDianelsonViannaVal = "0";
-var PilotoDoDiaandersonRodriguesVal = "0";
-var PilotoDoDiapedroPortelaVal = "0";
-var PilotoDoDiabetoReinertVal = "0";
-var PilotoDoDiajoaoVillaVal = "0";
-var PilotoDoDiarafaelStahnkeVal = "0";
-var PilotoDoDiadouglasGobbsVal = "0";
-var PilotoDoDiafelipeAlmeidaVal = "0";
-var PilotoDoDiapauloHackbarthVal = "0";
-var PilotoDoDiaotavioFogacaVal = "0";
-var PilotoDoDialucasPimentelVal = "0";
+var PilotoDoDiaJoaoAnselmoT9 = "0";
+var PilotoDoDiaFelipeSilvaT9 = "0";
+var PilotoDoDiaguilhermeBarrosT9 = "0";
+var PilotoDoDiajailsonMouraT9 = "0";
+var PilotoDoDiapabloMullerT9 = "0";
+var PilotoDoDiafredBederT9 = "0";
+var PilotoDoDiaraulSilvaT9 = "0";
+var PilotoDoDianelsonViannaT9 = "0";
+var PilotoDoDiaandersonRodriguesT9 = "0";
+var PilotoDoDiapedroPortelaT9 = "0";
+var PilotoDoDiabetoReinertT9 = "0";
+var PilotoDoDiajoaoVillaT9 = "0";
+var PilotoDoDiarafaelStahnkeT9 = "0";
+var PilotoDoDiadouglasGobbsT9 = "0";
+var PilotoDoDiafelipeAlmeidaT9 = "0";
+var PilotoDoDiapauloHackbarthT9 = "0";
+var PilotoDoDiaotavioFogacaT9 = "0";
+var PilotoDoDialucasPimentelT9 = "0";
 
 //Melhor Volta
 
-var MelhorVoltaTalesMansoVal = "0";
-var MelhorVoltaBrunoThomazVal = "0";
-var MelhorVoltaJoaoAnselmoVal = "0";
-var MelhorVoltaFelipeSilvaVal = "0";
-var MelhorVoltaguilhermeBarrosVal = "0";
-var MelhorVoltajailsonMouraVal = "0";
-var MelhorVoltapabloMullerVal = "0";
-var MelhorVoltaraulSilvaVal = "0";
-var MelhorVoltanelsonViannaVal = "0";
-var MelhorVoltaandersonRodriguesVal = "0";
-var MelhorVoltapedroPortelaVal = "0";
-var MelhorVoltabetoReinertVal = "0";
-var MelhorVoltajoaoVillaVal = "0";
-var MelhorVoltarafaelStahnkeVal = "0";
-var MelhorVoltadouglasGobbsVal = "0";
-var MelhorVoltafelipeAlmeidaVal = "0";
-var MelhorVoltapauloHackbarthVal = "0";
-var MelhorVoltaotavioFogacaVal = "0";
-var MelhorVoltalucasPimentelVal = "0";
-var MelhorVoltafredBederVal = "1";
+var MelhorVoltaTalesMansoT9 = "0";
+var MelhorVoltaBrunoThomazT9 = "0";
+var MelhorVoltaJoaoAnselmoT9 = "0";
+var MelhorVoltaFelipeSilvaT9 = "0";
+var MelhorVoltaguilhermeBarrosT9 = "0";
+var MelhorVoltajailsonMouraT9 = "0";
+var MelhorVoltapabloMullerT9 = "0";
+var MelhorVoltaraulSilvaT9 = "0";
+var MelhorVoltanelsonViannaT9 = "0";
+var MelhorVoltaandersonRodriguesT9 = "0";
+var MelhorVoltapedroPortelaT9 = "0";
+var MelhorVoltabetoReinertT9 = "0";
+var MelhorVoltajoaoVillaT9 = "0";
+var MelhorVoltarafaelStahnkeT9 = "0";
+var MelhorVoltadouglasGobbsT9 = "0";
+var MelhorVoltafelipeAlmeidaT9 = "0";
+var MelhorVoltapauloHackbarthT9 = "0";
+var MelhorVoltaotavioFogacaT9 = "0";
+var MelhorVoltalucasPimentelT9 = "0";
+var MelhorVoltafredBederT9 = "1";
 // GP DA HUNGRIA ETAPA 1 T9 = 1:17.950
 
 //Contagem de Pontos ->
 
-var poinstJoaoAnselmo = parseInt(PilotoDoDiaJoaoAnselmoVal) + parseInt(MelhorVoltaJoaoAnselmoVal) + parseInt(poleJoaoAnselmoVal) + parseInt(PosicaoJoaoAnselmoHungria) + parseFloat(PosicaoJoaoAnselmoFranca) + parseInt(PosicaoJoaoAnselmoHolanda) + parseInt(PosicaoJoaoAnselmoBelgica) + parseInt(PosicaoJoaoAnselmoBelgicaSprint) + parseInt(PosicaoJoaoAnselmoJapao) + parseInt(PosicaoJoaoAnselmoAustria) + parseInt(PosicaoJoaoAnselmoAustriaSprint) + parseInt(PosicaoJoaoAnselmoEspanha) + parseInt(PosicaoJoaoAnselmoBahrein) + parseInt(PosicaoJoaoAnselmoBahreinSprint);
-var poinstTalesManso = parseInt(PilotoDoDiaTalesMansoVal) + parseInt(MelhorVoltaTalesMansoVal) + parseInt(poleTalesMansoVal) + parseInt(PosicaoTalesMansoHungria) + parseFloat(PosicaoTalesMansoFranca) + parseInt(PosicaoTalesMansoHolanda) + parseInt(PosicaoTalesMansoBelgica) + parseInt(PosicaoTalesMansoBelgicaSprint) + parseInt(PosicaoTalesMansoJapao) + parseInt(PosicaoTalesMansoAustria) + parseInt(PosicaoTalesMansoAustriaSprint) + parseInt(PosicaoTalesMansoEspanha) + parseInt(PosicaoTalesMansoBahrein) + parseInt(PosicaoTalesMansoBahreinSprint);
-var poinstFelipeSilva = parseInt(PilotoDoDiaFelipeSilvaVal) + parseInt(MelhorVoltaFelipeSilvaVal) + parseInt(poleFelipeSilvaVal) + parseInt(PosicaoFelipeSilvaHungria) + parseFloat(PosicaoFelipeSilvaFranca) + parseInt(PosicaoFelipeSilvaHolanda) + parseInt(PosicaoFelipeSilvaBelgica) + parseInt(PosicaoFelipeSilvaBelgicaSprint) + parseInt(PosicaoFelipeSilvaJapao) + parseInt(PosicaoFelipeSilvaAustria) + parseInt(PosicaoFelipeSilvaAustriaSprint) + parseInt(PosicaoFelipeSilvaEspanha) + parseInt(PosicaoFelipeSilvaBahrein) + parseInt(PosicaoFelipeSilvaBahreinSprint);
-var poinstBrunoThomaz = parseInt(PilotoDoDiaBrunoThomazVal) + parseInt(MelhorVoltaBrunoThomazVal) + parseInt(poleBrunoThomazVal) + parseInt(PosicaoBrunoThomazHungria) + parseFloat(PosicaoBrunoThomazFranca) + parseInt(PosicaoBrunoThomazHolanda) + parseInt(PosicaoBrunoThomazBelgica) + parseInt(PosicaoBrunoThomazBelgicaSprint) + parseInt(PosicaoBrunoThomazJapao) + parseInt(PosicaoBrunoThomazAustria) + parseInt(PosicaoBrunoThomazAustriaSprint) + parseInt(PosicaoBrunoThomazEspanha) + parseInt(PosicaoBrunoThomazBahrein) + parseInt(PosicaoBrunoThomazBahreinSprint);
-var poinstguilhermeBarros = parseInt(PilotoDoDiaguilhermeBarrosVal) + parseInt(MelhorVoltaguilhermeBarrosVal) + parseInt(poleguilhermeBarrosVal) + parseInt(PosicaoguilhermeBarrosHungria) + parseFloat(PosicaoguilhermeBarrosFranca) + parseInt(PosicaoguilhermeBarrosHolanda) + parseInt(PosicaoguilhermeBarrosBelgica) + parseInt(PosicaoguilhermeBarrosBelgicaSprint) + parseInt(PosicaoguilhermeBarrosJapao) + parseInt(PosicaoguilhermeBarrosAustria) + parseInt(PosicaoguilhermeBarrosAustriaSprint) + parseInt(PosicaoguilhermeBarrosEspanha) + parseInt(PosicaoguilhermeBarrosBahrein) + parseInt(PosicaoguilhermeBarrosBahreinSprint);
-var poinstjailsonMoura = parseInt(PilotoDoDiajailsonMouraVal) + parseInt(MelhorVoltajailsonMouraVal) + parseInt(polejailsonMouraVal) + parseInt(PosicaojailsonMouraHungria) + parseFloat(PosicaojailsonMouraFranca) + parseInt(PosicaojailsonMouraHolanda) + parseInt(PosicaojailsonMouraBelgica) + parseInt(PosicaojailsonMouraBelgicaSprint) + parseInt(PosicaojailsonMouraJapao) + parseInt(PosicaojailsonMouraAustria) + parseInt(PosicaojailsonMouraAustriaSprint) + parseInt(PosicaojailsonMouraEspanha) + parseInt(PosicaojailsonMouraBahrein) + parseInt(PosicaojailsonMouraBahreinSprint);
-var poinstpabloMuller = parseInt(PilotoDoDiapabloMullerVal) + parseInt(MelhorVoltapabloMullerVal) + parseInt(polepabloMullerVal) + parseInt(PosicaopabloMullerHungria) + parseFloat(PosicaopabloMullerFranca) + parseInt(PosicaopabloMullerHolanda) + parseInt(PosicaopabloMullerBelgica) + parseInt(PosicaopabloMullerBelgicaSprint) + parseInt(PosicaopabloMullerJapao) + parseInt(PosicaopabloMullerAustria) + parseInt(PosicaopabloMullerAustriaSprint) + parseInt(PosicaopabloMullerEspanha) + parseInt(PosicaopabloMullerBahrein) + parseInt(PosicaopabloMullerBahreinSprint);
-var poinstfredBeder = parseInt(PilotoDoDiafredBederVal) + parseInt(MelhorVoltafredBederVal) + parseInt(polefredBederVal) + parseInt(PosicaofredBederHungria) + parseFloat(PosicaofredBederFranca) + parseInt(PosicaofredBederHolanda) + parseInt(PosicaofredBederBelgica) + parseInt(PosicaofredBederBelgicaSprint) + parseInt(PosicaofredBederJapao) + parseInt(PosicaofredBederAustria) + parseInt(PosicaofredBederAustriaSprint) + parseInt(PosicaofredBederEspanha) + parseInt(PosicaofredBederBahrein) + parseInt(PosicaofredBederBahreinSprint);
-var poinstraulSilva = parseInt(PilotoDoDiaraulSilvaVal) + parseInt(MelhorVoltaraulSilvaVal) + parseInt(poleraulSilvaVal) + parseInt(PosicaoraulSilvaHungria) + parseFloat(PosicaoraulSilvaFranca) + parseInt(PosicaoraulSilvaHolanda) + parseInt(PosicaoraulSilvaBelgica) + parseInt(PosicaoraulSilvaBelgicaSprint) + parseInt(PosicaoraulSilvaJapao) + parseInt(PosicaoraulSilvaAustria) + parseInt(PosicaoraulSilvaAustriaSprint) + parseInt(PosicaoraulSilvaEspanha) + parseInt(PosicaoraulSilvaBahrein) + parseInt(PosicaoraulSilvaBahreinSprint);
-var poinstnelsonVianna = parseInt(PilotoDoDianelsonViannaVal) + parseInt(MelhorVoltanelsonViannaVal) + parseInt(polenelsonViannaVal) + parseInt(PosicaonelsonViannaHungria) + parseFloat(PosicaonelsonViannaFranca) + parseInt(PosicaonelsonViannaHolanda) + parseInt(PosicaonelsonViannaBelgica) + parseInt(PosicaonelsonViannaBelgicaSprint) + parseInt(PosicaonelsonViannaJapao) + parseInt(PosicaonelsonViannaAustria) + parseInt(PosicaonelsonViannaAustriaSprint) + parseInt(PosicaonelsonViannaEspanha) + parseInt(PosicaonelsonViannaBahrein) + parseInt(PosicaonelsonViannaBahreinSprint);
-var poinstandersonRodrigues = parseInt(PilotoDoDiaandersonRodriguesVal) + parseInt(MelhorVoltaandersonRodriguesVal) + parseInt(poleandersonRodriguesVal) + parseInt(PosicaoandersonRodriguesHungria) + parseFloat(PosicaoandersonRodriguesFranca) + parseInt(PosicaoandersonRodriguesHolanda) + parseInt(PosicaoandersonRodriguesBelgica) + parseInt(PosicaoandersonRodriguesBelgicaSprint) + parseInt(PosicaoandersonRodriguesJapao) + parseInt(PosicaoandersonRodriguesAustria) + parseInt(PosicaoandersonRodriguesAustriaSprint) + parseInt(PosicaoandersonRodriguesEspanha) + parseInt(PosicaoandersonRodriguesBahrein) + parseInt(PosicaoandersonRodriguesBahreinSprint);
-var poinstpedroPortela = parseInt(PilotoDoDiapedroPortelaVal) + parseInt(MelhorVoltapedroPortelaVal) + parseInt(polepedroPortelaVal) + parseInt(PosicaopedroPortelaHungria) + parseFloat(PosicaopedroPortelaFranca) + parseInt(PosicaopedroPortelaHolanda) + parseInt(PosicaopedroPortelaBelgica) + parseInt(PosicaopedroPortelaBelgicaSprint) + parseInt(PosicaopedroPortelaJapao) + parseInt(PosicaopedroPortelaAustria) + parseInt(PosicaopedroPortelaAustriaSprint) + parseInt(PosicaopedroPortelaEspanha) + parseInt(PosicaopedroPortelaBahrein) + parseInt(PosicaopedroPortelaBahreinSprint);
-var poinstbetoReinert = parseInt(PilotoDoDiabetoReinertVal) + parseInt(MelhorVoltabetoReinertVal) + parseInt(polebetoReinertVal) + parseInt(PosicaobetoReinertHungria) + parseFloat(PosicaobetoReinertFranca) + parseInt(PosicaobetoReinertHolanda) + parseInt(PosicaobetoReinertBelgica) + parseInt(PosicaobetoReinertBelgicaSprint) + parseInt(PosicaobetoReinertJapao) + parseInt(PosicaobetoReinertAustria) + parseInt(PosicaobetoReinertAustriaSprint) + parseInt(PosicaobetoReinertEspanha) + parseInt(PosicaobetoReinertBahrein) + parseInt(PosicaobetoReinertBahreinSprint);
-var poinstjoaoVilla = parseInt(PilotoDoDiajoaoVillaVal) + parseInt(MelhorVoltajoaoVillaVal) + parseInt(polejoaoVillaVal) + parseInt(PosicaojoaoVillaHungria) + parseFloat(PosicaojoaoVillaFranca) + parseInt(PosicaojoaoVillaHolanda) + parseInt(PosicaojoaoVillaBelgica) + parseInt(PosicaojoaoVillaBelgicaSprint) + parseInt(PosicaojoaoVillaJapao) + parseInt(PosicaojoaoVillaAustria) + parseInt(PosicaojoaoVillaAustriaSprint) + parseInt(PosicaojoaoVillaEspanha) + parseInt(PosicaojoaoVillaBahrein) + parseInt(PosicaojoaoVillaBahreinSprint);
-var poinstrafaelStahnke = parseInt(PilotoDoDiarafaelStahnkeVal) + parseInt(MelhorVoltarafaelStahnkeVal) + parseInt(polerafaelStahnkeVal) + parseInt(PosicaorafaelStahnkeHungria) + parseFloat(PosicaorafaelStahnkeFranca) + parseInt(PosicaorafaelStahnkeHolanda) + parseInt(PosicaorafaelStahnkeBelgica) + parseInt(PosicaorafaelStahnkeBelgicaSprint) + parseInt(PosicaorafaelStahnkeJapao) + parseInt(PosicaorafaelStahnkeAustria) + parseInt(PosicaorafaelStahnkeAustriaSprint) + parseInt(PosicaorafaelStahnkeEspanha) + parseInt(PosicaorafaelStahnkeBahrein) + parseInt(PosicaorafaelStahnkeBahreinSprint);
-var poinstdouglasGobbs = parseInt(PilotoDoDiadouglasGobbsVal) + parseInt(MelhorVoltadouglasGobbsVal) + parseInt(poledouglasGobbsVal) + parseInt(PosicaodouglasGobbsHungria) + parseFloat(PosicaodouglasGobbsFranca) + parseInt(PosicaodouglasGobbsHolanda) + parseInt(PosicaodouglasGobbsBelgica) + parseInt(PosicaodouglasGobbsBelgicaSprint) + parseInt(PosicaodouglasGobbsJapao) + parseInt(PosicaodouglasGobbsAustria) + parseInt(PosicaodouglasGobbsAustriaSprint) + parseInt(PosicaodouglasGobbsEspanha) + parseInt(PosicaodouglasGobbsBahrein) + parseInt(PosicaodouglasGobbsBahreinSprint);
-var poinstfelipeAlmeida = parseInt(PilotoDoDiafelipeAlmeidaVal) + parseInt(MelhorVoltafelipeAlmeidaVal) + parseInt(polefelipeAlmeidaVal) + parseInt(PosicaofelipeAlmeidaHungria) + parseFloat(PosicaofelipeAlmeidaFranca) + parseInt(PosicaofelipeAlmeidaHolanda) + parseInt(PosicaofelipeAlmeidaBelgica) + parseInt(PosicaofelipeAlmeidaBelgicaSprint) + parseInt(PosicaofelipeAlmeidaJapao) + parseInt(PosicaofelipeAlmeidaAustria) + parseInt(PosicaofelipeAlmeidaAustriaSprint) + parseInt(PosicaofelipeAlmeidaEspanha) + parseInt(PosicaofelipeAlmeidaBahrein) + parseInt(PosicaofelipeAlmeidaBahreinSprint);
-var poinstpauloHackbarth = parseInt(PilotoDoDiapauloHackbarthVal) + parseInt(MelhorVoltapauloHackbarthVal) + parseInt(polepauloHackbarthVal) + parseInt(PosicaopauloHackbarthHungria) + parseFloat(PosicaopauloHackbarthFranca) + parseInt(PosicaopauloHackbarthHolanda) + parseInt(PosicaopauloHackbarthBelgica) + parseInt(PosicaopauloHackbarthBelgicaSprint) + parseInt(PosicaopauloHackbarthJapao) + parseInt(PosicaopauloHackbarthAustria) + parseInt(PosicaopauloHackbarthAustriaSprint) + parseInt(PosicaopauloHackbarthEspanha) + parseInt(PosicaopauloHackbarthBahrein) + parseInt(PosicaopauloHackbarthBahreinSprint);
-var poinstotavioFogaca = parseInt(PilotoDoDiaotavioFogacaVal) + parseInt(MelhorVoltaotavioFogacaVal) + parseInt(poleotavioFogacaVal) + parseInt(PosicaootavioFogacaHungria) + parseFloat(PosicaootavioFogacaFranca) + parseInt(PosicaootavioFogacaHolanda) + parseInt(PosicaootavioFogacaBelgica) + parseInt(PosicaootavioFogacaBelgicaSprint) + parseInt(PosicaootavioFogacaJapao) + parseInt(PosicaootavioFogacaAustria) + parseInt(PosicaootavioFogacaAustriaSprint) + parseInt(PosicaootavioFogacaEspanha) + parseInt(PosicaootavioFogacaBahrein) + parseInt(PosicaootavioFogacaBahreinSprint);
-var poinstlucasPimentel = parseInt(PilotoDoDialucasPimentelVal) + parseInt(MelhorVoltalucasPimentelVal) + parseInt(polelucasPimentelVal) + parseInt(PosicaolucasPimentelHungria) + parseFloat(PosicaolucasPimentelFranca) + parseInt(PosicaolucasPimentelHolanda) + parseInt(PosicaolucasPimentelBelgica) + parseInt(PosicaolucasPimentelBelgicaSprint) + parseInt(PosicaolucasPimentelJapao) + parseInt(PosicaolucasPimentelAustria) + parseInt(PosicaolucasPimentelAustriaSprint) + parseInt(PosicaolucasPimentelEspanha) + parseInt(PosicaolucasPimentelBahrein) + parseInt(PosicaolucasPimentelBahreinSprint);
+var poinstJoaoAnselmo = parseInt(PilotoDoDiaJoaoAnselmoT9) + parseInt(MelhorVoltaJoaoAnselmoT9) + parseInt(poleJoaoAnselmoT9) + parseInt(PosicaoJoaoAnselmoHungria) + parseFloat(PosicaoJoaoAnselmoFranca) + parseInt(PosicaoJoaoAnselmoHolanda) + parseInt(PosicaoJoaoAnselmoBelgica) + parseInt(PosicaoJoaoAnselmoBelgicaSprint) + parseInt(PosicaoJoaoAnselmoJapao) + parseInt(PosicaoJoaoAnselmoAustria) + parseInt(PosicaoJoaoAnselmoAustriaSprint) + parseInt(PosicaoJoaoAnselmoEspanha) + parseInt(PosicaoJoaoAnselmoBahrein) + parseInt(PosicaoJoaoAnselmoBahreinSprint);
+var poinstTalesManso = parseInt(PilotoDoDiaTalesMansoT9) + parseInt(MelhorVoltaTalesMansoT9) + parseInt(poleTalesMansoT9) + parseInt(PosicaoTalesMansoHungria) + parseFloat(PosicaoTalesMansoFranca) + parseInt(PosicaoTalesMansoHolanda) + parseInt(PosicaoTalesMansoBelgica) + parseInt(PosicaoTalesMansoBelgicaSprint) + parseInt(PosicaoTalesMansoJapao) + parseInt(PosicaoTalesMansoAustria) + parseInt(PosicaoTalesMansoAustriaSprint) + parseInt(PosicaoTalesMansoEspanha) + parseInt(PosicaoTalesMansoBahrein) + parseInt(PosicaoTalesMansoBahreinSprint);
+var poinstFelipeSilva = parseInt(PilotoDoDiaFelipeSilvaT9) + parseInt(MelhorVoltaFelipeSilvaT9) + parseInt(poleFelipeSilvaT9) + parseInt(PosicaoFelipeSilvaHungria) + parseFloat(PosicaoFelipeSilvaFranca) + parseInt(PosicaoFelipeSilvaHolanda) + parseInt(PosicaoFelipeSilvaBelgica) + parseInt(PosicaoFelipeSilvaBelgicaSprint) + parseInt(PosicaoFelipeSilvaJapao) + parseInt(PosicaoFelipeSilvaAustria) + parseInt(PosicaoFelipeSilvaAustriaSprint) + parseInt(PosicaoFelipeSilvaEspanha) + parseInt(PosicaoFelipeSilvaBahrein) + parseInt(PosicaoFelipeSilvaBahreinSprint);
+var poinstBrunoThomaz = parseInt(PilotoDoDiaBrunoThomazT9) + parseInt(MelhorVoltaBrunoThomazT9) + parseInt(poleBrunoThomazT9) + parseInt(PosicaoBrunoThomazHungria) + parseFloat(PosicaoBrunoThomazFranca) + parseInt(PosicaoBrunoThomazHolanda) + parseInt(PosicaoBrunoThomazBelgica) + parseInt(PosicaoBrunoThomazBelgicaSprint) + parseInt(PosicaoBrunoThomazJapao) + parseInt(PosicaoBrunoThomazAustria) + parseInt(PosicaoBrunoThomazAustriaSprint) + parseInt(PosicaoBrunoThomazEspanha) + parseInt(PosicaoBrunoThomazBahrein) + parseInt(PosicaoBrunoThomazBahreinSprint);
+var poinstguilhermeBarros = parseInt(PilotoDoDiaguilhermeBarrosT9) + parseInt(MelhorVoltaguilhermeBarrosT9) + parseInt(poleguilhermeBarrosT9) + parseInt(PosicaoguilhermeBarrosHungria) + parseFloat(PosicaoguilhermeBarrosFranca) + parseInt(PosicaoguilhermeBarrosHolanda) + parseInt(PosicaoguilhermeBarrosBelgica) + parseInt(PosicaoguilhermeBarrosBelgicaSprint) + parseInt(PosicaoguilhermeBarrosJapao) + parseInt(PosicaoguilhermeBarrosAustria) + parseInt(PosicaoguilhermeBarrosAustriaSprint) + parseInt(PosicaoguilhermeBarrosEspanha) + parseInt(PosicaoguilhermeBarrosBahrein) + parseInt(PosicaoguilhermeBarrosBahreinSprint);
+var poinstjailsonMoura = parseInt(PilotoDoDiajailsonMouraT9) + parseInt(MelhorVoltajailsonMouraT9) + parseInt(polejailsonMouraT9) + parseInt(PosicaojailsonMouraHungria) + parseFloat(PosicaojailsonMouraFranca) + parseInt(PosicaojailsonMouraHolanda) + parseInt(PosicaojailsonMouraBelgica) + parseInt(PosicaojailsonMouraBelgicaSprint) + parseInt(PosicaojailsonMouraJapao) + parseInt(PosicaojailsonMouraAustria) + parseInt(PosicaojailsonMouraAustriaSprint) + parseInt(PosicaojailsonMouraEspanha) + parseInt(PosicaojailsonMouraBahrein) + parseInt(PosicaojailsonMouraBahreinSprint);
+var poinstpabloMuller = parseInt(PilotoDoDiapabloMullerT9) + parseInt(MelhorVoltapabloMullerT9) + parseInt(polepabloMullerT9) + parseInt(PosicaopabloMullerHungria) + parseFloat(PosicaopabloMullerFranca) + parseInt(PosicaopabloMullerHolanda) + parseInt(PosicaopabloMullerBelgica) + parseInt(PosicaopabloMullerBelgicaSprint) + parseInt(PosicaopabloMullerJapao) + parseInt(PosicaopabloMullerAustria) + parseInt(PosicaopabloMullerAustriaSprint) + parseInt(PosicaopabloMullerEspanha) + parseInt(PosicaopabloMullerBahrein) + parseInt(PosicaopabloMullerBahreinSprint);
+var poinstfredBeder = parseInt(PilotoDoDiafredBederT9) + parseInt(MelhorVoltafredBederT9) + parseInt(polefredBederT9) + parseInt(PosicaofredBederHungria) + parseFloat(PosicaofredBederFranca) + parseInt(PosicaofredBederHolanda) + parseInt(PosicaofredBederBelgica) + parseInt(PosicaofredBederBelgicaSprint) + parseInt(PosicaofredBederJapao) + parseInt(PosicaofredBederAustria) + parseInt(PosicaofredBederAustriaSprint) + parseInt(PosicaofredBederEspanha) + parseInt(PosicaofredBederBahrein) + parseInt(PosicaofredBederBahreinSprint);
+var poinstraulSilva = parseInt(PilotoDoDiaraulSilvaT9) + parseInt(MelhorVoltaraulSilvaT9) + parseInt(poleraulSilvaT9) + parseInt(PosicaoraulSilvaHungria) + parseFloat(PosicaoraulSilvaFranca) + parseInt(PosicaoraulSilvaHolanda) + parseInt(PosicaoraulSilvaBelgica) + parseInt(PosicaoraulSilvaBelgicaSprint) + parseInt(PosicaoraulSilvaJapao) + parseInt(PosicaoraulSilvaAustria) + parseInt(PosicaoraulSilvaAustriaSprint) + parseInt(PosicaoraulSilvaEspanha) + parseInt(PosicaoraulSilvaBahrein) + parseInt(PosicaoraulSilvaBahreinSprint);
+var poinstnelsonVianna = parseInt(PilotoDoDianelsonViannaT9) + parseInt(MelhorVoltanelsonViannaT9) + parseInt(polenelsonViannaT9) + parseInt(PosicaonelsonViannaHungria) + parseFloat(PosicaonelsonViannaFranca) + parseInt(PosicaonelsonViannaHolanda) + parseInt(PosicaonelsonViannaBelgica) + parseInt(PosicaonelsonViannaBelgicaSprint) + parseInt(PosicaonelsonViannaJapao) + parseInt(PosicaonelsonViannaAustria) + parseInt(PosicaonelsonViannaAustriaSprint) + parseInt(PosicaonelsonViannaEspanha) + parseInt(PosicaonelsonViannaBahrein) + parseInt(PosicaonelsonViannaBahreinSprint);
+var poinstandersonRodrigues = parseInt(PilotoDoDiaandersonRodriguesT9) + parseInt(MelhorVoltaandersonRodriguesT9) + parseInt(poleandersonRodriguesT9) + parseInt(PosicaoandersonRodriguesHungria) + parseFloat(PosicaoandersonRodriguesFranca) + parseInt(PosicaoandersonRodriguesHolanda) + parseInt(PosicaoandersonRodriguesBelgica) + parseInt(PosicaoandersonRodriguesBelgicaSprint) + parseInt(PosicaoandersonRodriguesJapao) + parseInt(PosicaoandersonRodriguesAustria) + parseInt(PosicaoandersonRodriguesAustriaSprint) + parseInt(PosicaoandersonRodriguesEspanha) + parseInt(PosicaoandersonRodriguesBahrein) + parseInt(PosicaoandersonRodriguesBahreinSprint);
+var poinstpedroPortela = parseInt(PilotoDoDiapedroPortelaT9) + parseInt(MelhorVoltapedroPortelaT9) + parseInt(polepedroPortelaT9) + parseInt(PosicaopedroPortelaHungria) + parseFloat(PosicaopedroPortelaFranca) + parseInt(PosicaopedroPortelaHolanda) + parseInt(PosicaopedroPortelaBelgica) + parseInt(PosicaopedroPortelaBelgicaSprint) + parseInt(PosicaopedroPortelaJapao) + parseInt(PosicaopedroPortelaAustria) + parseInt(PosicaopedroPortelaAustriaSprint) + parseInt(PosicaopedroPortelaEspanha) + parseInt(PosicaopedroPortelaBahrein) + parseInt(PosicaopedroPortelaBahreinSprint);
+var poinstbetoReinert = parseInt(PilotoDoDiabetoReinertT9) + parseInt(MelhorVoltabetoReinertT9) + parseInt(polebetoReinertT9) + parseInt(PosicaobetoReinertHungria) + parseFloat(PosicaobetoReinertFranca) + parseInt(PosicaobetoReinertHolanda) + parseInt(PosicaobetoReinertBelgica) + parseInt(PosicaobetoReinertBelgicaSprint) + parseInt(PosicaobetoReinertJapao) + parseInt(PosicaobetoReinertAustria) + parseInt(PosicaobetoReinertAustriaSprint) + parseInt(PosicaobetoReinertEspanha) + parseInt(PosicaobetoReinertBahrein) + parseInt(PosicaobetoReinertBahreinSprint);
+var poinstjoaoVilla = parseInt(PilotoDoDiajoaoVillaT9) + parseInt(MelhorVoltajoaoVillaT9) + parseInt(polejoaoVillaT9) + parseInt(PosicaojoaoVillaHungria) + parseFloat(PosicaojoaoVillaFranca) + parseInt(PosicaojoaoVillaHolanda) + parseInt(PosicaojoaoVillaBelgica) + parseInt(PosicaojoaoVillaBelgicaSprint) + parseInt(PosicaojoaoVillaJapao) + parseInt(PosicaojoaoVillaAustria) + parseInt(PosicaojoaoVillaAustriaSprint) + parseInt(PosicaojoaoVillaEspanha) + parseInt(PosicaojoaoVillaBahrein) + parseInt(PosicaojoaoVillaBahreinSprint);
+var poinstrafaelStahnke = parseInt(PilotoDoDiarafaelStahnkeT9) + parseInt(MelhorVoltarafaelStahnkeT9) + parseInt(polerafaelStahnkeT9) + parseInt(PosicaorafaelStahnkeHungria) + parseFloat(PosicaorafaelStahnkeFranca) + parseInt(PosicaorafaelStahnkeHolanda) + parseInt(PosicaorafaelStahnkeBelgica) + parseInt(PosicaorafaelStahnkeBelgicaSprint) + parseInt(PosicaorafaelStahnkeJapao) + parseInt(PosicaorafaelStahnkeAustria) + parseInt(PosicaorafaelStahnkeAustriaSprint) + parseInt(PosicaorafaelStahnkeEspanha) + parseInt(PosicaorafaelStahnkeBahrein) + parseInt(PosicaorafaelStahnkeBahreinSprint);
+var poinstdouglasGobbs = parseInt(PilotoDoDiadouglasGobbsT9) + parseInt(MelhorVoltadouglasGobbsT9) + parseInt(poledouglasGobbsT9) + parseInt(PosicaodouglasGobbsHungria) + parseFloat(PosicaodouglasGobbsFranca) + parseInt(PosicaodouglasGobbsHolanda) + parseInt(PosicaodouglasGobbsBelgica) + parseInt(PosicaodouglasGobbsBelgicaSprint) + parseInt(PosicaodouglasGobbsJapao) + parseInt(PosicaodouglasGobbsAustria) + parseInt(PosicaodouglasGobbsAustriaSprint) + parseInt(PosicaodouglasGobbsEspanha) + parseInt(PosicaodouglasGobbsBahrein) + parseInt(PosicaodouglasGobbsBahreinSprint);
+var poinstfelipeAlmeida = parseInt(PilotoDoDiafelipeAlmeidaT9) + parseInt(MelhorVoltafelipeAlmeidaT9) + parseInt(polefelipeAlmeidaT9) + parseInt(PosicaofelipeAlmeidaHungria) + parseFloat(PosicaofelipeAlmeidaFranca) + parseInt(PosicaofelipeAlmeidaHolanda) + parseInt(PosicaofelipeAlmeidaBelgica) + parseInt(PosicaofelipeAlmeidaBelgicaSprint) + parseInt(PosicaofelipeAlmeidaJapao) + parseInt(PosicaofelipeAlmeidaAustria) + parseInt(PosicaofelipeAlmeidaAustriaSprint) + parseInt(PosicaofelipeAlmeidaEspanha) + parseInt(PosicaofelipeAlmeidaBahrein) + parseInt(PosicaofelipeAlmeidaBahreinSprint);
+var poinstpauloHackbarth = parseInt(PilotoDoDiapauloHackbarthT9) + parseInt(MelhorVoltapauloHackbarthT9) + parseInt(polepauloHackbarthT9) + parseInt(PosicaopauloHackbarthHungria) + parseFloat(PosicaopauloHackbarthFranca) + parseInt(PosicaopauloHackbarthHolanda) + parseInt(PosicaopauloHackbarthBelgica) + parseInt(PosicaopauloHackbarthBelgicaSprint) + parseInt(PosicaopauloHackbarthJapao) + parseInt(PosicaopauloHackbarthAustria) + parseInt(PosicaopauloHackbarthAustriaSprint) + parseInt(PosicaopauloHackbarthEspanha) + parseInt(PosicaopauloHackbarthBahrein) + parseInt(PosicaopauloHackbarthBahreinSprint);
+var poinstotavioFogaca = parseInt(PilotoDoDiaotavioFogacaT9) + parseInt(MelhorVoltaotavioFogacaT9) + parseInt(poleotavioFogacaT9) + parseInt(PosicaootavioFogacaHungria) + parseFloat(PosicaootavioFogacaFranca) + parseInt(PosicaootavioFogacaHolanda) + parseInt(PosicaootavioFogacaBelgica) + parseInt(PosicaootavioFogacaBelgicaSprint) + parseInt(PosicaootavioFogacaJapao) + parseInt(PosicaootavioFogacaAustria) + parseInt(PosicaootavioFogacaAustriaSprint) + parseInt(PosicaootavioFogacaEspanha) + parseInt(PosicaootavioFogacaBahrein) + parseInt(PosicaootavioFogacaBahreinSprint);
+var poinstlucasPimentel = parseInt(PilotoDoDialucasPimentelT9) + parseInt(MelhorVoltalucasPimentelT9) + parseInt(polelucasPimentelT9) + parseInt(PosicaolucasPimentelHungria) + parseFloat(PosicaolucasPimentelFranca) + parseInt(PosicaolucasPimentelHolanda) + parseInt(PosicaolucasPimentelBelgica) + parseInt(PosicaolucasPimentelBelgicaSprint) + parseInt(PosicaolucasPimentelJapao) + parseInt(PosicaolucasPimentelAustria) + parseInt(PosicaolucasPimentelAustriaSprint) + parseInt(PosicaolucasPimentelEspanha) + parseInt(PosicaolucasPimentelBahrein) + parseInt(PosicaolucasPimentelBahreinSprint);
 
 
 
@@ -801,12 +813,12 @@ pontos20.innerHTML = poinstlucasPimentel;
 
 // var pontosAnselmo = document.getElementById("pontosAnselmo") ;
 // var PilotoDoDiaJoaoAnselmoEl = document.getElementById("PilotoDoDiaJoaoAnselmo");
-// PilotoDoDiaJoaoAnselmoEl.innerHTML = PilotoDoDiaJoaoAnselmoVal;
+// PilotoDoDiaJoaoAnselmoEl.innerHTML = PilotoDoDiaJoaoAnselmoT9;
 // pontosAnselmo.innerHTML = poinstJoaoAnselmo;
 // var MelhorVoltaJoaoAnselmoEl = document.getElementById("MelhorVoltaJoaoAnselmo");
-// MelhorVoltaJoaoAnselmoEl.innerHTML = MelhorVoltaJoaoAnselmoVal;
+// MelhorVoltaJoaoAnselmoEl.innerHTML = MelhorVoltaJoaoAnselmoT9;
 // var poleJoaoAnselmoEl= document.getElementById("PoleJoaoAnselmo");
-// poleJoaoAnselmoEl.innerHTML = poleJoaoAnselmoVal;
+// poleJoaoAnselmoEl.innerHTML = poleJoaoAnselmoT9;
 
 var verMais = document.getElementById('verMais');
 var tabela11_20 = document.querySelector('tabela11-20');
@@ -919,7 +931,7 @@ var poinstjailsonMouraT7 = naoParticipou;
 var poinstjailsonMouraT8 = "53";
 
 var poinstjailsonMouraT1F2 = naoParticipou;
-	
+//Pontuação do Pablo Muller SENNA
 var poinstpabloMullerT1 = naoSei;
 var poinstpabloMullerT2 = naoSei;
 var poinstpabloMullerT3 = naoSei;
@@ -928,11 +940,20 @@ var poinstpabloMullerT5 = naoSei;
 var poinstpabloMullerT6 = "83";
 var poinstpabloMullerT7 = "103";
 var poinstpabloMullerT8 = "107";
-
+//Pontuação do Pablo Muller PROST
 var poinstpabloMullerT2Prost = "180";
-
+//Pontuação do Pablo Muller F2
 var poinstpabloMullerT1F2 = "06";
-	
+var poinstpabloMullerT2F2 = "167";
+//QUANTIA DE CORRIDAS do Pablo Muller 
+var QntdGPsF2T2PabloMuller = "8";
+var QntdGPsSennaT9PabloMuller = "1";
+
+var QntdGPsPabloMuller = parseInt(QntdGPsF2T2PabloMuller) + parseInt(QntdGPsSennaT9PabloMuller);
+
+
+
+//Pontuação do Fred Beder SENNA
 var poinstfredBederT1 = naoSei;
 var poinstfredBederT2 = naoSei;
 var poinstfredBederT3 = naoSei;
@@ -945,7 +966,8 @@ var poinstfredBederT8 = naoParticipou;
 var poinstfredBederT2Prost = naoSei;
 
 var poinstfredBederT1F2 = naoSei;
-	
+
+//Pontuação do Raul Silva SENNA
 var poinstraulSilvaT1 = naoParticipou;
 var poinstraulSilvaT2 = naoParticipou;
 var poinstraulSilvaT3 = naoParticipou;
@@ -954,23 +976,30 @@ var poinstraulSilvaT5 = naoParticipou;
 var poinstraulSilvaT6 = naoParticipou;
 var poinstraulSilvaT7 = naoParticipou;
 var poinstraulSilvaT8 = naoParticipou;
-
+//Pontuação do Raul Silva PROST
+var poinstraulSilvaT1Prost = naoParticipou;
 var poinstraulSilvaT2Prost = naoParticipou;
-
+//Pontuação do Raul Silva F2
 var poinstraulSilvaT1F2 = naoParticipou;
-	
-var poinstnelsonViannaT1 = naoSei;
+var poinstraulSilvaT2F2 = naoParticipou;
+
+
+
+//Pontuação do Nelson SENNA
+var poinstnelsonViannaT1 = naoParticipou;
 var poinstnelsonViannaT2 = "107";
 var poinstnelsonViannaT3 = "150";
 var poinstnelsonViannaT4 = "161";
-var poinstnelsonViannaT5 = naoSei;
+var poinstnelsonViannaT5 = naoSei; 
+// foi campeão da T5
 var poinstnelsonViannaT6 = "58";
 var poinstnelsonViannaT7 = "88";
 var poinstnelsonViannaT8 = naoParticipou;
-
-var poinstnelsonViannaT2Prost = naoSei;
-
+//Pontuação do Nelson PROST
+var poinstnelsonViannaT2Prost = naoParticipou;
+//Pontuação do Nelson F2
 var poinstnelsonViannaT1F2 = "109";
+var poinstnelsonViannaT2F2 = naoParticipou;
 //Banco de Dados Ranking
 
 var driver1Ranking = document.getElementById("driver1Ranking").innerHTML  = joãoAnselmo;
@@ -1000,8 +1029,9 @@ var pontos6Ranking = document.getElementById("pontos6Ranking").innerHTML = poins
 var GPs6 = document.getElementById("GPs6").innerHTML = "1"; 
 
 var driver7Ranking = document.getElementById("driver7Ranking").innerHTML  = pabloMuller;
-var pontos7Ranking = document.getElementById("pontos7Ranking").innerHTML = poinstpabloMuller + parseInt(poinstpabloMullerT8) + parseInt(poinstpabloMullerT7) + parseInt(poinstpabloMullerT6) + parseInt(poinstpabloMullerT5) + parseInt(poinstpabloMullerT4) + parseInt(poinstpabloMullerT3) + parseInt(poinstpabloMullerT2) + parseInt(poinstpabloMullerT1) + parseInt(poinstpabloMullerT2Prost) + parseInt(poinstpabloMullerT1F2);
-var GPs7 = document.getElementById("GPs7").innerHTML = "1"; 
+var pontos7Ranking = document.getElementById("pontos7Ranking").innerHTML = poinstpabloMuller + parseInt(poinstpabloMullerT8) + parseInt(poinstpabloMullerT7) + parseInt(poinstpabloMullerT6) + parseInt(poinstpabloMullerT5) + parseInt(poinstpabloMullerT4) + parseInt(poinstpabloMullerT3) + parseInt(poinstpabloMullerT2) + parseInt(poinstpabloMullerT1) + parseInt(poinstpabloMullerT2Prost) + parseInt(poinstpabloMullerT1F2) + parseInt(poinstpabloMullerT2F2);
+var GPs7 = document.getElementById("GPs7").innerHTML = QntdGPsPabloMuller; 
+var poles7 = document.getElementById("poles7").innerHTML = polePabloMullerTotal;
 
 var driver8Ranking = document.getElementById("driver8Ranking").innerHTML  = fredBeder;
 var pontos8Ranking = document.getElementById("pontos8Ranking").innerHTML = poinstfredBeder + parseInt(poinstfredBederT8) + parseInt(poinstfredBederT7) + parseInt(poinstfredBederT6) + parseInt(poinstfredBederT5) + parseInt(poinstfredBederT4) + parseInt(poinstfredBederT3) + parseInt(poinstfredBederT2) + parseInt(poinstfredBederT1);
@@ -1012,7 +1042,7 @@ var pontos9Ranking = document.getElementById("pontos9Ranking").innerHTML = poins
 var GPs9 = document.getElementById("GPs9").innerHTML = "1"; 
 
 var driver10Ranking = document.getElementById("driver10Ranking").innerHTML  = nelsonVianna;
-var pontos10Ranking = document.getElementById("pontos10Ranking").innerHTML = poinstnelsonVianna + parseInt(poinstnelsonViannaT8) + parseInt(poinstnelsonViannaT7) + parseInt(poinstnelsonViannaT6) + parseInt(poinstnelsonViannaT5) + parseInt(poinstnelsonViannaT4) + parseInt(poinstnelsonViannaT3) + parseInt(poinstnelsonViannaT2) + parseInt(poinstnelsonViannaT1);
+var pontos10Ranking = document.getElementById("pontos10Ranking").innerHTML = poinstnelsonVianna + parseInt(poinstnelsonViannaT8) + parseInt(poinstnelsonViannaT7) + parseInt(poinstnelsonViannaT6) + parseInt(poinstnelsonViannaT5) + parseInt(poinstnelsonViannaT4) + parseInt(poinstnelsonViannaT3) + parseInt(poinstnelsonViannaT2) + parseInt(poinstnelsonViannaT1) + parseInt(poinstnelsonViannaT1F2) + parseInt(poinstnelsonViannaT2F2);
 var GPs10 = document.getElementById("GPs10").innerHTML = "1"; 
 
 
