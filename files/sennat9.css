@@ -126,26 +126,26 @@
     background-color: rgb(0, 26, 255);
 }
 
-#abudhabi-text{
-    margin-right: 3px;
+#franca-text{
+    margin-right: 224px;
 }
-#gb-text{
-    margin-right: 0px;
+#holanda-text{
+    margin-right: 198px;
 }
-#miami-text{
-    margin-right: 167px;
+#espanha-text{
+    margin-right: 190px;
 }
-#brasil-text{
-    margin-right: 13px;
+#bahrein-text{
+    margin-right: 207px;
 }
-#cingapura-text{
-    margin-right: 99px;
+#austria-text{
+    margin-right: 56px;
 }
-#italia-text{
-    margin-right: 42px;
+#hungria-text{
+    margin-right: 208px;
 }
-#australia-text{
-    margin-right: 119px;
+#japao-text{
+    margin-right: 235px;
 }
 
 .tipo{
@@ -211,29 +211,26 @@
     .bandeira{
         width: 58px;
     }
-    #abudhabi-text{
-        margin-right: 1px;
+    #franca-text{
+        margin-right: 157px;
     }
-    #gb-text{
-        margin-right: 0px;
+    #holanda-text{
+        margin-right: 143px;
     }
-    #miami-text{
-        margin-right: 119px;
+    #espanha-text{
+        margin-right: 140px;
     }
-    #brasil-text{
-        margin-right: 8px;
+    #bahrein-text{
+        margin-right: 150px;
     }
-    #cingapura-text{
-        margin-right: 79px;
+    #austria-text{
+        margin-right: 38px;
     }
-    #italia-text{
-        margin-right: 26px;
+    #hungria-text{
+        margin-right: 147px;
     }
-    #australia-text{
-        margin-right: 93px;
-    }
-    #eua-text{
-        margin-right: 22px;
+    #japao-text{
+        margin-right: 165px;
     }
 }
 @media screen and (max-width:570px) {
@@ -259,29 +256,26 @@
     .bandeira{
         width: 50px;
     }
-    #abudhabi-text{
-        margin-right: 1px;
+    #franca-text{
+        margin-right: 87px;
     }
-    #gb-text{
-        margin-right: 0px;
+    #holanda-text{
+        margin-right: 78px;
     }
-    #miami-text{
-        margin-right: 66px;
+    #espanha-text{
+        margin-right: 75px;
     }
-    #brasil-text{
-        margin-right: 5px;
+    #bahrein-text{
+        margin-right: 81px;
     }
-    #cingapura-text{
-        margin-right: 40px;
+    #austria-text{
+        margin-right: 21px;
     }
-    #italia-text{
-        margin-right: 16px;
+    #hungria-text{
+        margin-right: 81px;
     }
-    #australia-text{
-        margin-right: 47px;
-    }
-    #eua-text{
-        margin-right: 2px;
+    #japao-text{
+        margin-right: 92px;
     }
 }
 
