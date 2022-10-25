@@ -304,26 +304,26 @@ var PosicaolucasPimentelHungria = NC // VigesimaPosicaoCorrida;
 
 // Posições corrida França ->
 
-var PosicaoTalesMansoFranca = NaC;
-var PosicaoBrunoThomazFranca = NaC;
-var PosicaoJoaoAnselmoFranca = NaC;
-var PosicaoFelipeSilvaFranca = NaC;
-var PosicaoguilhermeBarrosFranca = NaC;
-var PosicaojailsonMouraFranca = NaC;
-var PosicaopabloMullerFranca = NaC;
-var PosicaofredBederFranca = NaC;
-var PosicaoraulSilvaFranca = NaC;
-var PosicaonelsonViannaFranca = NaC;
-var PosicaoandersonRodriguesFranca = NaC;
-var PosicaopedroPortelaFranca = NaC;
-var PosicaobetoReinertFranca = NaC;
-var PosicaojoaoVillaFranca = NaC;
-var PosicaorafaelStahnkeFranca = NaC;
-var PosicaodouglasGobbsFranca = NaC;
-var PosicaofelipeAlmeidaFranca = NaC;
-var PosicaopauloHackbarthFranca = NaC;
-var PosicaootavioFogacaFranca = NaC;
-var PosicaolucasPimentelFranca = NaC;
+var PosicaoTalesMansoFranca = PrimeiraPosicaoCorrida;
+var PosicaoBrunoThomazFranca = QuartaPosicaoCorrida;
+var PosicaoJoaoAnselmoFranca = SegundaPosicaoCorrida;
+var PosicaoFelipeSilvaFranca = TerceiraPosicaoCorrida;
+var PosicaoguilhermeBarrosFranca = guilhermeBarros;
+var PosicaojailsonMouraFranca = DecimaPrimeiraPosicaoCorrida;
+var PosicaopabloMullerFranca = NC;
+var PosicaofredBederFranca = OitavaPosicaoCorrida;
+var PosicaoraulSilvaFranca = DecimaPosicaoCorrida;
+var PosicaonelsonViannaFranca = NC;
+var PosicaoandersonRodriguesFranca = SetimaPosicaoCorrida;
+var PosicaopedroPortelaFranca = SextaPosicaoCorrida;
+var PosicaobetoReinertFranca = NonaPosicaoCorrida;
+var PosicaojoaoVillaFranca = NC;
+var PosicaorafaelStahnkeFranca = DecimaTerceiraPosicaoCorrida;
+var PosicaodouglasGobbsFranca = NC;
+var PosicaofelipeAlmeidaFranca = DecimaSegundaPosicaoCorrida;
+var PosicaopauloHackbarthFranca = NC;
+var PosicaootavioFogacaFranca = NC;
+var PosicaolucasPimentelFranca = NC;
 
 // Posições corrida Holanda ->
 
@@ -542,8 +542,9 @@ var PosicaolucasPimentelBahreinSprint = NaC;
 //Pole Haroldo França F2 T2... S2= 56,376 S3= 1:41.161
 
 
-var poleTalesMansoT9 = "1";
+var poleTalesMansoT9 = "2";
 // GP DA HUNGRIA ETAPA 1 T9 = 1;15.440
+// GP DA FRANÇA ETAPA2 T9 = 1:30,111
 
 var poleBrunoThomazT9 = "0";
 var poleJoaoAnselmoT9 = "0";
@@ -575,7 +576,8 @@ var poleotavioFogacaT9 = "0";
 var polelucasPimentelT9 = "0";
 //Piloto do Dia
 
-var PilotoDoDiaTalesMansoT9 = "0";
+var PilotoDoDiaTalesMansoT9 = "1";
+// GP DA FRANÇA
 
 var PilotoDoDiaBrunoThomazT9 = "1";
 // GP DA HUNGRIA ETAPA 1 T9
@@ -601,7 +603,8 @@ var PilotoDoDialucasPimentelT9 = "0";
 
 //Melhor Volta
 
-var MelhorVoltaTalesMansoT9 = "0";
+var MelhorVoltaTalesMansoT9 = "1";
+//GP DA FRANÇA 1:33,786
 var MelhorVoltaBrunoThomazT9 = "0";
 var MelhorVoltaJoaoAnselmoT9 = "0";
 var MelhorVoltaFelipeSilvaT9 = "0";
@@ -990,7 +993,7 @@ var poinstnelsonViannaT1 = naoParticipou;
 var poinstnelsonViannaT2 = "107";
 var poinstnelsonViannaT3 = "150";
 var poinstnelsonViannaT4 = "161";
-var poinstnelsonViannaT5 = naoSei; 
+var poinstnelsonViannaT5 = "160"; 
 // foi campeão da T5
 var poinstnelsonViannaT6 = "58";
 var poinstnelsonViannaT7 = "88";
