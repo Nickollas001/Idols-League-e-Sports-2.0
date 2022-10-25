@@ -657,51 +657,51 @@ var poinstlucasPimentel = parseInt(PilotoDoDialucasPimentelT9) + parseInt(Melhor
 // Driver 1 ->
 driver1.innerHTML = talesManso;
 driver1Imagem.setAttribute("src",talesMansoImagem);
-lastro1.innerHTML = ferrari;
-lastro1Imagem.setAttribute("src",ferrariImagem);
+lastro1.innerHTML = williams;
+lastro1Imagem.setAttribute("src",williamsImagem);
 pontos1.innerHTML = poinstTalesManso;
 
 // Driver 2 ->
 driver2.innerHTML = joãoAnselmo;
 driver2Imagem.setAttribute("src",joãoAnselmoImagem);
-lastro2.innerHTML = ferrari;
-lastro2Imagem.setAttribute("src",ferrariImagem);
+lastro2.innerHTML = astonMartin;
+lastro2Imagem.setAttribute("src",astonMartinImagem);
 pontos2.innerHTML = poinstJoaoAnselmo;
 
 // Driver 3 ->
 driver3.innerHTML = brunoThomaz;
 driver3Imagem.setAttribute("src",brunoThomazImagem);
-lastro3.innerHTML = redbull;
-lastro3Imagem.setAttribute("src",redbullImagem);
+lastro3.innerHTML = astonMartin;
+lastro3Imagem.setAttribute("src",astonMartinImagem);
 pontos3.innerHTML = poinstBrunoThomaz;
 
 
 // Driver 4 ->
 driver4.innerHTML = felipeSilva;
 driver4Imagem.setAttribute("src",felipeSilvaImagem);
-lastro4.innerHTML = redbull;
-lastro4Imagem.setAttribute("src",redbullImagem);
+lastro4.innerHTML = haas;
+lastro4Imagem.setAttribute("src",haasImagem);
 pontos4.innerHTML = poinstFelipeSilva;
 
 // Driver 5 ->
 driver5.innerHTML = guilhermeBarros;
 driver5Imagem.setAttribute("src",guilhermeBarrosImagem);
-lastro5.innerHTML = mercedes;
-lastro5Imagem.setAttribute("src",mercedesImagem);
+lastro5.innerHTML = haas;
+lastro5Imagem.setAttribute("src",haasImagem);
 pontos5.innerHTML = poinstguilhermeBarros;
 
 // Driver 6->
 driver6.innerHTML = jailsonMoura;
 driver6Imagem.setAttribute("src",jailsonMouraImagem);
-lastro6.innerHTML = mercedes;
-lastro6Imagem.setAttribute("src",mercedesImagem);
+lastro6.innerHTML = alphaTauri;
+lastro6Imagem.setAttribute("src",alphaTauriImagem);
 pontos6.innerHTML = poinstjailsonMoura;
 
 // Driver 7->
 driver7.innerHTML = fredBeder;
 driver7Imagem.setAttribute("src",fredBederImagem);
-lastro7.innerHTML = alfaRomeo;
-lastro7Imagem.setAttribute("src",alfaRomeoImagem);
+lastro7.innerHTML = alphaTauri;
+lastro7Imagem.setAttribute("src",alphaTauriImagem);
 pontos7.innerHTML = poinstfredBeder;
 
 
@@ -719,15 +719,15 @@ pontos8.innerHTML = poinstandersonRodrigues;
 // Driver 9->
 driver9.innerHTML = raulSilva;
 driver9Imagem.setAttribute("src",raulSilvaImagem);
-lastro9.innerHTML = mcLaren;
-lastro9Imagem.setAttribute("src",mcLarenImagem);
+lastro9.innerHTML = alpine;
+lastro9Imagem.setAttribute("src",alpineImagem);
 pontos9.innerHTML = poinstraulSilva;
 
 // Driver 10->
 driver10.innerHTML = pedroPortela;
 driver10Imagem.setAttribute("src",pedroPortelaImagem);
-lastro10.innerHTML = alpine;
-lastro10Imagem.setAttribute("src",alpineImagem);
+lastro10.innerHTML = mcLaren;
+lastro10Imagem.setAttribute("src",mcLarenImagem);
 pontos10.innerHTML = poinstpedroPortela;
 
 
@@ -735,23 +735,23 @@ pontos10.innerHTML = poinstpedroPortela;
 // Driver 11->
 driver11.innerHTML = pabloMuller;
 driver11Imagem.setAttribute("src",pabloMullerImagem);
-lastro11.innerHTML = alfaRomeo;
-lastro11Imagem.setAttribute("src",alfaRomeoImagem);
+lastro11.innerHTML = mcLaren;
+lastro11Imagem.setAttribute("src",mcLarenImagem);
 pontos11.innerHTML = poinstpabloMuller;
 
 // Driver 12->
 
 driver12.innerHTML = betoReinert;
 driver12Imagem.setAttribute("src",betoReinertImagem);
-lastro12.innerHTML = alphaTauri;
-lastro12Imagem.setAttribute("src",alphaTauriImagem);
+lastro12.innerHTML = alfaRomeo;
+lastro12Imagem.setAttribute("src",alfaRomeoImagem);
 pontos12.innerHTML = poinstbetoReinert;
 
 // Driver 13->
 driver13.innerHTML = nelsonVianna;
 driver13Imagem.setAttribute("src",nelsonViannaImagem);
-lastro13.innerHTML = mcLaren;
-lastro13Imagem.setAttribute("src",mcLarenImagem);
+lastro13.innerHTML = alfaRomeo;
+lastro13Imagem.setAttribute("src",alfaRomeoImagem);
 pontos13.innerHTML = poinstnelsonVianna;
 
 
@@ -759,44 +759,46 @@ pontos13.innerHTML = poinstnelsonVianna;
 
 driver14.innerHTML = felipeAlmeida;
 driver14Imagem.setAttribute("src",felipeAlmeidaImagem);
-lastro14.innerHTML = astonMartin;
-lastro14Imagem.setAttribute("src",astonMartinImagem);
+lastro14.innerHTML = mercedes;
+lastro14Imagem.setAttribute("src",mercedesImagem);
 pontos14.innerHTML = poinstfelipeAlmeida;
 
 
 // Driver 15->
 driver15.innerHTML = rafaelStahnke;
 driver15Imagem.setAttribute("src",rafaelStahnkeImagem);
-lastro15.innerHTML = haas;
-lastro15Imagem.setAttribute("src",haasImagem);
+lastro15.innerHTML = mercedes;
+lastro15Imagem.setAttribute("src",mercedesImagem);
 pontos15.innerHTML = poinstrafaelStahnke;
 
 // Driver 16->
-driver16.innerHTML = douglasGobbs;
-driver16Imagem.setAttribute("src",douglasGobbsImagem);
-lastro16.innerHTML = haas;
-lastro16Imagem.setAttribute("src",haasImagem);
-pontos16.innerHTML = poinstdouglasGobbs;
+driver16.innerHTML = pauloHackbarth;
+driver16Imagem.setAttribute("src",pauloHackbarthImagem);
+lastro16.innerHTML = redbull;
+lastro16Imagem.setAttribute("src",redbullImagem);
+pontos16.innerHTML = poinstpauloHackbarth;
 
 // Driver 17->
-driver17.innerHTML = joaoVilla;
-driver17Imagem.setAttribute("src",joaoVillaImagem);
-lastro17.innerHTML = alphaTauri;
-lastro17Imagem.setAttribute("src",alphaTauriImagem);
-pontos17.innerHTML = poinstjoaoVilla;
+driver17.innerHTML = douglasGobbs;
+driver17Imagem.setAttribute("src",douglasGobbsImagem);
+lastro17.innerHTML = redbull;
+lastro17Imagem.setAttribute("src",redbullImagem);
+pontos17.innerHTML = poinstdouglasGobbs;
+
 
 // Driver 18->
-driver18.innerHTML = pauloHackbarth;
-driver18Imagem.setAttribute("src",pauloHackbarthImagem);
-lastro18.innerHTML = astonMartin;
-lastro18Imagem.setAttribute("src",astonMartinImagem);
-pontos18.innerHTML = poinstpauloHackbarth;
+driver18.innerHTML = joaoVilla;
+driver18Imagem.setAttribute("src",joaoVillaImagem);
+lastro18.innerHTML = ferrari;
+lastro18Imagem.setAttribute("src",ferrariImagem);
+pontos18.innerHTML = poinstjoaoVilla;
+
 
 // Driver 19->
 driver19.innerHTML = otavioFogaca;
 driver19Imagem.setAttribute("src",otavioFogacaImagem);
-lastro19.innerHTML = williams;
-lastro19Imagem.setAttribute("src",williamsImagem);
+lastro19.innerHTML = ferrari;
+lastro19Imagem.setAttribute("src",ferrariImagem);
 pontos19.innerHTML = poinstotavioFogaca;
 
 // Driver 20->
