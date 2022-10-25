@@ -691,18 +691,20 @@ lastro5Imagem.setAttribute("src",haasImagem);
 pontos5.innerHTML = poinstguilhermeBarros;
 
 // Driver 6->
-driver6.innerHTML = jailsonMoura;
-driver6Imagem.setAttribute("src",jailsonMouraImagem);
+driver6.innerHTML = fredBeder;
+driver6Imagem.setAttribute("src",fredBederImagem);
 lastro6.innerHTML = alphaTauri;
 lastro6Imagem.setAttribute("src",alphaTauriImagem);
-pontos6.innerHTML = poinstjailsonMoura;
+pontos6.innerHTML = poinstfredBeder;
 
 // Driver 7->
-driver7.innerHTML = fredBeder;
-driver7Imagem.setAttribute("src",fredBederImagem);
+driver7.innerHTML = jailsonMoura;
+driver7Imagem.setAttribute("src",jailsonMouraImagem);
 lastro7.innerHTML = alphaTauri;
 lastro7Imagem.setAttribute("src",alphaTauriImagem);
-pontos7.innerHTML = poinstfredBeder;
+pontos7.innerHTML = poinstjailsonMoura;
+
+
 
 
 
