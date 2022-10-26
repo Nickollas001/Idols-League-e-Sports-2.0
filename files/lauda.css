@@ -208,41 +208,26 @@
     .bandeira{
         width: 58px;
     }
-    #abudhabi-text{
-        margin-right: 1px;
+    #franca-text{
+        margin-right: 47px;
     }
-    #gb-text{
-        margin-right: 0px;
-    }
-    #miami-text{
-        margin-right: 70px;
-    }
-    #brasil-text{
-        margin-right: 75px;
-    }
-    #cingapura-text{
-        margin-right: 99px;
-    }
-    #imola-text{
-        margin-right: 81px;
-    }
-    #australia-text{
-        margin-right: 119px;
-    }
-    #belgica-text{
-        margin-right: 21px;
-    }
-    #hungria-text{
-        margin-right: 51px;
-    }
-    #austria-text{
-        margin-right: 57px;
+    #holanda-text{
+        margin-right: 143px;
     }
     #espanha-text{
-        margin-right: 43px;
+        margin-right: 140px;
     }
-    #italia-text{
-        margin-right: 79px;
+    #bahrein-text{
+        margin-right: 74px;
+    }
+    #austria-text{
+        margin-right: 153px;
+    }
+    #hungria-text{
+        margin-right: 147px;
+    }
+    #japao-text{
+        margin-right: 165px;
     }
 }
 @media screen and (max-width:570px) {
@@ -274,41 +259,26 @@
     .bandeira{
         width: 40px;
     }
-    #abudhabi-text{
-        margin-right: 1px;
+    #franca-text{
+        margin-right: 28px;
     }
-    #gb-text{
-        margin-right: 0px;
-    }
-    #miami-text{
-        margin-right: 45px;
-    }
-    #brasil-text{
-        margin-right: 48px;
-    }
-    #cingapura-text{
-        margin-right: 99px;
-    }
-    #imola-text{
-        margin-right: 51px;
-    }
-    #australia-text{
-        margin-right: 119px;
-    }
-    #belgica-text{
-        margin-right: 21px;
-    }
-    #hungria-text{
-        margin-right: 32px;
-    }
-    #austria-text{
-        margin-right: 36px;
+    #holanda-text{
+        margin-right: 78px;
     }
     #espanha-text{
-        margin-right: 27px;
+        margin-right: 75px;
     }
-    #italia-text{
-        margin-right: 51px;
+    #bahrein-text{
+        margin-right: 42px;
+    }
+    #austria-text{
+        margin-right: 84px;
+    }
+    #hungria-text{
+        margin-right: 81px;
+    }
+    #japao-text{
+        margin-right: 92px;
     }
 }
 
