@@ -123,41 +123,26 @@
     background-color: rgb(0, 26, 255);
 }
 
-#abudhabi-text{
-    margin-right: 3px;
+#franca-text{
+    margin-right: 74px;
 }
-#gb-text{
-    margin-right: 0px;
-}
-#miami-text{
-    margin-right: 79px;
-}
-#brasil-text{
-    margin-right: 89px;
-}
-#cingapura-text{
-    margin-right: 99px;
-}
-#imola-text{
-    margin-right: 101px;
-}
-#australia-text{
-    margin-right: 119px;
-}
-#belgica-text{
-    margin-right: 21px;
-}
-#hungria-text{
-    margin-right: 48px;
-}
-#austria-text{
-    margin-right: 58px;
+#holanda-text{
+    margin-right: 198px;
 }
 #espanha-text{
-    margin-right: 34px;
+    margin-right: 190px;
 }
-#italia-text{
-    margin-right: 97px;
+#bahrein-text{
+    margin-right: 111px;
+}
+#austria-text{
+    margin-right: 214px;
+}
+#hungria-text{
+    margin-right: 208px;
+}
+#japao-text{
+    margin-right: 235px;
 }
 
 .tipo{
