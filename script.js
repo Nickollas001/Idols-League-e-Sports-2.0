@@ -80,11 +80,11 @@ const secondsEl = document.getElementById("seconds");
 
 const nextRacingHungria = "17 oct 2022 21:30:00 GMT-0300";
 const nextRacingFranca = " 24 oct 2022 21:30:00 GMT-0300";
-const nextRacingHolanda = "31 oct 2022 21:30:00 GMT-0300";
-const nextRacingBelgica = "07 nov 2022 21:30:00 GMT-0300";
-const nextRacingJapao = "14 nov 2022 21:30:00 GMT-0300";
-const nextRacingAustria = "21 nov 2022 21:30:00 GMT-0300";
-const nextRacingEspanha = "28 nov 2022 21:30:00 GMT-0300";
+const nextRacingHolanda = "07 nov 2022 21:30:00 GMT-0300";
+const nextRacingBelgica = "14 nov 2022 21:30:00 GMT-0300";
+const nextRacingJapao = "21 nov 2022 21:30:00 GMT-0300";
+const nextRacingAustria = "28 nov 2022 21:30:00 GMT-0300";
+const nextRacingEspanha = "05 dec 2022 21:30:00 GMT-0300";
 const nextRacingDateHungria = new Date(nextRacingHungria);
 const nextRacingDateHolanda = new Date(nextRacingHolanda);
 const nextRacingDateFranca = new Date(nextRacingFranca);
@@ -188,7 +188,7 @@ if (currentDate < nextRacingDateHungria){
     setInterval(countdown,1000); 
 }else if(currentDate < nextRacingDateHolanda){
     function countdown(){
-        const nextRacing = "31 oct 2022 21:30:00 GMT-0300";
+        const nextRacing = "07 nov 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
         const currentDate = new Date();
         const totalSeconds = (nextRacingDate - currentDate) / 1000;
@@ -209,7 +209,7 @@ if (currentDate < nextRacingDateHungria){
     setInterval(countdown,1000); 
 }else if(currentDate < nextRacingDateBelgica){
     function countdown(){
-        const nextRacing = "07 nov 2022 21:30:00 GMT-0300";
+        const nextRacing = "14 nov 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
         const currentDate = new Date();
         const totalSeconds = (nextRacingDate - currentDate) / 1000;
@@ -230,7 +230,7 @@ if (currentDate < nextRacingDateHungria){
     setInterval(countdown,1000); 
 }else if(currentDate < nextRacingDateJapao){
     function countdown(){
-        const nextRacing = "14 nov 2022 21:30:00 GMT-0300";
+        const nextRacing = "21 nov 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
         const currentDate = new Date();
         const totalSeconds = (nextRacingDate - currentDate) / 1000;
@@ -251,7 +251,7 @@ if (currentDate < nextRacingDateHungria){
     setInterval(countdown,1000); 
 }else if(currentDate < nextRacingDateAustria){
     function countdown(){
-        const nextRacing = "21 nov 2022 21:30:00 GMT-0300";
+        const nextRacing = "28 nov 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
         const currentDate = new Date();
         const totalSeconds = (nextRacingDate - currentDate) / 1000;
@@ -272,7 +272,7 @@ if (currentDate < nextRacingDateHungria){
     setInterval(countdown,1000); 
 }else if(currentDate < nextRacingDateEspanha){
     function countdown(){
-        const nextRacing = "28 nov 2022 21:30:00 GMT-0300";
+        const nextRacing = "05 dec 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
         const currentDate = new Date();
         const totalSeconds = (nextRacingDate - currentDate) / 1000;
@@ -293,7 +293,7 @@ if (currentDate < nextRacingDateHungria){
     setInterval(countdown,1000); 
 }else{
     function countdown(){
-        const nextRacing = "05 dec 2022 21:30:00 GMT-0300";
+        const nextRacing = "12 dec 2022 21:30:00 GMT-0300";
         const nextRacingDate = new Date(nextRacing);
         const currentDate = new Date();
         const totalSeconds = (nextRacingDate - currentDate) / 1000;
