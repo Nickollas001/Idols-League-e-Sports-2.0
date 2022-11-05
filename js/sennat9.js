@@ -1,9 +1,9 @@
 
-const nextRacingHolanda = "31 oct 2022 21:30:00 GMT-0300";
-const nextRacingBelgica = "07 nov 2022 21:30:00 GMT-0300";
-const nextRacingJapao = " 14 nov 2022 21:30:00 GMT-0300";
-const nextRacingAustria = "21 nov 2022 21:30:00 GMT-0300";
-const nextRacingEspanha = "28 nov 2022 21:30:00 GMT-0300";
+const nextRacingHolanda = "07 nov 2022 21:30:00 GMT-0300";
+const nextRacingBelgica = "14 nov 2022 21:30:00 GMT-0300";
+const nextRacingJapao = " 21 nov 2022 21:30:00 GMT-0300";
+const nextRacingAustria = "28 nov 2022 21:30:00 GMT-0300";
+const nextRacingEspanha = "05 dec 2022 21:30:00 GMT-0300";
 const nextRacingDateHolanda = new Date(nextRacingHolanda);
 const nextRacingDateBelgica = new Date(nextRacingBelgica);
 const nextRacingDateAustria = new Date(nextRacingAustria);
@@ -17,12 +17,12 @@ const dateEtapa = document.getElementById("date_etapa");
 const imagemEtapa = document.getElementById("imagem_etapa");
 
 
-const date_etapa3 = "31 Outubro";
-const date_etapa4 = "07 Novembro";
-const date_etapa5 = "14 Novembro";
-const date_etapa6 = "21 Novembro";
-const date_etapa7 = "28 Novembro";
-const date_etapa8 = "05 Dezembro";
+const date_etapa3 = "07 Novembro";
+const date_etapa4 = "14 Novembro";
+const date_etapa5 = "21 Novembro";
+const date_etapa6 = "28 Novembro";
+const date_etapa7 = "05 Dezembro";
+const date_etapa8 = "12 Dezembro";
 
 const brasil = "BRASIL";
 const franca = "FRANÇA";
