@@ -113,11 +113,7 @@ var lastro19 = document.getElementById("lastro19");
 var lastro19Imagem = document.getElementById("lastro19-img");
 var pontos19 = document.getElementById("pontos19");
 
-var driver20 = document.getElementById("driver20");
-var driver20Imagem = document.getElementById("driver20-img");
-var lastro20 = document.getElementById("lastro20");
-var lastro20Imagem = document.getElementById("lastro20-img");
-var pontos20 = document.getElementById("pontos20");
+
 
 var pilotoDoDia = "1";
 
@@ -208,8 +204,8 @@ var andersonRodriguesImagem = "pilotos/mazepin.png";
 var pedroPortela = "Pedro <STRONG> PORTELA </STRONG>";
 var pedroPortelaImagem = "pilotos/mazepin.png";
 
-var betoReinert = "Beto <STRONG> REINERT </STRONG>";
-var betoReinertImagem = "pilotos/betoReinert.png";
+var muriloHenrique = "Murilo <STRONG> HENRIQUE </STRONG>";
+var muriloHenriqueImagem = "pilotos/mazepin.png";
 
 var joaoVilla = "João <STRONG> VILLA </STRONG>";
 var joaoVillaImagem = "pilotos/mazepin.png";
@@ -225,9 +221,6 @@ var felipeAlmeidaImagem = "pilotos/felipeAlmeida.png";
 
 var pauloHackbarth = "Paulo <STRONG> HACKBARTH </STRONG>";
 var pauloHackbarthImagem = "pilotos/pauloHack.png";
-
-var otavioFogaca = "Otávio <STRONG> FOGAÇA </STRONG>";
-var otavioFogacaImagem = "pilotos/mazepin.png";
 
 var lucasPimentel = "Lucas <STRONG> PIMENTEL </STRONG>";
 var lucasPimentelImagem = "pilotos/lucasPimentel.png";
@@ -274,6 +267,9 @@ var NaC = "0";
 
 var NC = "0";
 
+var F = "0"; //Faltou
+
+var X = "0"; //Não participava do campeonato
 // Fim Carros ->
 
 
@@ -291,13 +287,12 @@ var PosicaoraulSilvaHungria = NonaPosicaoCorrida;
 var PosicaonelsonViannaHungria = DecimaPosicaoCorrida;
 var PosicaoandersonRodriguesHungria = DecimaPrimeiraPosicaoCorrida;
 var PosicaopedroPortelaHungria = NC; // DecimaSegundaPosicaoCorrida;
-var PosicaobetoReinertHungria = NC // DecimaTerceiraPosicaoCorrida;
+var PosicaomuriloHenriqueHungria = X // 
 var PosicaojoaoVillaHungria = NC // DecimaQuartaPosicaoCorrida;
 var PosicaorafaelStahnkeHungria = NC // DecimaQuintaPosicaoCorrida;
 var PosicaodouglasGobbsHungria = NC // DecimaSextaPosicaoCorrida;
 var PosicaofelipeAlmeidaHungria = NC // DecimaSetimaPosicaoCorrida;
-var PosicaopauloHackbarthHungria = NC // DecimaOitavaPosicaoCorrida;
-var PosicaootavioFogacaHungria = NC // DecimaNonaPosicaoCorrida;
+var PosicaopauloHackbarthHungria = NC // DecimaOitavaPosicaoCorrida;caoCorrida;
 var PosicaolucasPimentelHungria = NC // VigesimaPosicaoCorrida;
 
 
@@ -316,37 +311,36 @@ var PosicaoraulSilvaFranca = DecimaPosicaoCorrida;
 var PosicaonelsonViannaFranca = NC;
 var PosicaoandersonRodriguesFranca = SetimaPosicaoCorrida;
 var PosicaopedroPortelaFranca = SextaPosicaoCorrida;
-var PosicaobetoReinertFranca = NonaPosicaoCorrida;
+var PosicaomuriloHenriqueFranca = X;
 var PosicaojoaoVillaFranca = NC;
 var PosicaorafaelStahnkeFranca = DecimaTerceiraPosicaoCorrida;
 var PosicaodouglasGobbsFranca = NC;
 var PosicaofelipeAlmeidaFranca = DecimaSegundaPosicaoCorrida;
 var PosicaopauloHackbarthFranca = NC;
-var PosicaootavioFogacaFranca = NC;
 var PosicaolucasPimentelFranca = NC;
 
 // Posições corrida Holanda ->
+// Murilo Oitava posição gp da holanda et3 t9
 
-var PosicaoTalesMansoHolanda = NaC;
-var PosicaoBrunoThomazHolanda = NaC;
-var PosicaoJoaoAnselmoHolanda = NaC;
-var PosicaoFelipeSilvaHolanda = NaC;
-var PosicaoguilhermeBarrosHolanda = NaC;
-var PosicaojailsonMouraHolanda = NaC;
-var PosicaopabloMullerHolanda = NaC;
-var PosicaofredBederHolanda = NaC;
-var PosicaoraulSilvaHolanda = NaC;
-var PosicaonelsonViannaHolanda = NaC;
-var PosicaoandersonRodriguesHolanda = NaC;
-var PosicaopedroPortelaHolanda = NaC;
-var PosicaobetoReinertHolanda = NaC;
-var PosicaojoaoVillaHolanda = NaC;
-var PosicaorafaelStahnkeHolanda = NaC;
-var PosicaodouglasGobbsHolanda = NaC;
-var PosicaofelipeAlmeidaHolanda = NaC;
-var PosicaopauloHackbarthHolanda = NaC;
-var PosicaootavioFogacaHolanda = NaC;
-var PosicaolucasPimentelHolanda = NaC;
+var PosicaoTalesMansoHolanda = PrimeiraPosicaoCorrida;
+var PosicaoBrunoThomazHolanda = NC;//11°
+var PosicaoJoaoAnselmoHolanda = NonaPosicaoCorrida;
+var PosicaoFelipeSilvaHolanda = SextaPosicaoCorrida;
+var PosicaoguilhermeBarrosHolanda = QuintaPosicaoCorrida;
+var PosicaojailsonMouraHolanda = SegundaPosicaoCorrida;
+var PosicaopabloMullerHolanda = SetimaPosicaoCorrida    ;
+var PosicaofredBederHolanda = NC;
+var PosicaoraulSilvaHolanda = TerceiraPosicaoCorrida;
+var PosicaonelsonViannaHolanda = NC;
+var PosicaoandersonRodriguesHolanda = NC;
+var PosicaopedroPortelaHolanda = NC;//10°
+var PosicaomuriloHenriqueHolanda = OitavaPosicaoCorrida;
+var PosicaojoaoVillaHolanda = F;
+var PosicaorafaelStahnkeHolanda = NC;//14°
+var PosicaodouglasGobbsHolanda = F;
+var PosicaofelipeAlmeidaHolanda = NC;//16°
+var PosicaopauloHackbarthHolanda = NC;//15°
+var PosicaolucasPimentelHolanda = QuartaPosicaoCorrida;
 
 // Posições corrida Belgica ->
 
@@ -362,13 +356,12 @@ var PosicaoraulSilvaBelgica = NaC;
 var PosicaonelsonViannaBelgica = NaC;
 var PosicaoandersonRodriguesBelgica = NaC;
 var PosicaopedroPortelaBelgica = NaC;
-var PosicaobetoReinertBelgica = NaC;
+var PosicaomuriloHenriqueBelgica = NaC;
 var PosicaojoaoVillaBelgica = NaC;
 var PosicaorafaelStahnkeBelgica = NaC;
 var PosicaodouglasGobbsBelgica = NaC;
 var PosicaofelipeAlmeidaBelgica = NaC;
 var PosicaopauloHackbarthBelgica = NaC;
-var PosicaootavioFogacaBelgica = NaC;
 var PosicaolucasPimentelBelgica = NaC;
 // Posições corrida Japão ->
 
@@ -384,13 +377,12 @@ var PosicaoraulSilvaJapao = NaC;
 var PosicaonelsonViannaJapao = NaC;
 var PosicaoandersonRodriguesJapao = NaC;
 var PosicaopedroPortelaJapao = NaC;
-var PosicaobetoReinertJapao = NaC;
+var PosicaomuriloHenriqueJapao = NaC;
 var PosicaojoaoVillaJapao = NaC;
 var PosicaorafaelStahnkeJapao = NaC;
 var PosicaodouglasGobbsJapao = NaC;
 var PosicaofelipeAlmeidaJapao = NaC;
 var PosicaopauloHackbarthJapao = NaC;
-var PosicaootavioFogacaJapao = NaC;
 var PosicaolucasPimentelJapao = NaC;
 
 // Posições corrida Austria ->
@@ -407,13 +399,12 @@ var PosicaoraulSilvaAustria = NaC;
 var PosicaonelsonViannaAustria = NaC;
 var PosicaoandersonRodriguesAustria = NaC;
 var PosicaopedroPortelaAustria = NaC;
-var PosicaobetoReinertAustria = NaC;
+var PosicaomuriloHenriqueAustria = NaC;
 var PosicaojoaoVillaAustria = NaC;
 var PosicaorafaelStahnkeAustria = NaC;
 var PosicaodouglasGobbsAustria = NaC;
 var PosicaofelipeAlmeidaAustria = NaC;
 var PosicaopauloHackbarthAustria = NaC;
-var PosicaootavioFogacaAustria = NaC;
 var PosicaolucasPimentelAustria = NaC;
 
 // Posições corrida Espanha ->
@@ -430,13 +421,12 @@ var PosicaoraulSilvaEspanha = NaC;
 var PosicaonelsonViannaEspanha = NaC;
 var PosicaoandersonRodriguesEspanha = NaC;
 var PosicaopedroPortelaEspanha = NaC;
-var PosicaobetoReinertEspanha = NaC;
+var PosicaomuriloHenriqueEspanha = NaC;
 var PosicaojoaoVillaEspanha = NaC;
 var PosicaorafaelStahnkeEspanha = NaC;
 var PosicaodouglasGobbsEspanha = NaC;
 var PosicaofelipeAlmeidaEspanha = NaC;
 var PosicaopauloHackbarthEspanha = NaC;
-var PosicaootavioFogacaEspanha = NaC;
 var PosicaolucasPimentelEspanha = NaC;
 // Posições corrida Bahrein ->
 
@@ -452,13 +442,12 @@ var PosicaoraulSilvaBahrein = NaC;
 var PosicaonelsonViannaBahrein = NaC;
 var PosicaoandersonRodriguesBahrein = NaC;
 var PosicaopedroPortelaBahrein = NaC;
-var PosicaobetoReinertBahrein = NaC;
+var PosicaomuriloHenriqueBahrein = NaC;
 var PosicaojoaoVillaBahrein = NaC;
 var PosicaorafaelStahnkeBahrein = NaC;
 var PosicaodouglasGobbsBahrein = NaC;
 var PosicaofelipeAlmeidaBahrein = NaC;
 var PosicaopauloHackbarthBahrein = NaC;
-var PosicaootavioFogacaBahrein = NaC;
 var PosicaolucasPimentelBahrein = NaC;
 
 // FIM CORRIDAS NORMAIS ->
@@ -482,13 +471,12 @@ var PosicaoraulSilvaBelgicaSprint = NaC;
 var PosicaonelsonViannaBelgicaSprint = NaC;
 var PosicaoandersonRodriguesBelgicaSprint = NaC;
 var PosicaopedroPortelaBelgicaSprint = NaC;
-var PosicaobetoReinertBelgicaSprint = NaC;
+var PosicaomuriloHenriqueBelgicaSprint = NaC;
 var PosicaojoaoVillaBelgicaSprint = NaC;
 var PosicaorafaelStahnkeBelgicaSprint = NaC;
 var PosicaodouglasGobbsBelgicaSprint = NaC;
 var PosicaofelipeAlmeidaBelgicaSprint = NaC;
 var PosicaopauloHackbarthBelgicaSprint = NaC;
-var PosicaootavioFogacaBelgicaSprint = NaC;
 var PosicaolucasPimentelBelgicaSprint = NaC;
 // Posições Sprint Austria ->
 
@@ -504,13 +492,12 @@ var PosicaoraulSilvaAustriaSprint = NaC;
 var PosicaonelsonViannaAustriaSprint = NaC;
 var PosicaoandersonRodriguesAustriaSprint = NaC;
 var PosicaopedroPortelaAustriaSprint = NaC;
-var PosicaobetoReinertAustriaSprint = NaC;
+var PosicaomuriloHenriqueAustriaSprint = NaC;
 var PosicaojoaoVillaAustriaSprint = NaC;
 var PosicaorafaelStahnkeAustriaSprint = NaC;
 var PosicaodouglasGobbsAustriaSprint = NaC;
 var PosicaofelipeAlmeidaAustriaSprint = NaC;
 var PosicaopauloHackbarthAustriaSprint = NaC;
-var PosicaootavioFogacaAustriaSprint = NaC;
 var PosicaolucasPimentelAustriaSprint = NaC;
 
 // Posições Sprint Bahrein ->
@@ -527,13 +514,12 @@ var PosicaoraulSilvaBahreinSprint = NaC;
 var PosicaonelsonViannaBahreinSprint = NaC;
 var PosicaoandersonRodriguesBahreinSprint = NaC;
 var PosicaopedroPortelaBahreinSprint = NaC;
-var PosicaobetoReinertBahreinSprint = NaC;
+var PosicaomuriloHenriqueBahreinSprint = NaC;
 var PosicaojoaoVillaBahreinSprint = NaC;
 var PosicaorafaelStahnkeBahreinSprint = NaC;
 var PosicaodouglasGobbsBahreinSprint = NaC;
 var PosicaofelipeAlmeidaBahreinSprint = NaC;
 var PosicaopauloHackbarthBahreinSprint = NaC;
-var PosicaootavioFogacaBahreinSprint = NaC;
 var PosicaolucasPimentelBahreinSprint = NaC;
 
 
@@ -542,9 +528,10 @@ var PosicaolucasPimentelBahreinSprint = NaC;
 //Pole Haroldo França F2 T2... S2= 56,376 S3= 1:41.161
 
 
-var poleTalesMansoT9 = "2";
+var poleTalesMansoT9 = "3";
 // GP DA HUNGRIA ETAPA 1 T9 = 1;15.440
 // GP DA FRANÇA ETAPA2 T9 = 1:30,111
+// GP DA HOLANDA ETAPA 3 T9 = 1:22.704
 
 var poleBrunoThomazT9 = "0";
 var poleJoaoAnselmoT9 = "0";
@@ -566,18 +553,18 @@ var poleraulSilvaT9 = "0";
 var polenelsonViannaT9 = "0";
 var poleandersonRodriguesT9 = "0";
 var polepedroPortelaT9 = "0";
-var polebetoReinertT9 = "0";
+var polemuriloHenriqueT9 = "0";
 var polejoaoVillaT9 = "0";
 var polerafaelStahnkeT9 = "0";
 var poledouglasGobbsT9 = "0";
 var polefelipeAlmeidaT9 = "0";
 var polepauloHackbarthT9 = "0";
-var poleotavioFogacaT9 = "0";
 var polelucasPimentelT9 = "0";
 //Piloto do Dia
 
-var PilotoDoDiaTalesMansoT9 = "1";
+var PilotoDoDiaTalesMansoT9 = "2";
 // GP DA FRANÇA
+// GP DA HOLANDA ET3 T9
 
 var PilotoDoDiaBrunoThomazT9 = "1";
 // GP DA HUNGRIA ETAPA 1 T9
@@ -592,13 +579,12 @@ var PilotoDoDiaraulSilvaT9 = "0";
 var PilotoDoDianelsonViannaT9 = "0";
 var PilotoDoDiaandersonRodriguesT9 = "0";
 var PilotoDoDiapedroPortelaT9 = "0";
-var PilotoDoDiabetoReinertT9 = "0";
+var PilotoDoDiamuriloHenriqueT9 = "0";
 var PilotoDoDiajoaoVillaT9 = "0";
 var PilotoDoDiarafaelStahnkeT9 = "0";
 var PilotoDoDiadouglasGobbsT9 = "0";
 var PilotoDoDiafelipeAlmeidaT9 = "0";
 var PilotoDoDiapauloHackbarthT9 = "0";
-var PilotoDoDiaotavioFogacaT9 = "0";
 var PilotoDoDialucasPimentelT9 = "0";
 
 //Melhor Volta
@@ -606,6 +592,7 @@ var PilotoDoDialucasPimentelT9 = "0";
 var MelhorVoltaTalesMansoT9 = "1";
 //GP DA FRANÇA 1:33,786
 var MelhorVoltaBrunoThomazT9 = "0";
+//GP DA HOLANDA 1:19.442 - 11°(POR ISSO NÃO GANHOU 1 PONTO)
 var MelhorVoltaJoaoAnselmoT9 = "0";
 var MelhorVoltaFelipeSilvaT9 = "0";
 var MelhorVoltaguilhermeBarrosT9 = "0";
@@ -615,13 +602,12 @@ var MelhorVoltaraulSilvaT9 = "0";
 var MelhorVoltanelsonViannaT9 = "0";
 var MelhorVoltaandersonRodriguesT9 = "0";
 var MelhorVoltapedroPortelaT9 = "0";
-var MelhorVoltabetoReinertT9 = "0";
+var MelhorVoltamuriloHenriqueT9 = "0";
 var MelhorVoltajoaoVillaT9 = "0";
 var MelhorVoltarafaelStahnkeT9 = "0";
 var MelhorVoltadouglasGobbsT9 = "0";
 var MelhorVoltafelipeAlmeidaT9 = "0";
 var MelhorVoltapauloHackbarthT9 = "0";
-var MelhorVoltaotavioFogacaT9 = "0";
 var MelhorVoltalucasPimentelT9 = "0";
 var MelhorVoltafredBederT9 = "1";
 // GP DA HUNGRIA ETAPA 1 T9 = 1:17.950
@@ -640,13 +626,12 @@ var poinstraulSilva = parseInt(PilotoDoDiaraulSilvaT9) + parseInt(MelhorVoltarau
 var poinstnelsonVianna = parseInt(PilotoDoDianelsonViannaT9) + parseInt(MelhorVoltanelsonViannaT9) + parseInt(polenelsonViannaT9) + parseInt(PosicaonelsonViannaHungria) + parseFloat(PosicaonelsonViannaFranca) + parseInt(PosicaonelsonViannaHolanda) + parseInt(PosicaonelsonViannaBelgica) + parseInt(PosicaonelsonViannaBelgicaSprint) + parseInt(PosicaonelsonViannaJapao) + parseInt(PosicaonelsonViannaAustria) + parseInt(PosicaonelsonViannaAustriaSprint) + parseInt(PosicaonelsonViannaEspanha) + parseInt(PosicaonelsonViannaBahrein) + parseInt(PosicaonelsonViannaBahreinSprint);
 var poinstandersonRodrigues = parseInt(PilotoDoDiaandersonRodriguesT9) + parseInt(MelhorVoltaandersonRodriguesT9) + parseInt(poleandersonRodriguesT9) + parseInt(PosicaoandersonRodriguesHungria) + parseFloat(PosicaoandersonRodriguesFranca) + parseInt(PosicaoandersonRodriguesHolanda) + parseInt(PosicaoandersonRodriguesBelgica) + parseInt(PosicaoandersonRodriguesBelgicaSprint) + parseInt(PosicaoandersonRodriguesJapao) + parseInt(PosicaoandersonRodriguesAustria) + parseInt(PosicaoandersonRodriguesAustriaSprint) + parseInt(PosicaoandersonRodriguesEspanha) + parseInt(PosicaoandersonRodriguesBahrein) + parseInt(PosicaoandersonRodriguesBahreinSprint);
 var poinstpedroPortela = parseInt(PilotoDoDiapedroPortelaT9) + parseInt(MelhorVoltapedroPortelaT9) + parseInt(polepedroPortelaT9) + parseInt(PosicaopedroPortelaHungria) + parseFloat(PosicaopedroPortelaFranca) + parseInt(PosicaopedroPortelaHolanda) + parseInt(PosicaopedroPortelaBelgica) + parseInt(PosicaopedroPortelaBelgicaSprint) + parseInt(PosicaopedroPortelaJapao) + parseInt(PosicaopedroPortelaAustria) + parseInt(PosicaopedroPortelaAustriaSprint) + parseInt(PosicaopedroPortelaEspanha) + parseInt(PosicaopedroPortelaBahrein) + parseInt(PosicaopedroPortelaBahreinSprint);
-var poinstbetoReinert = parseInt(PilotoDoDiabetoReinertT9) + parseInt(MelhorVoltabetoReinertT9) + parseInt(polebetoReinertT9) + parseInt(PosicaobetoReinertHungria) + parseFloat(PosicaobetoReinertFranca) + parseInt(PosicaobetoReinertHolanda) + parseInt(PosicaobetoReinertBelgica) + parseInt(PosicaobetoReinertBelgicaSprint) + parseInt(PosicaobetoReinertJapao) + parseInt(PosicaobetoReinertAustria) + parseInt(PosicaobetoReinertAustriaSprint) + parseInt(PosicaobetoReinertEspanha) + parseInt(PosicaobetoReinertBahrein) + parseInt(PosicaobetoReinertBahreinSprint);
+var poinstmuriloHenrique = parseInt(PilotoDoDiamuriloHenriqueT9) + parseInt(MelhorVoltamuriloHenriqueT9) + parseInt(polemuriloHenriqueT9) + parseInt(PosicaomuriloHenriqueHungria) + parseFloat(PosicaomuriloHenriqueFranca) + parseInt(PosicaomuriloHenriqueHolanda) + parseInt(PosicaomuriloHenriqueBelgica) + parseInt(PosicaomuriloHenriqueBelgicaSprint) + parseInt(PosicaomuriloHenriqueJapao) + parseInt(PosicaomuriloHenriqueAustria) + parseInt(PosicaomuriloHenriqueAustriaSprint) + parseInt(PosicaomuriloHenriqueEspanha) + parseInt(PosicaomuriloHenriqueBahrein) + parseInt(PosicaomuriloHenriqueBahreinSprint);
 var poinstjoaoVilla = parseInt(PilotoDoDiajoaoVillaT9) + parseInt(MelhorVoltajoaoVillaT9) + parseInt(polejoaoVillaT9) + parseInt(PosicaojoaoVillaHungria) + parseFloat(PosicaojoaoVillaFranca) + parseInt(PosicaojoaoVillaHolanda) + parseInt(PosicaojoaoVillaBelgica) + parseInt(PosicaojoaoVillaBelgicaSprint) + parseInt(PosicaojoaoVillaJapao) + parseInt(PosicaojoaoVillaAustria) + parseInt(PosicaojoaoVillaAustriaSprint) + parseInt(PosicaojoaoVillaEspanha) + parseInt(PosicaojoaoVillaBahrein) + parseInt(PosicaojoaoVillaBahreinSprint);
 var poinstrafaelStahnke = parseInt(PilotoDoDiarafaelStahnkeT9) + parseInt(MelhorVoltarafaelStahnkeT9) + parseInt(polerafaelStahnkeT9) + parseInt(PosicaorafaelStahnkeHungria) + parseFloat(PosicaorafaelStahnkeFranca) + parseInt(PosicaorafaelStahnkeHolanda) + parseInt(PosicaorafaelStahnkeBelgica) + parseInt(PosicaorafaelStahnkeBelgicaSprint) + parseInt(PosicaorafaelStahnkeJapao) + parseInt(PosicaorafaelStahnkeAustria) + parseInt(PosicaorafaelStahnkeAustriaSprint) + parseInt(PosicaorafaelStahnkeEspanha) + parseInt(PosicaorafaelStahnkeBahrein) + parseInt(PosicaorafaelStahnkeBahreinSprint);
 var poinstdouglasGobbs = parseInt(PilotoDoDiadouglasGobbsT9) + parseInt(MelhorVoltadouglasGobbsT9) + parseInt(poledouglasGobbsT9) + parseInt(PosicaodouglasGobbsHungria) + parseFloat(PosicaodouglasGobbsFranca) + parseInt(PosicaodouglasGobbsHolanda) + parseInt(PosicaodouglasGobbsBelgica) + parseInt(PosicaodouglasGobbsBelgicaSprint) + parseInt(PosicaodouglasGobbsJapao) + parseInt(PosicaodouglasGobbsAustria) + parseInt(PosicaodouglasGobbsAustriaSprint) + parseInt(PosicaodouglasGobbsEspanha) + parseInt(PosicaodouglasGobbsBahrein) + parseInt(PosicaodouglasGobbsBahreinSprint);
 var poinstfelipeAlmeida = parseInt(PilotoDoDiafelipeAlmeidaT9) + parseInt(MelhorVoltafelipeAlmeidaT9) + parseInt(polefelipeAlmeidaT9) + parseInt(PosicaofelipeAlmeidaHungria) + parseFloat(PosicaofelipeAlmeidaFranca) + parseInt(PosicaofelipeAlmeidaHolanda) + parseInt(PosicaofelipeAlmeidaBelgica) + parseInt(PosicaofelipeAlmeidaBelgicaSprint) + parseInt(PosicaofelipeAlmeidaJapao) + parseInt(PosicaofelipeAlmeidaAustria) + parseInt(PosicaofelipeAlmeidaAustriaSprint) + parseInt(PosicaofelipeAlmeidaEspanha) + parseInt(PosicaofelipeAlmeidaBahrein) + parseInt(PosicaofelipeAlmeidaBahreinSprint);
 var poinstpauloHackbarth = parseInt(PilotoDoDiapauloHackbarthT9) + parseInt(MelhorVoltapauloHackbarthT9) + parseInt(polepauloHackbarthT9) + parseInt(PosicaopauloHackbarthHungria) + parseFloat(PosicaopauloHackbarthFranca) + parseInt(PosicaopauloHackbarthHolanda) + parseInt(PosicaopauloHackbarthBelgica) + parseInt(PosicaopauloHackbarthBelgicaSprint) + parseInt(PosicaopauloHackbarthJapao) + parseInt(PosicaopauloHackbarthAustria) + parseInt(PosicaopauloHackbarthAustriaSprint) + parseInt(PosicaopauloHackbarthEspanha) + parseInt(PosicaopauloHackbarthBahrein) + parseInt(PosicaopauloHackbarthBahreinSprint);
-var poinstotavioFogaca = parseInt(PilotoDoDiaotavioFogacaT9) + parseInt(MelhorVoltaotavioFogacaT9) + parseInt(poleotavioFogacaT9) + parseInt(PosicaootavioFogacaHungria) + parseFloat(PosicaootavioFogacaFranca) + parseInt(PosicaootavioFogacaHolanda) + parseInt(PosicaootavioFogacaBelgica) + parseInt(PosicaootavioFogacaBelgicaSprint) + parseInt(PosicaootavioFogacaJapao) + parseInt(PosicaootavioFogacaAustria) + parseInt(PosicaootavioFogacaAustriaSprint) + parseInt(PosicaootavioFogacaEspanha) + parseInt(PosicaootavioFogacaBahrein) + parseInt(PosicaootavioFogacaBahreinSprint);
 var poinstlucasPimentel = parseInt(PilotoDoDialucasPimentelT9) + parseInt(MelhorVoltalucasPimentelT9) + parseInt(polelucasPimentelT9) + parseInt(PosicaolucasPimentelHungria) + parseFloat(PosicaolucasPimentelFranca) + parseInt(PosicaolucasPimentelHolanda) + parseInt(PosicaolucasPimentelBelgica) + parseInt(PosicaolucasPimentelBelgicaSprint) + parseInt(PosicaolucasPimentelJapao) + parseInt(PosicaolucasPimentelAustria) + parseInt(PosicaolucasPimentelAustriaSprint) + parseInt(PosicaolucasPimentelEspanha) + parseInt(PosicaolucasPimentelBahrein) + parseInt(PosicaolucasPimentelBahreinSprint);
 
 
@@ -664,151 +649,163 @@ pontos1.innerHTML = poinstTalesManso;
 // Driver 2 ->
 driver2.innerHTML = joãoAnselmo;
 driver2Imagem.setAttribute("src",joãoAnselmoImagem);
-lastro2.innerHTML = astonMartin;
-lastro2Imagem.setAttribute("src",astonMartinImagem);
+lastro2.innerHTML = williams;
+lastro2Imagem.setAttribute("src",williamsImagem);
 pontos2.innerHTML = poinstJoaoAnselmo;
 
 // Driver 3 ->
-driver3.innerHTML = brunoThomaz;
-driver3Imagem.setAttribute("src",brunoThomazImagem);
+driver3.innerHTML = felipeSilva;
+driver3Imagem.setAttribute("src",felipeSilvaImagem);
 lastro3.innerHTML = astonMartin;
 lastro3Imagem.setAttribute("src",astonMartinImagem);
-pontos3.innerHTML = poinstBrunoThomaz;
+pontos3.innerHTML = poinstFelipeSilva;
 
 
 // Driver 4 ->
-driver4.innerHTML = felipeSilva;
-driver4Imagem.setAttribute("src",felipeSilvaImagem);
-lastro4.innerHTML = haas;
-lastro4Imagem.setAttribute("src",haasImagem);
-pontos4.innerHTML = poinstFelipeSilva;
+driver4.innerHTML = guilhermeBarros;
+driver4Imagem.setAttribute("src",guilhermeBarrosImagem);
+lastro4.innerHTML = astonMartin;
+lastro4Imagem.setAttribute("src",astonMartinImagem);
+pontos4.innerHTML = poinstguilhermeBarros;
+
 
 // Driver 5 ->
-driver5.innerHTML = guilhermeBarros;
-driver5Imagem.setAttribute("src",guilhermeBarrosImagem);
+driver5.innerHTML = jailsonMoura;
+driver5Imagem.setAttribute("src",jailsonMouraImagem);
 lastro5.innerHTML = haas;
 lastro5Imagem.setAttribute("src",haasImagem);
-pontos5.innerHTML = poinstguilhermeBarros;
+pontos5.innerHTML = poinstjailsonMoura;
+
 
 // Driver 6->
-driver6.innerHTML = fredBeder;
-driver6Imagem.setAttribute("src",fredBederImagem);
-lastro6.innerHTML = alphaTauri;
-lastro6Imagem.setAttribute("src",alphaTauriImagem);
-pontos6.innerHTML = poinstfredBeder;
+driver6.innerHTML = brunoThomaz;
+driver6Imagem.setAttribute("src",brunoThomazImagem);
+lastro6.innerHTML = haas;
+lastro6Imagem.setAttribute("src",haasImagem);
+pontos6.innerHTML = poinstBrunoThomaz;
+
 
 // Driver 7->
-driver7.innerHTML = jailsonMoura;
-driver7Imagem.setAttribute("src",jailsonMouraImagem);
+driver7.innerHTML = raulSilva;
+driver7Imagem.setAttribute("src",raulSilvaImagem);
 lastro7.innerHTML = alphaTauri;
 lastro7Imagem.setAttribute("src",alphaTauriImagem);
-pontos7.innerHTML = poinstjailsonMoura;
-
+pontos7.innerHTML = poinstraulSilva;
 
 
 
 
 // Driver 8->
-driver8.innerHTML = andersonRodrigues;
-driver8Imagem.setAttribute("src",andersonRodriguesImagem);
-lastro8.innerHTML = alpine;
-lastro8Imagem.setAttribute("src",alpineImagem);
-pontos8.innerHTML = poinstandersonRodrigues;
+driver8.innerHTML = pabloMuller;
+driver8Imagem.setAttribute("src",pabloMullerImagem);
+lastro8.innerHTML = alphaTauri;
+lastro8Imagem.setAttribute("src",alphaTauriImagem);
+pontos8.innerHTML = poinstpabloMuller;
 
 
 
 
 // Driver 9->
-driver9.innerHTML = raulSilva;
-driver9Imagem.setAttribute("src",raulSilvaImagem);
+driver9.innerHTML = fredBeder;
+driver9Imagem.setAttribute("src",fredBederImagem);
 lastro9.innerHTML = alpine;
 lastro9Imagem.setAttribute("src",alpineImagem);
-pontos9.innerHTML = poinstraulSilva;
+pontos9.innerHTML = poinstfredBeder;
 
 // Driver 10->
-driver10.innerHTML = pedroPortela;
-driver10Imagem.setAttribute("src",pedroPortelaImagem);
-lastro10.innerHTML = mcLaren;
-lastro10Imagem.setAttribute("src",mcLarenImagem);
-pontos10.innerHTML = poinstpedroPortela;
+driver10.innerHTML = lucasPimentel;
+driver10Imagem.setAttribute("src",lucasPimentelImagem);
+lastro10.innerHTML = alpine;
+lastro10Imagem.setAttribute("src",alpineImagem);
+pontos10.innerHTML = poinstlucasPimentel;
+
+
 
 
 
 // Driver 11->
-driver11.innerHTML = pabloMuller;
-driver11Imagem.setAttribute("src",pabloMullerImagem);
+driver11.innerHTML = andersonRodrigues;
+driver11Imagem.setAttribute("src",andersonRodriguesImagem);
 lastro11.innerHTML = mcLaren;
 lastro11Imagem.setAttribute("src",mcLarenImagem);
-pontos11.innerHTML = poinstpabloMuller;
+pontos11.innerHTML = poinstandersonRodrigues;
+
 
 // Driver 12->
+driver12.innerHTML = pedroPortela;
+driver12Imagem.setAttribute("src",pedroPortelaImagem);
+lastro12.innerHTML = mcLaren;
+lastro12Imagem.setAttribute("src",mcLarenImagem);
+pontos12.innerHTML = poinstpedroPortela;
 
-driver12.innerHTML = betoReinert;
-driver12Imagem.setAttribute("src",betoReinertImagem);
-lastro12.innerHTML = alfaRomeo;
-lastro12Imagem.setAttribute("src",alfaRomeoImagem);
-pontos12.innerHTML = poinstbetoReinert;
+
 
 // Driver 13->
-driver13.innerHTML = nelsonVianna;
-driver13Imagem.setAttribute("src",nelsonViannaImagem);
+driver13.innerHTML = muriloHenrique;
+driver13Imagem.setAttribute("src",muriloHenriqueImagem);
 lastro13.innerHTML = alfaRomeo;
 lastro13Imagem.setAttribute("src",alfaRomeoImagem);
-pontos13.innerHTML = poinstnelsonVianna;
+pontos13.innerHTML = poinstmuriloHenrique;
+
 
 
 // Driver 14->
+driver14.innerHTML = nelsonVianna;
+driver14Imagem.setAttribute("src",nelsonViannaImagem);
+lastro14.innerHTML = alfaRomeo;
+lastro14Imagem.setAttribute("src",alfaRomeoImagem);
+pontos14.innerHTML = poinstnelsonVianna;
 
-driver14.innerHTML = felipeAlmeida;
-driver14Imagem.setAttribute("src",felipeAlmeidaImagem);
-lastro14.innerHTML = mercedes;
-lastro14Imagem.setAttribute("src",mercedesImagem);
-pontos14.innerHTML = poinstfelipeAlmeida;
 
 
 // Driver 15->
-driver15.innerHTML = rafaelStahnke;
-driver15Imagem.setAttribute("src",rafaelStahnkeImagem);
+driver15.innerHTML = felipeAlmeida;
+driver15Imagem.setAttribute("src",felipeAlmeidaImagem);
 lastro15.innerHTML = mercedes;
 lastro15Imagem.setAttribute("src",mercedesImagem);
-pontos15.innerHTML = poinstrafaelStahnke;
+pontos15.innerHTML = poinstfelipeAlmeida;
+
+
 
 // Driver 16->
-driver16.innerHTML = pauloHackbarth;
-driver16Imagem.setAttribute("src",pauloHackbarthImagem);
-lastro16.innerHTML = redbull;
-lastro16Imagem.setAttribute("src",redbullImagem);
-pontos16.innerHTML = poinstpauloHackbarth;
+driver16.innerHTML = rafaelStahnke;
+driver16Imagem.setAttribute("src",rafaelStahnkeImagem);
+lastro16.innerHTML = mercedes;
+lastro16Imagem.setAttribute("src",mercedesImagem);
+pontos16.innerHTML = poinstrafaelStahnke;
+
 
 // Driver 17->
-driver17.innerHTML = douglasGobbs;
-driver17Imagem.setAttribute("src",douglasGobbsImagem);
+driver17.innerHTML = pauloHackbarth;
+driver17Imagem.setAttribute("src",pauloHackbarthImagem);
 lastro17.innerHTML = redbull;
 lastro17Imagem.setAttribute("src",redbullImagem);
-pontos17.innerHTML = poinstdouglasGobbs;
+pontos17.innerHTML = poinstpauloHackbarth;
+
+
 
 
 // Driver 18->
 driver18.innerHTML = joaoVilla;
 driver18Imagem.setAttribute("src",joaoVillaImagem);
-lastro18.innerHTML = ferrari;
-lastro18Imagem.setAttribute("src",ferrariImagem);
+lastro18.innerHTML = redbull;
+lastro18Imagem.setAttribute("src",redbullImagem);
 pontos18.innerHTML = poinstjoaoVilla;
 
 
+
 // Driver 19->
-driver19.innerHTML = otavioFogaca;
-driver19Imagem.setAttribute("src",otavioFogacaImagem);
+driver19.innerHTML = douglasGobbs;
+driver19Imagem.setAttribute("src",douglasGobbsImagem);
 lastro19.innerHTML = ferrari;
 lastro19Imagem.setAttribute("src",ferrariImagem);
-pontos19.innerHTML = poinstotavioFogaca;
+pontos19.innerHTML = poinstdouglasGobbs;
+
 
 // Driver 20->
-driver20.innerHTML = lucasPimentel;
-driver20Imagem.setAttribute("src",lucasPimentelImagem);
-lastro20.innerHTML = williams;
-lastro20Imagem.setAttribute("src",williamsImagem);
-pontos20.innerHTML = poinstlucasPimentel;
+
+
+
 
 
 // var joãoAnselmoDriver = document.getElementById("joaoAnselmoDriverSennaT9");
