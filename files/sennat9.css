@@ -381,9 +381,7 @@ td{
     border-spacing: 10px;
 }
 
-#cruzado, .cruzado{
-    background-color: rgba(128, 128, 128, 0.589);
-}
+
 
 table{
     border-spacing: 0px;
@@ -429,9 +427,6 @@ th{
     cursor: pointer;
 }
 .item-grid{
-    border-top: 2px solid grey;
-    border-right: 2px solid grey;
-    border-top-right-radius: 20px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -450,4 +445,8 @@ th{
     color: white;
     font-size: 11px;
     padding: 3px;
+}
+
+#cruzado{
+    background-color: rgba(199, 198, 198, 0.589);
 }
