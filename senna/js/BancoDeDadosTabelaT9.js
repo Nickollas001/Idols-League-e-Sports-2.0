@@ -323,7 +323,7 @@ var PosicaolucasPimentelFranca = NC;
 // Murilo Oitava posição gp da holanda et3 t9
 
 var PosicaoTalesMansoHolanda = PrimeiraPosicaoCorrida;
-var PosicaoBrunoThomazHolanda = NC;//11°
+var PosicaoBrunoThomazHolanda = DecimaPosicaoCorrida;
 var PosicaoJoaoAnselmoHolanda = NonaPosicaoCorrida;
 var PosicaoFelipeSilvaHolanda = SextaPosicaoCorrida;
 var PosicaoguilhermeBarrosHolanda = QuintaPosicaoCorrida;
@@ -332,7 +332,7 @@ var PosicaopabloMullerHolanda = SetimaPosicaoCorrida    ;
 var PosicaofredBederHolanda = NC;
 var PosicaoraulSilvaHolanda = TerceiraPosicaoCorrida;
 var PosicaonelsonViannaHolanda = NC;
-var PosicaoandersonRodriguesHolanda = NC;
+var PosicaoandersonRodriguesHolanda = DecimaPrimeiraPosicaoCorrida;
 var PosicaopedroPortelaHolanda = NC;//10°
 var PosicaomuriloHenriqueHolanda = OitavaPosicaoCorrida;
 var PosicaojoaoVillaHolanda = F;
@@ -591,8 +591,8 @@ var PilotoDoDialucasPimentelT9 = "0";
 
 var MelhorVoltaTalesMansoT9 = "1";
 //GP DA FRANÇA 1:33,786
-var MelhorVoltaBrunoThomazT9 = "0";
-//GP DA HOLANDA 1:19.442 - 11°(POR ISSO NÃO GANHOU 1 PONTO)
+var MelhorVoltaBrunoThomazT9 = "1";
+//GP DA HOLANDA 1:19.442 
 var MelhorVoltaJoaoAnselmoT9 = "0";
 var MelhorVoltaFelipeSilvaT9 = "0";
 var MelhorVoltaguilhermeBarrosT9 = "0";
@@ -662,27 +662,31 @@ pontos3.innerHTML = poinstFelipeSilva;
 
 
 // Driver 4 ->
-driver4.innerHTML = guilhermeBarros;
-driver4Imagem.setAttribute("src",guilhermeBarrosImagem);
+driver4.innerHTML = brunoThomaz;
+driver4Imagem.setAttribute("src",brunoThomazImagem);
 lastro4.innerHTML = astonMartin;
 lastro4Imagem.setAttribute("src",astonMartinImagem);
-pontos4.innerHTML = poinstguilhermeBarros;
+pontos4.innerHTML = poinstBrunoThomaz;
+
+
 
 
 // Driver 5 ->
-driver5.innerHTML = jailsonMoura;
-driver5Imagem.setAttribute("src",jailsonMouraImagem);
+driver5.innerHTML = guilhermeBarros;
+driver5Imagem.setAttribute("src",guilhermeBarrosImagem);
 lastro5.innerHTML = haas;
 lastro5Imagem.setAttribute("src",haasImagem);
-pontos5.innerHTML = poinstjailsonMoura;
+pontos5.innerHTML = poinstguilhermeBarros;
+
 
 
 // Driver 6->
-driver6.innerHTML = brunoThomaz;
-driver6Imagem.setAttribute("src",brunoThomazImagem);
+driver6.innerHTML = jailsonMoura;
+driver6Imagem.setAttribute("src",jailsonMouraImagem);
 lastro6.innerHTML = haas;
 lastro6Imagem.setAttribute("src",haasImagem);
-pontos6.innerHTML = poinstBrunoThomaz;
+pontos6.innerHTML = poinstjailsonMoura;
+
 
 
 // Driver 7->
@@ -706,29 +710,31 @@ pontos8.innerHTML = poinstpabloMuller;
 
 
 // Driver 9->
-driver9.innerHTML = fredBeder;
-driver9Imagem.setAttribute("src",fredBederImagem);
+driver9.innerHTML = andersonRodrigues;
+driver9Imagem.setAttribute("src",andersonRodriguesImagem);
 lastro9.innerHTML = alpine;
 lastro9Imagem.setAttribute("src",alpineImagem);
-pontos9.innerHTML = poinstfredBeder;
+pontos9.innerHTML = poinstandersonRodrigues;
 
 // Driver 10->
-driver10.innerHTML = lucasPimentel;
-driver10Imagem.setAttribute("src",lucasPimentelImagem);
+driver10.innerHTML = fredBeder;
+driver10Imagem.setAttribute("src",fredBederImagem);
 lastro10.innerHTML = alpine;
 lastro10Imagem.setAttribute("src",alpineImagem);
-pontos10.innerHTML = poinstlucasPimentel;
+pontos10.innerHTML = poinstfredBeder;
+
+
 
 
 
 
 
 // Driver 11->
-driver11.innerHTML = andersonRodrigues;
-driver11Imagem.setAttribute("src",andersonRodriguesImagem);
+driver11.innerHTML = lucasPimentel;
+driver11Imagem.setAttribute("src",lucasPimentelImagem);
 lastro11.innerHTML = mcLaren;
 lastro11Imagem.setAttribute("src",mcLarenImagem);
-pontos11.innerHTML = poinstandersonRodrigues;
+pontos11.innerHTML = poinstlucasPimentel;
 
 
 // Driver 12->
