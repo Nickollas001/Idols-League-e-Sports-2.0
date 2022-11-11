@@ -17,8 +17,3 @@ var voltar = document.getElementById("voltar").addEventListener("click",function
         $(tabelaSenna).addClass('mostrar');
         $(mais).addClass('mostrar');
     });
-    gridGeral.addEventListener('click',function(){
-        $(menuGrid).removeClass('mostrar');
-        $(tabelaGeral).removeClass('display');
-        $(tabelaGeral2).removeClass('dataTables_wrapper');
-    });
