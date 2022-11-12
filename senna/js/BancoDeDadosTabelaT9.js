@@ -30,7 +30,7 @@ var lastro3Imagem = document.getElementById("lastro3-img");
 var pontos3 = document.getElementById("pontos3");
 
 var driver3Lauda = document.getElementById("driver3Lauda");
-var driver3LaudaImagem = document.getElementById("driver3-imgLauda");
+var driver3ImagemLauda = document.getElementById("driver3-imgLauda");
 var lastro3Lauda = document.getElementById("lastro3Lauda");
 var lastro3ImagemLauda = document.getElementById("lastro3-imgLauda");
 var pontos3Lauda = document.getElementById("pontos3Lauda");
@@ -125,11 +125,23 @@ var lastro11 = document.getElementById("lastro11");
 var lastro11Imagem = document.getElementById("lastro11-img");
 var pontos11 = document.getElementById("pontos11");
 
+var driver11Lauda = document.getElementById("driver11Lauda");
+var driver11ImagemLauda = document.getElementById("driver11-imgLauda");
+var lastro11Lauda = document.getElementById("lastro11Lauda");
+var lastro11ImagemLauda = document.getElementById("lastro11-imgLauda");
+var pontos11Lauda = document.getElementById("pontos11Lauda");
+
 var driver12 = document.getElementById("driver12");
 var driver12Imagem = document.getElementById("driver12-img");
 var lastro12 = document.getElementById("lastro12");
 var lastro12Imagem = document.getElementById("lastro12-img");
 var pontos12 = document.getElementById("pontos12");
+
+var driver12Lauda = document.getElementById("driver12Lauda");
+var driver12ImagemLauda = document.getElementById("driver12-imgLauda");
+var lastro12Lauda = document.getElementById("lastro12Lauda");
+var lastro12ImagemLauda = document.getElementById("lastro12-imgLauda");
+var pontos12Lauda = document.getElementById("pontos12Lauda");
 
 var driver13 = document.getElementById("driver13");
 var driver13Imagem = document.getElementById("driver13-img");
@@ -137,11 +149,23 @@ var lastro13 = document.getElementById("lastro13");
 var lastro13Imagem = document.getElementById("lastro13-img");
 var pontos13 = document.getElementById("pontos13");
 
+var driver13Lauda = document.getElementById("driver13Lauda");
+var driver13ImagemLauda = document.getElementById("driver13-imgLauda");
+var lastro13Lauda = document.getElementById("lastro13Lauda");
+var lastro13ImagemLauda = document.getElementById("lastro13-imgLauda");
+var pontos13Lauda = document.getElementById("pontos13Lauda");
+
 var driver14 = document.getElementById("driver14");
 var driver14Imagem = document.getElementById("driver14-img");
 var lastro14 = document.getElementById("lastro14");
 var lastro14Imagem = document.getElementById("lastro14-img");
 var pontos14 = document.getElementById("pontos14");
+
+var driver14Lauda = document.getElementById("driver14Lauda");
+var driver14ImagemLauda = document.getElementById("driver14-imgLauda");
+var lastro14Lauda = document.getElementById("lastro14Lauda");
+var lastro14ImagemLauda = document.getElementById("lastro14-imgLauda");
+var pontos14Lauda = document.getElementById("pontos14Lauda");
 
 var driver15 = document.getElementById("driver15");
 var driver15Imagem = document.getElementById("driver15-img");
@@ -149,11 +173,23 @@ var lastro15 = document.getElementById("lastro15");
 var lastro15Imagem = document.getElementById("lastro15-img");
 var pontos15 = document.getElementById("pontos15");
 
+var driver15Lauda = document.getElementById("driver15Lauda");
+var driver15ImagemLauda = document.getElementById("driver15-imgLauda");
+var lastro15Lauda = document.getElementById("lastro15Lauda");
+var lastro15ImagemLauda = document.getElementById("lastro15-imgLauda");
+var pontos15Lauda = document.getElementById("pontos15Lauda");
+
 var driver16 = document.getElementById("driver16");
 var driver16Imagem = document.getElementById("driver16-img");
 var lastro16 = document.getElementById("lastro16");
 var lastro16Imagem = document.getElementById("lastro16-img");
 var pontos16 = document.getElementById("pontos16");
+
+var driver16Lauda = document.getElementById("driver16Lauda");
+var driver16ImagemLauda = document.getElementById("driver16-imgLauda");
+var lastro16Lauda = document.getElementById("lastro16Lauda");
+var lastro16ImagemLauda = document.getElementById("lastro16-imgLauda");
+var pontos16Lauda = document.getElementById("pontos16Lauda");
 
 var driver17 = document.getElementById("driver17");
 var driver17Imagem = document.getElementById("driver17-img");
@@ -161,17 +197,35 @@ var lastro17 = document.getElementById("lastro17");
 var lastro17Imagem = document.getElementById("lastro17-img");
 var pontos17 = document.getElementById("pontos17");
 
+var driver17Lauda = document.getElementById("driver17Lauda");
+var driver17ImagemLauda = document.getElementById("driver17-imgLauda");
+var lastro17Lauda = document.getElementById("lastro17Lauda");
+var lastro17ImagemLauda = document.getElementById("lastro17-imgLauda");
+var pontos17Lauda = document.getElementById("pontos17Lauda");
+
 var driver18 = document.getElementById("driver18");
 var driver18Imagem = document.getElementById("driver18-img");
 var lastro18 = document.getElementById("lastro18");
 var lastro18Imagem = document.getElementById("lastro18-img");
 var pontos18 = document.getElementById("pontos18");
 
+var driver18Lauda = document.getElementById("driver18Lauda");
+var driver18ImagemLauda = document.getElementById("driver18-imgLauda");
+var lastro18Lauda = document.getElementById("lastro18Lauda");
+var lastro18ImagemLauda = document.getElementById("lastro18-imgLauda");
+var pontos18Lauda = document.getElementById("pontos18Lauda");
+
 var driver19 = document.getElementById("driver19");
 var driver19Imagem = document.getElementById("driver19-img");
 var lastro19 = document.getElementById("lastro19");
 var lastro19Imagem = document.getElementById("lastro19-img");
 var pontos19 = document.getElementById("pontos19");
+
+var driver19Lauda = document.getElementById("driver19Lauda");
+var driver19ImagemLauda = document.getElementById("driver19-imgLauda");
+var lastro19Lauda = document.getElementById("lastro19Lauda");
+var lastro19ImagemLauda = document.getElementById("lastro19-imgLauda");
+var pontos19Lauda = document.getElementById("pontos19Lauda");
 
 
 
@@ -298,7 +352,7 @@ var caioSchoerederImagem = "pilotos/caioSchoereder.jpg";
 var evertonAugusto = "Everton <strong> AUGUSTO </strong>";
 var evertonAugustoImagem = "pilotos/evertonAugusto.jpg";
 var jorgeLeao = "Jorge <strong> LEÃO </strong>";
-var jorgeLeaoImagem = "pilotos/mazeping.png"
+var jorgeLeaoImagem = "pilotos/mazepin.png"
 var lucasPipoxu = "Lucas <strong> PIPOXU </strong>";
 var lucasPipoxuImagem = "pilotos/mazepin.png";
 //Lucas Pimentel VAR criada já para a liga senna//
@@ -309,7 +363,7 @@ var alcebiadesAzevedoImagem = "pilotos/alcebiadesAzevedo.jpg";
 var guilhermmeLima = "Guilhermme <strong> LIMA </strong>";
 var guilhermmeLimaImagem = "pilotos/guilhermmeLima.jpg";
 var franciscoTiguilim = "Francisco <strong> TIGUILIM </strong>";
-var franciscoTiguilimImagem = "pilotos/franciscoTiguilim";
+var franciscoTiguilimImagem = "pilotos/franciscoTiguilim.jpg";
 //Jailson Moura VAR criada já para a liga senna//
 var lucasGuerra = "Lucas <strong> GUERRA </strong>";
 var lucasGuerraImagem = "pilotos/mazepin.png";
@@ -718,22 +772,22 @@ var PosicaoGuilhermmeLimaAustria = NaC;
 var PosicaoGuilhermmeLimaBahrein = NaC;
 
 //Francisco Guilherme
-var PosicaoFranciscoGuilhermeHungria = colocar;
-var PosicaoFranciscoGuilhermeFranca = colocar;
-var PosicaoFranciscoGuilhermeHolanda = colocar;
-var PosicaoFranciscoGuilhermeBelgica = NaC;
-var PosicaoFranciscoGuilhermeJapao = NaC;
-var PosicaoFranciscoGuilhermeAustria = NaC;
-var PosicaoFranciscoGuilhermeBahrein = NaC;
+var PosicaoFranciscoTiguilimHungria = colocar;
+var PosicaoFranciscoTiguilimFranca = colocar;
+var PosicaoFranciscoTiguilimHolanda = colocar;
+var PosicaoFranciscoTiguilimBelgica = NaC;
+var PosicaoFranciscoTiguilimJapao = NaC;
+var PosicaoFranciscoTiguilimAustria = NaC;
+var PosicaoFranciscoTiguilimBahrein = NaC;
 
 //Jailson Moura
-var PosicaojailsonMouraLaudaHungria = colocar;
-var PosicaojailsonMouraLaudaFranca = colocar;
-var PosicaojailsonMouraLaudaHolanda = colocar;
-var PosicaojailsonMouraLaudaBelgica = NaC;
-var PosicaojailsonMouraLaudaJapao = NaC;
-var PosicaojailsonMouraLaudaAustria = NaC;
-var PosicaojailsonMouraLaudaBahrein = NaC;
+var PosicaoJailsonMouraLaudaHungria = colocar;
+var PosicaoJailsonMouraLaudaFranca = colocar;
+var PosicaoJailsonMouraLaudaHolanda = colocar;
+var PosicaoJailsonMouraLaudaBelgica = NaC;
+var PosicaoJailsonMouraLaudaJapao = NaC;
+var PosicaoJailsonMouraLaudaAustria = NaC;
+var PosicaoJailsonMouraLaudaBahrein = NaC;
 
 //Lucas Guerra
 var PosicaoLucasGuerraHungria = colocar;
@@ -849,7 +903,7 @@ var poleLucasPimentelLaudaT9 = "0";
 var poleArthurZoppiT9 = "0";
 var poleAlcebiadesAZevedoT9 = "0";
 var poleGuilhermmeLimaT9 = "0";
-var poleFransciscoTiguilimT9 = "0";
+var poleFranciscoTiguilimT9 = "0";
 var poleJailsonMouraLaudaT9 = "0";
 var poleLucasGuerraT9 = "0";
 var poleZidaneThunderT9 = "0";
@@ -899,7 +953,7 @@ var PilotoDoDiaLucasPimentelLaudaT9 = "0";
 var PilotoDoDiaArthurZoppiT9 = "0";
 var PilotoDoDiaAlcebiadesAZevedoT9 = "0";
 var PilotoDoDiaGuilhermmeLimaT9 = "0";
-var PilotoDoDiaFransciscoTiguilimT9 = "0";
+var PilotoDoDiaFranciscoTiguilimT9 = "0";
 var PilotoDoDiaJailsonMouraLaudaT9 = "0";
 var PilotoDoDiaLucasGuerraT9 = "0";
 var PilotoDoDiaZidaneThunderT9 = "0";
@@ -946,7 +1000,7 @@ var MelhorVoltaLucasPimentelLaudaT9 = "0";
 var MelhorVoltaArthurZoppiT9 = "0";
 var MelhorVoltaAlcebiadesAZevedoT9 = "0";
 var MelhorVoltaGuilhermmeLimaT9 = "0";
-var MelhorVoltaFransciscoTiguilimT9 = "0";
+var MelhorVoltaFranciscoTiguilimT9 = "0";
 var MelhorVoltaJailsonMouraLaudaT9 = "0";
 var MelhorVoltaLucasGuerraT9 = "0";
 var MelhorVoltaZidaneThunderT9 = "0";
@@ -991,6 +1045,17 @@ var pointsLucasPimentelLauda = parseInt(PilotoDoDiaLucasPimentelLaudaT9) + parse
 var pointsArthurZoppi = parseInt(PilotoDoDiaArthurZoppiT9) + parseInt(MelhorVoltaArthurZoppiT9) + parseInt(poleArthurZoppiT9) + parseInt(PosicaoArthurZoppiHungria) + parseInt(PosicaoArthurZoppiFranca) + parseInt(PosicaoArthurZoppiHolanda) + parseInt(PosicaoArthurZoppiBelgica) + parseInt(PosicaoArthurZoppiJapao) + parseInt(PosicaoArthurZoppiAustria) + parseInt(PosicaoArthurZoppiBahrein);
 var pointsAlcebiadesAZevedo = parseInt(PilotoDoDiaAlcebiadesAZevedoT9) + parseInt(MelhorVoltaAlcebiadesAZevedoT9) + parseInt(poleAlcebiadesAZevedoT9) + parseInt(PosicaoAlcebiadesAZevedoHungria) + parseInt(PosicaoAlcebiadesAZevedoFranca) + parseInt(PosicaoAlcebiadesAZevedoHolanda) + parseInt(PosicaoAlcebiadesAZevedoBelgica) + parseInt(PosicaoAlcebiadesAZevedoJapao) + parseInt(PosicaoAlcebiadesAZevedoAustria) + parseInt(PosicaoAlcebiadesAZevedoBahrein);
 var pointsGuilhermmeLima = parseInt(PilotoDoDiaGuilhermmeLimaT9) + parseInt(MelhorVoltaGuilhermmeLimaT9) + parseInt(poleGuilhermmeLimaT9) + parseInt(PosicaoGuilhermmeLimaHungria) + parseInt(PosicaoGuilhermmeLimaFranca) + parseInt(PosicaoGuilhermmeLimaHolanda) + parseInt(PosicaoGuilhermmeLimaBelgica) + parseInt(PosicaoGuilhermmeLimaJapao) + parseInt(PosicaoGuilhermmeLimaAustria) + parseInt(PosicaoGuilhermmeLimaBahrein);
+var pointsLucasGuerra = parseInt(PilotoDoDiaLucasGuerraT9) + parseInt(MelhorVoltaLucasGuerraT9) + parseInt(poleLucasGuerraT9) + parseInt(PosicaoLucasGuerraHungria) + parseInt(PosicaoLucasGuerraFranca) + parseInt(PosicaoLucasGuerraHolanda) + parseInt(PosicaoLucasGuerraBelgica) + parseInt(PosicaoLucasGuerraJapao) + parseInt(PosicaoLucasGuerraAustria) + parseInt(PosicaoLucasGuerraBahrein);
+var poinstFranciscoTiguilim = parseInt(PilotoDoDiaFranciscoTiguilimT9) + parseInt(MelhorVoltaFranciscoTiguilimT9) + parseInt(poleFranciscoTiguilimT9) + parseInt(PosicaoFranciscoTiguilimHungria) + parseInt(PosicaoFranciscoTiguilimFranca) + parseInt(PosicaoFranciscoTiguilimHolanda) + parseInt(PosicaoFranciscoTiguilimBelgica) + parseInt(PosicaoFranciscoTiguilimJapao) + parseInt(PosicaoFranciscoTiguilimAustria) + parseInt(PosicaoFranciscoTiguilimBahrein);
+var poinstZidaneThunder = parseInt(PilotoDoDiaZidaneThunderT9) + parseInt(MelhorVoltaZidaneThunderT9) + parseInt(poleZidaneThunderT9) + parseInt(PosicaoZidaneThunderHungria) + parseInt(PosicaoZidaneThunderFranca) + parseInt(PosicaoZidaneThunderHolanda) + parseInt(PosicaoZidaneThunderBelgica) + parseInt(PosicaoZidaneThunderJapao) + parseInt(PosicaoZidaneThunderAustria) + parseInt(PosicaoZidaneThunderBahrein);
+var poinstRafaelStahnkeLauda = parseInt(PilotoDoDiaRafaelStahnkeLaudaT9) + parseInt(MelhorVoltaRafaelStahnkeLaudaT9) + parseInt(poleRafaelStahnkeLaudaT9) + parseInt(PosicaoRafaelStahnkeLaudaHungria) + parseInt(PosicaoRafaelStahnkeLaudaFranca) + parseInt(PosicaoRafaelStahnkeLaudaHolanda) + parseInt(PosicaoRafaelStahnkeLaudaBelgica) + parseInt(PosicaoRafaelStahnkeLaudaJapao) + parseInt(PosicaoRafaelStahnkeLaudaAustria) + parseInt(PosicaoRafaelStahnkeLaudaBahrein);
+var poinstPedroHenrique = parseInt(PilotoDoDiaPedroHenriqueT9) + parseInt(MelhorVoltaPedroHenriqueT9) + parseInt(polePedroHenriqueT9) + parseInt(PosicaoPedroHenriqueHungria) + parseInt(PosicaoPedroHenriqueFranca) + parseInt(PosicaoPedroHenriqueHolanda) + parseInt(PosicaoPedroHenriqueBelgica) + parseInt(PosicaoPedroHenriqueJapao) + parseInt(PosicaoPedroHenriqueAustria) + parseInt(PosicaoPedroHenriqueBahrein);
+var poinstRafaelSarai = parseInt(PilotoDoDiaRafaelSaraiT9) + parseInt(MelhorVoltaRafaelSaraiT9) + parseInt(poleRafaelSaraiT9) + parseInt(PosicaoRafaelSaraiHungria) + parseInt(PosicaoRafaelSaraiFranca) + parseInt(PosicaoRafaelSaraiHolanda) + parseInt(PosicaoRafaelSaraiBelgica) + parseInt(PosicaoRafaelSaraiJapao) + parseInt(PosicaoRafaelSaraiAustria) + parseInt(PosicaoRafaelSaraiBahrein);
+var poinstRobsonEmilio = parseInt(PilotoDoDiaRobsonEmilioT9) + parseInt(MelhorVoltaRobsonEmilioT9) + parseInt(poleRobsonEmilioT9) + parseInt(PosicaoRobsonEmilioHungria) + parseInt(PosicaoRobsonEmilioFranca) + parseInt(PosicaoRobsonEmilioHolanda) + parseInt(PosicaoRobsonEmilioBelgica) + parseInt(PosicaoRobsonEmilioJapao) + parseInt(PosicaoRobsonEmilioAustria) + parseInt(PosicaoRobsonEmilioBahrein);
+var poinstMarcoStahnke = parseInt(PilotoDoDiaMarcoStahnkeT9) + parseInt(MelhorVoltaMarcoStahnkeT9) + parseInt(poleMarcoStahnkeT9) + parseInt(PosicaoMarcoStahnkeHungria) + parseInt(PosicaoMarcoStahnkeFranca) + parseInt(PosicaoMarcoStahnkeHolanda) + parseInt(PosicaoMarcoStahnkeBelgica) + parseInt(PosicaoMarcoStahnkeJapao) + parseInt(PosicaoMarcoStahnkeAustria) + parseInt(PosicaoMarcoStahnkeBahrein);
+var poinstJailsonMouraLauda = parseInt(PilotoDoDiaJailsonMouraLaudaT9) + parseInt(MelhorVoltaJailsonMouraLaudaT9) + parseInt(poleJailsonMouraLaudaT9) + parseInt(PosicaoJailsonMouraLaudaHungria) + parseInt(PosicaoJailsonMouraLaudaFranca) + parseInt(PosicaoJailsonMouraLaudaHolanda) + parseInt(PosicaoJailsonMouraLaudaBelgica) + parseInt(PosicaoJailsonMouraLaudaJapao) + parseInt(PosicaoJailsonMouraLaudaAustria) + parseInt(PosicaoJailsonMouraLaudaBahrein);
+
+
 
 
 
@@ -1188,6 +1253,125 @@ lastro2Lauda.innerHTML = williams;
 lastro2ImagemLauda.setAttribute("src",williamsImagem);
 pontos2Lauda.innerHTML = pointsGutoDAVilla;
 
+// Driver 3 ->
+driver3Lauda.innerHTML = lucasPipoxu;
+driver3ImagemLauda.setAttribute("src",lucasPipoxuImagem);
+lastro3Lauda.innerHTML = astonMartin;
+lastro3ImagemLauda.setAttribute("src",astonMartinImagem);
+pontos3Lauda.innerHTML = pointsLucasPipoxu;
+
+// Driver 4 ->  
+driver4Lauda.innerHTML = caioSchoereder;
+driver4ImagemLauda.setAttribute("src",caioSchoerederImagem);
+lastro4Lauda.innerHTML = astonMartin;
+lastro4ImagemLauda.setAttribute("src",astonMartinImagem);
+pontos4Lauda.innerHTML = pointsCaioSchoereder;
+
+// Driver 5 ->
+driver5Lauda.innerHTML = jorgeLeao;
+driver5ImagemLauda.setAttribute("src",jorgeLeaoImagem);
+lastro5Lauda.innerHTML = haas;
+lastro5ImagemLauda.setAttribute("src",haasImagem);
+pontos5Lauda.innerHTML = pointsJorgeLeao;
+
+// Driver 6 ->
+driver6Lauda.innerHTML = evertonAugusto;
+driver6ImagemLauda.setAttribute("src",evertonAugustoImagem);
+lastro6Lauda.innerHTML = haas;
+lastro6ImagemLauda.setAttribute("src",haasImagem);
+pontos6Lauda.innerHTML = pointsEvertonAugusto;
+
+// Driver 7 ->
+driver7Lauda.innerHTML = jailsonMoura;
+driver7ImagemLauda.setAttribute("src",jailsonMouraImagem);
+lastro7Lauda.innerHTML = alphaTauri;
+lastro7ImagemLauda.setAttribute("src",alphaTauriImagem);
+pontos7Lauda.innerHTML = poinstJailsonMouraLauda;
+
+// Driver 8 ->
+driver8Lauda.innerHTML = lucasGuerra;
+driver8ImagemLauda.setAttribute("src",lucasGuerraImagem);
+lastro8Lauda.innerHTML = alphaTauri;
+lastro8ImagemLauda.setAttribute("src",alphaTauriImagem);
+pontos8Lauda.innerHTML = pointsLucasGuerra;
+
+// Driver 9 ->
+driver9Lauda.innerHTML = alcebiadesAzevedo;
+driver9ImagemLauda.setAttribute("src",alcebiadesAzevedoImagem);
+lastro9Lauda.innerHTML = alpine;
+lastro9ImagemLauda.setAttribute("src",alpineImagem);
+pontos9Lauda.innerHTML = pointsAlcebiadesAZevedo;
+
+// Driver 10 ->
+driver10Lauda.innerHTML = guilhermmeLima;
+driver10ImagemLauda.setAttribute("src",guilhermmeLimaImagem);
+lastro10Lauda.innerHTML = alpine;
+lastro10ImagemLauda.setAttribute("src",alpineImagem);
+pontos10Lauda.innerHTML = pointsGuilhermmeLima;
+
+// Driver 11 ->
+driver11Lauda.innerHTML = lucasPimentel;
+driver11ImagemLauda.setAttribute("src",lucasPimentelImagem);
+lastro11Lauda.innerHTML = mcLaren;
+lastro11ImagemLauda.setAttribute("src",mcLarenImagem);
+pontos11Lauda.innerHTML = pointsLucasPimentelLauda;
+
+// Driver 12 ->
+driver12Lauda.innerHTML = arthurZoppi;
+driver12ImagemLauda.setAttribute("src",arthurZoppiImagem);
+lastro12Lauda.innerHTML = mcLaren;
+lastro12ImagemLauda.setAttribute("src",mcLarenImagem);
+pontos12Lauda.innerHTML = pointsArthurZoppi;
+
+// Driver 13 ->
+driver13Lauda.innerHTML = franciscoTiguilim;
+driver13ImagemLauda.setAttribute("src",franciscoTiguilimImagem);
+lastro13Lauda.innerHTML = alfaRomeo;
+lastro13ImagemLauda.setAttribute("src",alfaRomeoImagem);
+pontos13Lauda.innerHTML = poinstFranciscoTiguilim;
+
+// Driver 14 ->
+driver14Lauda.innerHTML = zidaneThunder;
+driver14ImagemLauda.setAttribute("src",zidaneThunderImagem);
+lastro14Lauda.innerHTML = alfaRomeo;
+lastro14ImagemLauda.setAttribute("src",alfaRomeoImagem);
+pontos14Lauda.innerHTML = poinstZidaneThunder;
+
+// Driver 15 ->
+driver15Lauda.innerHTML = rafaelStahnke;
+driver15ImagemLauda.setAttribute("src",rafaelStahnkeImagem);
+lastro15Lauda.innerHTML = mercedes;
+lastro15ImagemLauda.setAttribute("src",mercedesImagem);
+pontos15Lauda.innerHTML = poinstRafaelStahnkeLauda;
+
+// Driver 16 ->
+driver16Lauda.innerHTML = pedroHenrique;
+driver16ImagemLauda.setAttribute("src",pedroHenriqueImagem);
+lastro16Lauda.innerHTML = mercedes;
+lastro16ImagemLauda.setAttribute("src",mercedesImagem);
+pontos16Lauda.innerHTML = poinstPedroHenrique;
+
+// Driver 17 ->
+driver17Lauda.innerHTML = rafaelSarai;
+driver17ImagemLauda.setAttribute("src",rafaelSaraiImagem);
+lastro17Lauda.innerHTML = redbull;
+lastro17ImagemLauda.setAttribute("src",redbullImagem);
+pontos17Lauda.innerHTML = poinstRafaelSarai;
+
+// Driver 18 ->
+driver18Lauda.innerHTML = robsonEmilio;
+driver18ImagemLauda.setAttribute("src",robsonEmilioImagem);
+lastro18Lauda.innerHTML = redbull;
+lastro18ImagemLauda.setAttribute("src",redbullImagem);
+pontos18Lauda.innerHTML = poinstRobsonEmilio;
+
+// Driver 19 ->
+driver19Lauda.innerHTML = marcoStahnke;
+driver19ImagemLauda.setAttribute("src",marcoStahnkeImagem);
+lastro19Lauda.innerHTML = ferrari;
+lastro19ImagemLauda.setAttribute("src",ferrariImagem);
+pontos19Lauda.innerHTML = poinstMarcoStahnke;
+
 
 
 
@@ -1220,8 +1404,10 @@ pontos2Lauda.innerHTML = pointsGutoDAVilla;
 // poleJoaoAnselmoEl.innerHTML = poleJoaoAnselmoT9;
 
 var verMais = document.getElementById('verMais');
+var verMaisLauda = document.getElementById('verMaisLauda');
 var tabela11_20 = document.querySelector('tabela11-20');
 var help = document.getElementById("help");
+var helpLauda = document.getElementById("helpLauda");
 var piloto12 = document.getElementById("piloto12");
 var piloto13 = document.getElementById("piloto13");
 var piloto14 = document.getElementById("piloto14");
@@ -1231,6 +1417,16 @@ var piloto17 = document.getElementById("piloto17");
 var piloto18 = document.getElementById("piloto18");
 var piloto19 = document.getElementById("piloto19");
 var piloto20 = document.getElementById("piloto20");
+
+var piloto12Lauda = document.getElementById("piloto12Lauda");
+var piloto13Lauda = document.getElementById("piloto13Lauda");
+var piloto14Lauda = document.getElementById("piloto14Lauda");
+var piloto15Lauda = document.getElementById("piloto15Lauda");
+var piloto16Lauda = document.getElementById("piloto16Lauda");
+var piloto17Lauda = document.getElementById("piloto17Lauda");
+var piloto18Lauda = document.getElementById("piloto18Lauda");
+var piloto19Lauda = document.getElementById("piloto19Lauda");
+var piloto20Lauda = document.getElementById("piloto20Lauda");
 
 
 
@@ -1267,6 +1463,43 @@ $(document).ready(function bla() {
             $(piloto20).addClass('hide');
             verMais.innerHTML = "Ver menos";
             bla()
+        });
+    }
+});
+
+$(document).ready(function blaLauda() {
+    if($("#helpLauda").is(":visible"))
+    {
+        verMaisLauda.addEventListener('click',function(){
+            $(helpLauda).removeClass('hide');
+            $(piloto12Lauda).removeClass('hide');
+            $(piloto13Lauda).removeClass('hide');
+            $(piloto14Lauda).removeClass('hide');
+            $(piloto15Lauda).removeClass('hide');
+            $(piloto16Lauda).removeClass('hide');
+            $(piloto17Lauda).removeClass('hide');
+            $(piloto18Lauda).removeClass('hide');
+            $(piloto19Lauda).removeClass('hide');
+            $(piloto20Lauda).removeClass('hide');
+            verMaisLauda.innerHTML = "Ver mais";
+            blaLauda()
+        });
+    }
+    else
+    {
+        verMaisLauda.addEventListener('click',function(){
+            $(helpLauda).addClass('hide');
+            $(piloto12Lauda).addClass('hide');
+            $(piloto13Lauda).addClass('hide');
+            $(piloto14Lauda).addClass('hide');
+            $(piloto15Lauda).addClass('hide');
+            $(piloto16Lauda).addClass('hide');
+            $(piloto17Lauda).addClass('hide');
+            $(piloto18Lauda).addClass('hide');
+            $(piloto19Lauda).addClass('hide');
+            $(piloto20Lauda).addClass('hide');
+            verMaisLauda.innerHTML = "Ver menos";
+            blaLauda()
         });
     }
 });
