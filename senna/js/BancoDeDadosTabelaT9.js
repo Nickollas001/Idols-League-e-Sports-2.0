@@ -683,7 +683,7 @@ var colocar = "0"
 
 // Guto DA VILLA
 var PosicaoGutoDAVillaHungria = colocar;
-var PosicaoGutoDAVillaFranca =  colocar;
+var PosicaoGutoDAVillaFranca =  PrimeiraPosicaoCorrida;
 var PosicaoGutoDAVillaHolanda = NonaPosicaoCorrida;
 var PosicaoGutoDAVillaBelgica = NaC;
 var PosicaoGutoDAVillaJapao = NaC;
@@ -692,7 +692,7 @@ var PosicaoGutoDAVillaBahrein = NaC;
 
 // F1 Noticias
 var PosicaoF1NoticiasHungria = colocar;
-var PosicaoF1NoticiasFranca = colocar;
+var PosicaoF1NoticiasFranca = QuintaPosicaoCorrida;
 var PosicaoF1NoticiasHolanda = SextaPosicaoCorrida;
 var PosicaoF1NoticiasBelgica = NaC;
 var PosicaoF1NoticiasJapao = NaC;
@@ -701,7 +701,7 @@ var PosicaoF1NoticiasBahrein = NaC;
 
 // Caio Schoereder
 var PosicaoCaioSchoerederHungria = colocar;
-var PosicaoCaioSchoerederFranca = colocar;
+var PosicaoCaioSchoerederFranca = SextaPosicaoCorrida;
 var PosicaoCaioSchoerederHolanda = OitavaPosicaoCorrida;
 var PosicaoCaioSchoerederBelgica = NaC;
 var PosicaoCaioSchoerederJapao = NaC;
@@ -710,7 +710,7 @@ var PosicaoCaioSchoerederBahrein = NaC;
 
 //Everton Augusto
 var PosicaoEvertonAugustoHungria = colocar; 
-var PosicaoEvertonAugustoFranca = colocar;
+var PosicaoEvertonAugustoFranca = QuartaPosicaoCorrida;
 var PosicaoEvertonAugustoHolanda = TerceiraPosicaoCorrida;
 var PosicaoEvertonAugustoBelgica = NaC;
 var PosicaoEvertonAugustoJapao = NaC;
@@ -719,7 +719,7 @@ var PosicaoEvertonAugustoBahrein = NaC;
 
 //Jorge Leão
 var PosicaoJorgeLeaoHungria = colocar;
-var PosicaoJorgeLeaoFranca = colocar;
+var PosicaoJorgeLeaoFranca = SegundaPosicaoCorrida;
 var PosicaoJorgeLeaoHolanda = SetimaPosicaoCorrida;
 var PosicaoJorgeLeaoBelgica = NaC;
 var PosicaoJorgeLeaoJapao = NaC;
@@ -728,7 +728,7 @@ var PosicaoJorgeLeaoBahrein = NaC;
 
 //Lucas Pipoxu
 var PosicaoLucasPipoxuHungria = colocar;
-var PosicaoLucasPipoxuFranca = colocar;
+var PosicaoLucasPipoxuFranca = F;
 var PosicaoLucasPipoxuHolanda = QuintaPosicaoCorrida;
 var PosicaoLucasPipoxuBelgica = NaC;
 var PosicaoLucasPipoxuJapao = NaC;
@@ -737,7 +737,7 @@ var PosicaoLucasPipoxuBahrein = NaC;
 
 //Lucas Pimentel
 var PosicaoLucasPimentelLaudaHungria = colocar;
-var PosicaoLucasPimentelLaudaFranca = colocar;
+var PosicaoLucasPimentelLaudaFranca = NC;//16°
 var PosicaoLucasPimentelLaudaHolanda = PrimeiraPosicaoCorrida;
 var PosicaoLucasPimentelLaudaBelgica = NaC;
 var PosicaoLucasPimentelLaudaJapao = NaC;
@@ -746,7 +746,7 @@ var PosicaoLucasPimentelLaudaBahrein = NaC;
 
 // Arthur Zoppi
 var PosicaoArthurZoppiHungria = colocar;
-var PosicaoArthurZoppiFranca = colocar;
+var PosicaoArthurZoppiFranca = DecimaPosicaoCorrida;
 var PosicaoArthurZoppiHolanda = QuartaPosicaoCorrida;
 var PosicaoArthurZoppiBelgica = NaC;
 var PosicaoArthurZoppiJapao = NaC;
@@ -755,8 +755,8 @@ var PosicaoArthurZoppiBahrein = NaC;
 
 // Alcebíades AZevedo
 var PosicaoAlcebiadesAZevedoHungria = colocar;
-var PosicaoAlcebiadesAZevedoFranca = colocar;
-var PosicaoAlcebiadesAZevedoHolanda = colocar;
+var PosicaoAlcebiadesAZevedoFranca = NonaPosicaoCorrida;
+var PosicaoAlcebiadesAZevedoHolanda = DecimaPrimeiraPosicaoCorrida;
 var PosicaoAlcebiadesAZevedoBelgica = NaC;
 var PosicaoAlcebiadesAZevedoJapao = NaC;
 var PosicaoAlcebiadesAZevedoAustria = NaC;
@@ -764,7 +764,7 @@ var PosicaoAlcebiadesAZevedoBahrein = NaC;
 
 // Guilhermme Lima
 var PosicaoGuilhermmeLimaHungria = colocar;
-var PosicaoGuilhermmeLimaFranca = colocar;
+var PosicaoGuilhermmeLimaFranca = F;
 var PosicaoGuilhermmeLimaHolanda = SegundaPosicaoCorrida;
 var PosicaoGuilhermmeLimaBelgica = NaC;
 var PosicaoGuilhermmeLimaJapao = NaC;
@@ -773,7 +773,7 @@ var PosicaoGuilhermmeLimaBahrein = NaC;
 
 //Francisco Guilherme
 var PosicaoFranciscoTiguilimHungria = colocar;
-var PosicaoFranciscoTiguilimFranca = colocar;
+var PosicaoFranciscoTiguilimFranca = DecimaSegundaPosicaoCorrida;
 var PosicaoFranciscoTiguilimHolanda = DecimaPosicaoCorrida;
 var PosicaoFranciscoTiguilimBelgica = NaC;
 var PosicaoFranciscoTiguilimJapao = NaC;
@@ -782,8 +782,8 @@ var PosicaoFranciscoTiguilimBahrein = NaC;
 
 //Jailson Moura
 var PosicaoJailsonMouraLaudaHungria = colocar;
-var PosicaoJailsonMouraLaudaFranca = colocar;
-var PosicaoJailsonMouraLaudaHolanda = colocar;
+var PosicaoJailsonMouraLaudaFranca = TerceiraPosicaoCorrida;
+var PosicaoJailsonMouraLaudaHolanda = NC;//18°
 var PosicaoJailsonMouraLaudaBelgica = NaC;
 var PosicaoJailsonMouraLaudaJapao = NaC;
 var PosicaoJailsonMouraLaudaAustria = NaC;
@@ -791,8 +791,8 @@ var PosicaoJailsonMouraLaudaBahrein = NaC;
 
 //Lucas Guerra
 var PosicaoLucasGuerraHungria = colocar;
-var PosicaoLucasGuerraFranca = colocar;
-var PosicaoLucasGuerraHolanda = colocar;
+var PosicaoLucasGuerraFranca = OitavaPosicaoCorrida;
+var PosicaoLucasGuerraHolanda = DecimaSegundaPosicaoCorrida;
 var PosicaoLucasGuerraBelgica = NaC;
 var PosicaoLucasGuerraJapao = NaC;
 var PosicaoLucasGuerraAustria = NaC;
@@ -800,8 +800,8 @@ var PosicaoLucasGuerraBahrein = NaC;
 
 //Zidane Thunder
 var PosicaoZidaneThunderHungria = colocar;
-var PosicaoZidaneThunderFranca = colocar;
-var PosicaoZidaneThunderHolanda = colocar;
+var PosicaoZidaneThunderFranca = NC;//15°
+var PosicaoZidaneThunderHolanda = F;
 var PosicaoZidaneThunderBelgica = NaC;
 var PosicaoZidaneThunderJapao = NaC;
 var PosicaoZidaneThunderAustria = NaC;
@@ -809,8 +809,8 @@ var PosicaoZidaneThunderBahrein = NaC;
 
 //Rafael Sarai
 var PosicaoRafaelSaraiHungria = colocar;
-var PosicaoRafaelSaraiFranca = colocar;
-var PosicaoRafaelSaraiHolanda = colocar;
+var PosicaoRafaelSaraiFranca = DecimaPrimeiraPosicaoCorrida;
+var PosicaoRafaelSaraiHolanda = NC;//15°
 var PosicaoRafaelSaraiBelgica = NaC;
 var PosicaoRafaelSaraiJapao = NaC;
 var PosicaoRafaelSaraiAustria = NaC;
@@ -818,8 +818,8 @@ var PosicaoRafaelSaraiBahrein = NaC;
 
 //Robson Emilio
 var PosicaoRobsonEmilioHungria = colocar;
-var PosicaoRobsonEmilioFranca = colocar;
-var PosicaoRobsonEmilioHolanda = colocar;
+var PosicaoRobsonEmilioFranca = DecimaQuartaPosicaoCorrida;
+var PosicaoRobsonEmilioHolanda = DecimaTerceiraPosicaoCorrida;//13°
 var PosicaoRobsonEmilioBelgica = NaC;
 var PosicaoRobsonEmilioJapao = NaC;
 var PosicaoRobsonEmilioAustria = NaC;
@@ -827,8 +827,8 @@ var PosicaoRobsonEmilioBahrein = NaC;
 
 //Rafael Stahnke
 var PosicaoRafaelStahnkeLaudaHungria = colocar;
-var PosicaoRafaelStahnkeLaudaFranca = colocar;
-var PosicaoRafaelStahnkeLaudaHolanda = colocar;
+var PosicaoRafaelStahnkeLaudaFranca = NC;//17
+var PosicaoRafaelStahnkeLaudaHolanda = NC;//14°
 var PosicaoRafaelStahnkeLaudaBelgica = NaC;
 var PosicaoRafaelStahnkeLaudaJapao = NaC;
 var PosicaoRafaelStahnkeLaudaAustria = NaC;
@@ -836,8 +836,8 @@ var PosicaoRafaelStahnkeLaudaBahrein = NaC;
 
 //Pedro Henrique
 var PosicaoPedroHenriqueHungria = colocar;
-var PosicaoPedroHenriqueFranca = colocar;
-var PosicaoPedroHenriqueHolanda = colocar;
+var PosicaoPedroHenriqueFranca = DecimaTerceiraPosicaoCorrida;
+var PosicaoPedroHenriqueHolanda = NC;///17°
 var PosicaoPedroHenriqueBelgica = NaC;
 var PosicaoPedroHenriqueJapao = NaC;
 var PosicaoPedroHenriqueAustria = NaC;
@@ -845,8 +845,8 @@ var PosicaoPedroHenriqueBahrein = NaC;
 
 //Marco Stahnke
 var PosicaoMarcoStahnkeHungria = colocar;
-var PosicaoMarcoStahnkeFranca = colocar;
-var PosicaoMarcoStahnkeHolanda = colocar;
+var PosicaoMarcoStahnkeFranca = F;
+var PosicaoMarcoStahnkeHolanda = F;
 var PosicaoMarcoStahnkeBelgica = NaC;
 var PosicaoMarcoStahnkeJapao = NaC;
 var PosicaoMarcoStahnkeAustria = NaC;
@@ -893,7 +893,8 @@ var polepauloHackbarthT9 = "0";
 var polelucasPimentelT9 = "0";
 
 //poles Lauda
-var poleGutoDAVillaT9 = "0";
+var poleGutoDAVillaT9 = "1";
+//Gp da França Et2 1:31,097
 var poleF1NoticiasT9 = "0";
 var poleCaioSchoerederT9 = "0";
 var poleEvertonAugustoT9 = "0";
@@ -950,7 +951,8 @@ var PilotoDoDiaCaioSchoerederT9 = "0";
 var PilotoDoDiaEvertonAugustoT9 = "0";
 var PilotoDoDiaJorgeLeaoT9 = "0";
 var PilotoDoDiaLucasPipoxuT9 = "0";
-var PilotoDoDiaLucasPimentelLaudaT9 = "0";
+var PilotoDoDiaLucasPimentelLaudaT9 = "1";
+//Provavelmente GP da Holanda Etp3
 var PilotoDoDiaArthurZoppiT9 = "0";
 var PilotoDoDiaAlcebiadesAZevedoT9 = "0";
 var PilotoDoDiaGuilhermmeLimaT9 = "0";
@@ -992,12 +994,14 @@ var MelhorVoltafredBederT9 = "1";
 
 //Melhor Volta Lauda
 var MelhorVoltaGutoDAVillaT9 = "0";
-var MelhorVoltaF1NoticiasT9 = "0";
+var MelhorVoltaF1NoticiasT9 = "1";
+//GP DA FRANÇA ETP2 1:33,434
 var MelhorVoltaCaioSchoerederT9 = "0";
 var MelhorVoltaEvertonAugustoT9 = "0";
 var MelhorVoltaJorgeLeaoT9 = "0";
 var MelhorVoltaLucasPipoxuT9 = "0";
-var MelhorVoltaLucasPimentelLaudaT9 = "0";
+var MelhorVoltaLucasPimentelLaudaT9 = "1";
+//GP DA HOLANDA ETP3 1:14.557
 var MelhorVoltaArthurZoppiT9 = "0";
 var MelhorVoltaAlcebiadesAZevedoT9 = "0";
 var MelhorVoltaGuilhermmeLimaT9 = "0";
@@ -1037,7 +1041,7 @@ var poinstlucasPimentel = parseInt(PilotoDoDialucasPimentelT9) + parseInt(Melhor
 
 //Contagem de Pontos Lauda->
 var pointsGutoDAVilla = parseInt(PilotoDoDiaGutoDAVillaT9) + parseInt(MelhorVoltaGutoDAVillaT9) + parseInt(poleGutoDAVillaT9) + parseInt(PosicaoGutoDAVillaHungria) + parseInt(PosicaoGutoDAVillaFranca) + parseInt(PosicaoGutoDAVillaHolanda) + parseInt(PosicaoGutoDAVillaBelgica) + parseInt(PosicaoGutoDAVillaJapao) + parseInt(PosicaoGutoDAVillaAustria) + parseInt(PosicaoGutoDAVillaBahrein);
-var pointsF1Noticias = parseInt(PilotoDoDiaF1NoticiasT9) + parseInt(MelhorVoltaF1NoticiasT9) + parseInt(poleF1NoticiasT9) + parseInt(PosicaoF1NoticiasHungria) + parseInt(PosicaoF1NoticiasFranca) + parseInt(PosicaoF1NoticiasHolanda) + parseInt(PosicaoF1NoticiasBelgica) + parseInt(PosicaoF1NoticiasJapao) + parseInt(PosicaoF1NoticiasAustria) + parseInt(PosicaoF1NoticiasBahrein);
+var pointsF1Noticias = parseInt(PilotoDoDiaF1NoticiasT9) + parseInt(MelhorVoltaF1NoticiasT9) +  parseInt(poleF1NoticiasT9) + parseInt(PosicaoF1NoticiasHungria) + parseInt(PosicaoF1NoticiasFranca) + parseInt(PosicaoF1NoticiasHolanda) + parseInt(PosicaoF1NoticiasBelgica) + parseInt(PosicaoF1NoticiasJapao) + parseInt(PosicaoF1NoticiasAustria) + parseInt(PosicaoF1NoticiasBahrein);
 var pointsCaioSchoereder = parseInt(PilotoDoDiaCaioSchoerederT9) + parseInt(MelhorVoltaCaioSchoerederT9) + parseInt(poleCaioSchoerederT9) + parseInt(PosicaoCaioSchoerederHungria) + parseInt(PosicaoCaioSchoerederFranca) + parseInt(PosicaoCaioSchoerederHolanda) + parseInt(PosicaoCaioSchoerederBelgica) + parseInt(PosicaoCaioSchoerederJapao) + parseInt(PosicaoCaioSchoerederAustria) + parseInt(PosicaoCaioSchoerederBahrein);
 var pointsEvertonAugusto = parseInt(PilotoDoDiaEvertonAugustoT9) + parseInt(MelhorVoltaEvertonAugustoT9) + parseInt(poleEvertonAugustoT9) + parseInt(PosicaoEvertonAugustoHungria) + parseInt(PosicaoEvertonAugustoFranca) + parseInt(PosicaoEvertonAugustoHolanda) + parseInt(PosicaoEvertonAugustoBelgica) + parseInt(PosicaoEvertonAugustoJapao) + parseInt(PosicaoEvertonAugustoAustria) + parseInt(PosicaoEvertonAugustoBahrein);
 var pointsJorgeLeao = parseInt(PilotoDoDiaJorgeLeaoT9) + parseInt(MelhorVoltaJorgeLeaoT9) + parseInt(poleJorgeLeaoT9) + parseInt(PosicaoJorgeLeaoHungria) + parseInt(PosicaoJorgeLeaoFranca) + parseInt(PosicaoJorgeLeaoHolanda) + parseInt(PosicaoJorgeLeaoBelgica) + parseInt(PosicaoJorgeLeaoJapao) + parseInt(PosicaoJorgeLeaoAustria) + parseInt(PosicaoJorgeLeaoBahrein);
@@ -1252,7 +1256,7 @@ driver2Lauda.innerHTML = f1Noticias;
 driver2ImagemLauda.setAttribute("src",f1NoticiasImagem);
 lastro2Lauda.innerHTML = williams;
 lastro2ImagemLauda.setAttribute("src",williamsImagem);
-pontos2Lauda.innerHTML = pointsGutoDAVilla;
+pontos2Lauda.innerHTML = pointsF1Noticias;
 
 // Driver 3 ->
 driver3Lauda.innerHTML = lucasPipoxu;
