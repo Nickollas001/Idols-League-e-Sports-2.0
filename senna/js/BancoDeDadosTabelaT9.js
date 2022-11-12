@@ -682,7 +682,7 @@ var PosicaolucasPimentelBahreinSprint = NaC;
 var colocar = "0"
 
 // Guto DA VILLA
-var PosicaoGutoDAVillaHungria = colocar;
+var PosicaoGutoDAVillaHungria = SegundaPosicaoCorrida;
 var PosicaoGutoDAVillaFranca =  PrimeiraPosicaoCorrida;
 var PosicaoGutoDAVillaFrancaSprint =  PrimeiraPosicaoSprint;
 var PosicaoGutoDAVillaHolanda = NonaPosicaoCorrida;
@@ -692,7 +692,7 @@ var PosicaoGutoDAVillaAustria = NaC;
 var PosicaoGutoDAVillaBahrein = NaC;
 
 // F1 Noticias
-var PosicaoF1NoticiasHungria = colocar;
+var PosicaoF1NoticiasHungria = TerceiraPosicaoCorrida;
 var PosicaoF1NoticiasFranca = QuintaPosicaoCorrida;
 var PosicaoF1NoticiasFrancaSprint = SegundaPosicaoSprint;
 var PosicaoF1NoticiasHolanda = SextaPosicaoCorrida;
@@ -702,7 +702,7 @@ var PosicaoF1NoticiasAustria = NaC;
 var PosicaoF1NoticiasBahrein = NaC;
 
 // Caio Schoereder
-var PosicaoCaioSchoerederHungria = colocar;
+var PosicaoCaioSchoerederHungria = QuartaPosicaoCorrida;
 var PosicaoCaioSchoerederFranca = SextaPosicaoCorrida;
 var PosicaoCaioSchoerederFrancaSprint = TerceiraPosicaoSprint;
 var PosicaoCaioSchoerederHolanda = OitavaPosicaoCorrida;
@@ -712,7 +712,7 @@ var PosicaoCaioSchoerederAustria = NaC;
 var PosicaoCaioSchoerederBahrein = NaC;
 
 //Everton Augusto
-var PosicaoEvertonAugustoHungria = colocar; 
+var PosicaoEvertonAugustoHungria = SetimaPosicaoCorrida; 
 var PosicaoEvertonAugustoFranca = QuartaPosicaoCorrida;
 var PosicaoEvertonAugustoFrancaSprint = DecimaSegundaPosicaoSprint;
 var PosicaoEvertonAugustoHolanda = TerceiraPosicaoCorrida;
@@ -722,7 +722,7 @@ var PosicaoEvertonAugustoAustria = NaC;
 var PosicaoEvertonAugustoBahrein = NaC;
 
 //Jorge Leão
-var PosicaoJorgeLeaoHungria = colocar;
+var PosicaoJorgeLeaoHungria = OitavaPosicaoCorrida;
 var PosicaoJorgeLeaoFranca = SegundaPosicaoCorrida;
 var PosicaoJorgeLeaoFrancaSprint = NonaPosicaoSprint;
 var PosicaoJorgeLeaoHolanda = SetimaPosicaoCorrida;
@@ -732,7 +732,7 @@ var PosicaoJorgeLeaoAustria = NaC;
 var PosicaoJorgeLeaoBahrein = NaC;
 
 //Lucas Pipoxu
-var PosicaoLucasPipoxuHungria = colocar;
+var PosicaoLucasPipoxuHungria = PrimeiraPosicaoCorrida;
 var PosicaoLucasPipoxuFranca = F;
 var PosicaoLucasPipoxuFrancaSprint = F;
 var PosicaoLucasPipoxuHolanda = QuintaPosicaoCorrida;
@@ -742,7 +742,7 @@ var PosicaoLucasPipoxuAustria = NaC;
 var PosicaoLucasPipoxuBahrein = NaC;
 
 //Lucas Pimentel
-var PosicaoLucasPimentelLaudaHungria = colocar;
+var PosicaoLucasPimentelLaudaHungria = F;
 var PosicaoLucasPimentelLaudaFranca = NC;//16°
 var PosicaoLucasPimentelLaudaFrancaSprint = SextaPosicaoSprint;
 var PosicaoLucasPimentelLaudaHolanda = PrimeiraPosicaoCorrida;
@@ -752,7 +752,7 @@ var PosicaoLucasPimentelLaudaAustria = NaC;
 var PosicaoLucasPimentelLaudaBahrein = NaC;
 
 // Arthur Zoppi
-var PosicaoArthurZoppiHungria = colocar;
+var PosicaoArthurZoppiHungria = NonaPosicaoCorrida;
 var PosicaoArthurZoppiFranca = DecimaPosicaoCorrida;
 var PosicaoArthurZoppiFrancaSprint = OitavaPosicaoSprint;
 var PosicaoArthurZoppiHolanda = QuartaPosicaoCorrida;
@@ -762,7 +762,7 @@ var PosicaoArthurZoppiAustria = NaC;
 var PosicaoArthurZoppiBahrein = NaC;
 
 // Alcebíades AZevedo
-var PosicaoAlcebiadesAZevedoHungria = colocar;
+var PosicaoAlcebiadesAZevedoHungria = DecimaPrimeiraPosicaoSprint;
 var PosicaoAlcebiadesAZevedoFranca = NonaPosicaoCorrida;
 var PosicaoAlcebiadesAZevedoFrancaSprint = QuartaPosicaoSprint;
 var PosicaoAlcebiadesAZevedoHolanda = DecimaPrimeiraPosicaoCorrida;
@@ -772,7 +772,7 @@ var PosicaoAlcebiadesAZevedoAustria = NaC;
 var PosicaoAlcebiadesAZevedoBahrein = NaC;
 
 // Guilhermme Lima
-var PosicaoGuilhermmeLimaHungria = colocar;
+var PosicaoGuilhermmeLimaHungria = DecimaTerceiraPosicaoCorrida;
 var PosicaoGuilhermmeLimaFranca = F;
 var PosicaoGuilhermmeLimaFrancaSprint = F;
 var PosicaoGuilhermmeLimaHolanda = SegundaPosicaoCorrida;
@@ -782,7 +782,7 @@ var PosicaoGuilhermmeLimaAustria = NaC;
 var PosicaoGuilhermmeLimaBahrein = NaC;
 
 //Francisco Guilherme
-var PosicaoFranciscoTiguilimHungria = colocar;
+var PosicaoFranciscoTiguilimHungria = SextaPosicaoCorrida;
 var PosicaoFranciscoTiguilimFranca = DecimaSegundaPosicaoCorrida;
 var PosicaoFranciscoTiguilimFrancaSprint = DecimaQuartaPosicaoSprint;
 var PosicaoFranciscoTiguilimHolanda = DecimaPosicaoCorrida;
@@ -792,7 +792,7 @@ var PosicaoFranciscoTiguilimAustria = NaC;
 var PosicaoFranciscoTiguilimBahrein = NaC;
 
 //Jailson Moura
-var PosicaoJailsonMouraLaudaHungria = colocar;
+var PosicaoJailsonMouraLaudaHungria = NC;//17°
 var PosicaoJailsonMouraLaudaFranca = TerceiraPosicaoCorrida;
 var PosicaoJailsonMouraLaudaFrancaSprint = DecimaPosicaoSprint;
 var PosicaoJailsonMouraLaudaHolanda = NC;//18°
@@ -802,7 +802,7 @@ var PosicaoJailsonMouraLaudaAustria = NaC;
 var PosicaoJailsonMouraLaudaBahrein = NaC;
 
 //Lucas Guerra
-var PosicaoLucasGuerraHungria = colocar;
+var PosicaoLucasGuerraHungria = DecimaPosicaoCorrida;
 var PosicaoLucasGuerraFranca = OitavaPosicaoCorrida;
 var PosicaoLucasGuerraFrancaSprint = DecimaTerceiraPosicaoSprint;
 var PosicaoLucasGuerraHolanda = DecimaSegundaPosicaoCorrida;
@@ -812,7 +812,7 @@ var PosicaoLucasGuerraAustria = NaC;
 var PosicaoLucasGuerraBahrein = NaC;
 
 //Zidane Thunder
-var PosicaoZidaneThunderHungria = colocar;
+var PosicaoZidaneThunderHungria = QuintaPosicaoCorrida;
 var PosicaoZidaneThunderFranca = NC;//15°
 var PosicaoZidaneThunderFrancaSprint = SetimaPosicaoSprint;
 var PosicaoZidaneThunderHolanda = F;
@@ -822,7 +822,7 @@ var PosicaoZidaneThunderAustria = NaC;
 var PosicaoZidaneThunderBahrein = NaC;
 
 //Rafael Sarai
-var PosicaoRafaelSaraiHungria = colocar;
+var PosicaoRafaelSaraiHungria = DecimaQuartaPosicaoCorrida;
 var PosicaoRafaelSaraiFranca = DecimaPrimeiraPosicaoCorrida;
 var PosicaoRafaelSaraiFrancaSprint = DecimaPrimeiraPosicaoSprint;
 var PosicaoRafaelSaraiHolanda = NC;//15°
@@ -832,7 +832,7 @@ var PosicaoRafaelSaraiAustria = NaC;
 var PosicaoRafaelSaraiBahrein = NaC;
 
 //Robson Emilio
-var PosicaoRobsonEmilioHungria = colocar;
+var PosicaoRobsonEmilioHungria = DecimaSextaPosicaoCorrida;
 var PosicaoRobsonEmilioFranca = DecimaQuartaPosicaoCorrida;
 var PosicaoRobsonEmilioFrancaSprint = NC;//17°
 var PosicaoRobsonEmilioHolanda = DecimaTerceiraPosicaoCorrida;//13°
@@ -842,7 +842,7 @@ var PosicaoRobsonEmilioAustria = NaC;
 var PosicaoRobsonEmilioBahrein = NaC;
 
 //Rafael Stahnke
-var PosicaoRafaelStahnkeLaudaHungria = colocar;
+var PosicaoRafaelStahnkeLaudaHungria = DecimaSegundaPosicaoCorrida;
 var PosicaoRafaelStahnkeLaudaFranca = NC;//17
 var PosicaoRafaelStahnkeLaudaFrancaSprint = DecimaSextaPosicaoSprint;
 var PosicaoRafaelStahnkeLaudaHolanda = NC;//14°
@@ -852,7 +852,7 @@ var PosicaoRafaelStahnkeLaudaAustria = NaC;
 var PosicaoRafaelStahnkeLaudaBahrein = NaC;
 
 //Pedro Henrique
-var PosicaoPedroHenriqueHungria = colocar;
+var PosicaoPedroHenriqueHungria = F;
 var PosicaoPedroHenriqueFranca = DecimaTerceiraPosicaoCorrida;
 var PosicaoPedroHenriqueFrancaSprint = DecimaQuintaPosicaoSprint;
 var PosicaoPedroHenriqueHolanda = NC;///17°
@@ -862,7 +862,7 @@ var PosicaoPedroHenriqueAustria = NaC;
 var PosicaoPedroHenriqueBahrein = NaC;
 
 //Marco Stahnke
-var PosicaoMarcoStahnkeHungria = colocar;
+var PosicaoMarcoStahnkeHungria = NC;//15°
 var PosicaoMarcoStahnkeFranca = F;
 var PosicaoMarcoStahnkeFrancaSprint = F;
 var PosicaoMarcoStahnkeHolanda = F;
@@ -925,7 +925,8 @@ var poleArthurZoppiT9 = "0";
 var poleAlcebiadesAZevedoT9 = "0";
 var poleGuilhermmeLimaT9 = "0";
 var poleFranciscoTiguilimT9 = "0";
-var poleJailsonMouraLaudaT9 = "0";
+var poleJailsonMouraLaudaT9 = "1";
+//GP DA HUNGRIA ETP1 1:16,332
 var poleLucasGuerraT9 = "0";
 var poleZidaneThunderT9 = "0";
 var poleRafaelSaraiT9 = "0";
@@ -1019,7 +1020,8 @@ var MelhorVoltaF1NoticiasT9 = "1";
 var MelhorVoltaCaioSchoerederT9 = "0";
 var MelhorVoltaEvertonAugustoT9 = "0";
 var MelhorVoltaJorgeLeaoT9 = "0";
-var MelhorVoltaLucasPipoxuT9 = "0";
+var MelhorVoltaLucasPipoxuT9 = "1";
+//GP DA HUNGRIA ETP1 1:32,424
 var MelhorVoltaLucasPimentelLaudaT9 = "1";
 //GP DA HOLANDA ETP3 1:14.557
 var MelhorVoltaArthurZoppiT9 = "0";
