@@ -684,7 +684,7 @@ var colocar = "0"
 // Guto DA VILLA
 var PosicaoGutoDAVillaHungria = colocar;
 var PosicaoGutoDAVillaFranca =  colocar;
-var PosicaoGutoDAVillaHolanda = colocar;
+var PosicaoGutoDAVillaHolanda = NonaPosicaoCorrida;
 var PosicaoGutoDAVillaBelgica = NaC;
 var PosicaoGutoDAVillaJapao = NaC;
 var PosicaoGutoDAVillaAustria = NaC;
@@ -693,7 +693,7 @@ var PosicaoGutoDAVillaBahrein = NaC;
 // F1 Noticias
 var PosicaoF1NoticiasHungria = colocar;
 var PosicaoF1NoticiasFranca = colocar;
-var PosicaoF1NoticiasHolanda = colocar;
+var PosicaoF1NoticiasHolanda = SextaPosicaoCorrida;
 var PosicaoF1NoticiasBelgica = NaC;
 var PosicaoF1NoticiasJapao = NaC;
 var PosicaoF1NoticiasAustria = NaC;
@@ -702,7 +702,7 @@ var PosicaoF1NoticiasBahrein = NaC;
 // Caio Schoereder
 var PosicaoCaioSchoerederHungria = colocar;
 var PosicaoCaioSchoerederFranca = colocar;
-var PosicaoCaioSchoerederHolanda = colocar;
+var PosicaoCaioSchoerederHolanda = OitavaPosicaoCorrida;
 var PosicaoCaioSchoerederBelgica = NaC;
 var PosicaoCaioSchoerederJapao = NaC;
 var PosicaoCaioSchoerederAustria = NaC;
@@ -711,7 +711,7 @@ var PosicaoCaioSchoerederBahrein = NaC;
 //Everton Augusto
 var PosicaoEvertonAugustoHungria = colocar; 
 var PosicaoEvertonAugustoFranca = colocar;
-var PosicaoEvertonAugustoHolanda = colocar;
+var PosicaoEvertonAugustoHolanda = TerceiraPosicaoCorrida;
 var PosicaoEvertonAugustoBelgica = NaC;
 var PosicaoEvertonAugustoJapao = NaC;
 var PosicaoEvertonAugustoAustria = NaC;
@@ -720,7 +720,7 @@ var PosicaoEvertonAugustoBahrein = NaC;
 //Jorge Leão
 var PosicaoJorgeLeaoHungria = colocar;
 var PosicaoJorgeLeaoFranca = colocar;
-var PosicaoJorgeLeaoHolanda = colocar;
+var PosicaoJorgeLeaoHolanda = SetimaPosicaoCorrida;
 var PosicaoJorgeLeaoBelgica = NaC;
 var PosicaoJorgeLeaoJapao = NaC;
 var PosicaoJorgeLeaoAustria = NaC;
@@ -729,7 +729,7 @@ var PosicaoJorgeLeaoBahrein = NaC;
 //Lucas Pipoxu
 var PosicaoLucasPipoxuHungria = colocar;
 var PosicaoLucasPipoxuFranca = colocar;
-var PosicaoLucasPipoxuHolanda = colocar;
+var PosicaoLucasPipoxuHolanda = QuintaPosicaoCorrida;
 var PosicaoLucasPipoxuBelgica = NaC;
 var PosicaoLucasPipoxuJapao = NaC;
 var PosicaoLucasPipoxuAustria = NaC;
@@ -738,7 +738,7 @@ var PosicaoLucasPipoxuBahrein = NaC;
 //Lucas Pimentel
 var PosicaoLucasPimentelLaudaHungria = colocar;
 var PosicaoLucasPimentelLaudaFranca = colocar;
-var PosicaoLucasPimentelLaudaHolanda = colocar;
+var PosicaoLucasPimentelLaudaHolanda = PrimeiraPosicaoCorrida;
 var PosicaoLucasPimentelLaudaBelgica = NaC;
 var PosicaoLucasPimentelLaudaJapao = NaC;
 var PosicaoLucasPimentelLaudaAustria = NaC;
@@ -747,7 +747,7 @@ var PosicaoLucasPimentelLaudaBahrein = NaC;
 // Arthur Zoppi
 var PosicaoArthurZoppiHungria = colocar;
 var PosicaoArthurZoppiFranca = colocar;
-var PosicaoArthurZoppiHolanda = colocar;
+var PosicaoArthurZoppiHolanda = QuartaPosicaoCorrida;
 var PosicaoArthurZoppiBelgica = NaC;
 var PosicaoArthurZoppiJapao = NaC;
 var PosicaoArthurZoppiAustria = NaC;
@@ -765,7 +765,7 @@ var PosicaoAlcebiadesAZevedoBahrein = NaC;
 // Guilhermme Lima
 var PosicaoGuilhermmeLimaHungria = colocar;
 var PosicaoGuilhermmeLimaFranca = colocar;
-var PosicaoGuilhermmeLimaHolanda = colocar;
+var PosicaoGuilhermmeLimaHolanda = SegundaPosicaoCorrida;
 var PosicaoGuilhermmeLimaBelgica = NaC;
 var PosicaoGuilhermmeLimaJapao = NaC;
 var PosicaoGuilhermmeLimaAustria = NaC;
@@ -774,7 +774,7 @@ var PosicaoGuilhermmeLimaBahrein = NaC;
 //Francisco Guilherme
 var PosicaoFranciscoTiguilimHungria = colocar;
 var PosicaoFranciscoTiguilimFranca = colocar;
-var PosicaoFranciscoTiguilimHolanda = colocar;
+var PosicaoFranciscoTiguilimHolanda = DecimaPosicaoCorrida;
 var PosicaoFranciscoTiguilimBelgica = NaC;
 var PosicaoFranciscoTiguilimJapao = NaC;
 var PosicaoFranciscoTiguilimAustria = NaC;
@@ -899,7 +899,8 @@ var poleCaioSchoerederT9 = "0";
 var poleEvertonAugustoT9 = "0";
 var poleJorgeLeaoT9 = "0";
 var poleLucasPipoxuT9 = "0";
-var poleLucasPimentelLaudaT9 = "0";
+var poleLucasPimentelLaudaT9 = "1";
+//GP Da Holanda Et3 1:11,430.
 var poleArthurZoppiT9 = "0";
 var poleAlcebiadesAZevedoT9 = "0";
 var poleGuilhermmeLimaT9 = "0";
