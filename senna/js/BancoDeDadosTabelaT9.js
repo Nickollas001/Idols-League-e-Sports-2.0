@@ -909,10 +909,11 @@ var poleguilhermeBarrosT9 = "0";
 var polejailsonMouraT9 = "0";
 
 //POLES PABLO MULLER
+var polepabloMullerSennaT8 = "2";
 var polepabloMullerT9 = "0";
 var polePabloMullerF1T2 = "0";
 var polePabloMullerF2T2 = "3";
-var polePabloMullerTotal = parseInt(polePabloMullerF2T2) + parseInt(polePabloMullerF1T2) + parseInt(polepabloMullerT9);
+var polePabloMullerTotal = parseInt(polepabloMullerSennaT8) + parseInt(polePabloMullerF2T2) + parseInt(polePabloMullerF1T2) + parseInt(polepabloMullerT9);
 //Pole F2 = Abu Dhabi 1:47,750... S1= 20,015 S2= 1:04,441 S3=1:47,750
 //Pole F2 = Brasil 1:16.161
 //Pole F2 = Inglaterra 1:38,565... Transmissão não pegou os setores
@@ -1629,11 +1630,47 @@ var poinstpabloMullerT1F2 = "06";
 var poinstpabloMullerT2F2 = "167";
 //QUANTIA DE CORRIDAS do Pablo Muller 
 var QntdGPsF2T2PabloMuller = "8";
+var QntdGPsSennaT8PabloMuller = "9";
 var QntdGPsSennaT9PabloMuller = "1";
 
-var QntdGPsPabloMuller = parseInt(QntdGPsF2T2PabloMuller) + parseInt(QntdGPsSennaT9PabloMuller);
+var QntdGPsPabloMuller = parseInt(QntdGPsF2T2PabloMuller) + parseInt(QntdGPsSennaT9PabloMuller)+ parseInt(QntdGPsSennaT8PabloMuller);
+
+//QUANTIA DE MV do Pablo Muller 
+
+var MVPabloMullerSennaT8 = "0";
+
+var MVTotalPabloMuller = parseInt(MVPabloMullerSennaT8) + parseInt(MelhorVoltapabloMullerT9);
 
 
+//QUANTIA DE Vitórias do Pablo Muller 
+var VTPabloMullerT8 = "1";
+
+var VTTotalPabloMuller = parseInt(VTPabloMullerT8);
+
+//QUANTIA DE Titulos do Pablo Muller 
+var TituloPabloMullerSennaT8 = "0";
+
+var TitulosTotalPabloMuller = parseInt(TituloPabloMullerSennaT8);
+
+//QUANTIA DE Pódios do Pablo Muller 
+var QntdPodioPabloMullerSennaT8 = "4";
+
+var QntdPodiosTotalPabloMuller = parseInt(QntdPodioPabloMullerSennaT8); 
+
+
+//QUANTIA DE Segundo lugar do Pablo Muller 
+var segundoLugarPabloMullerSennaT8 = "1";
+//corrida sprint etp6 silverstone
+
+
+
+//QUANTIA DE Terceiro lugar do Pablo Muller 
+var terceiroLugarPabloMullerSennaT8 = "2";
+var terceiroLugarTotalPabloMuller = parseInt(terceiroLugarPabloMullerSennaT8);
+//corrida  etp6 silverstone
+//corrida et7 eua
+
+segundoLugarTotalPabloMuller = parseInt(segundoLugarPabloMullerSennaT8);
 
 //Pontuação do Fred Beder SENNA
 var poinstfredBederT1 = naoSei;
@@ -1714,6 +1751,12 @@ var driver7Ranking = document.getElementById("driver7Ranking").innerHTML  = pabl
 var pontos7Ranking = document.getElementById("pontos7Ranking").innerHTML = poinstpabloMuller + parseInt(poinstpabloMullerT8) + parseInt(poinstpabloMullerT7) + parseInt(poinstpabloMullerT6) + parseInt(poinstpabloMullerT5) + parseInt(poinstpabloMullerT4) + parseInt(poinstpabloMullerT3) + parseInt(poinstpabloMullerT2) + parseInt(poinstpabloMullerT1) + parseInt(poinstpabloMullerT2Prost) + parseInt(poinstpabloMullerT1F2) + parseInt(poinstpabloMullerT2F2);
 var GPs7 = document.getElementById("GPs7").innerHTML = QntdGPsPabloMuller; 
 var poles7 = document.getElementById("poles7").innerHTML = polePabloMullerTotal;
+var MV7 = document.getElementById("MV7").innerHTML = MVTotalPabloMuller;
+var vitorias7 = document.getElementById("vitorias7").innerHTML = VTPabloMullerT8;
+var titulos7 = document.getElementById("titulos7").innerHTML = TitulosTotalPabloMuller;
+var podios7 = document.getElementById("podios7").innerHTML = QntdPodiosTotalPabloMuller;
+var segundosLugar7 = document.getElementById("segundosLugar7").innerHTML = segundoLugarTotalPabloMuller;
+var terceirosLugar7 = document.getElementById("terceirosLugar7").innerHTML = terceiroLugarTotalPabloMuller;
 
 var driver8Ranking = document.getElementById("driver8Ranking").innerHTML  = fredBeder;
 var pontos8Ranking = document.getElementById("pontos8Ranking").innerHTML = poinstfredBeder + parseInt(poinstfredBederT8) + parseInt(poinstfredBederT7) + parseInt(poinstfredBederT6) + parseInt(poinstfredBederT5) + parseInt(poinstfredBederT4) + parseInt(poinstfredBederT3) + parseInt(poinstfredBederT2) + parseInt(poinstfredBederT1);
