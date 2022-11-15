@@ -477,9 +477,38 @@ th{
     .pontos,.linha1-verticalmente{
         font-size: 14px;
     }
-    #voltar,#voltarLauda,#verMaisLauda,#verMais{
-        font-size: 19px;
+}
+@media screen and (Max-width: 480px) {
+    .linha2-verticalmente,.lastro{
+        font-size: 9px;
     }
+    .pontos,.linha1-verticalmente{
+        font-size: 12px;
+    }
+    .linha2-verticalmente img{
+        width: 42px;
+        height: 42px;
+    }
+    .lastro img {
+        height: 13px;
+        width: 19px;
+    }
+}
+@media screen and (Max-width: 395px) {
+    .linha2-verticalmente,.lastro{
+        font-size: 6px;
+    }
+    .pontos,.linha1-verticalmente{
+        font-size: 7px;
+    }
+    .linha2-verticalmente img{
+        width: 37px;
+        height: 37px;
+    }
+    .lastro img {
+        height: 12px;
+        width: 18px;
+}
 }
 @media screen and (Max-width: 800px) {
     #voltar,#voltarLauda,#verMaisLauda,#verMais{
