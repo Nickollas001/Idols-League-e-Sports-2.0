@@ -462,3 +462,11 @@ th{
     margin-top: 29px;
     margin-left: 10px;
 }
+@media screen and (Max-width:570px) {
+    .item-grid{
+        width: 100%;
+    }
+    .mostrar{
+        flex-wrap: wrap;
+    }   
+}
