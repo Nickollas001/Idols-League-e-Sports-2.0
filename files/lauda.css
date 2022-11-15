@@ -323,7 +323,12 @@
     gap: 20px;
     justify-content: center;
 }
-
+.objeto{
+    border:0;
+    overflow:visible;
+    height: 100vh;
+    width: 100%;    
+}
 
 
 
