@@ -470,3 +470,19 @@ th{
         flex-wrap: wrap;
     }   
 }
+@media screen and (Max-width: 550px) {
+    .linha2-verticalmente,.lastro{
+        font-size: 12px;
+    }
+    .pontos,.linha1-verticalmente{
+        font-size: 14px;
+    }
+    #voltar,#voltarLauda,#verMaisLauda,#verMais{
+        font-size: 19px;
+    }
+}
+@media screen and (Max-width: 800px) {
+    #voltar,#voltarLauda,#verMaisLauda,#verMais{
+        font-size: 14px;
+    }
+}
