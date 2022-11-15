@@ -417,7 +417,7 @@ th{
 #menuGrid{
     width: 100%;
     display: none;
-    background: linear-gradient(90deg, #33ff00 0%, #ff0000 100%);
+    background: black;
 }
 .mostrar{
     display: flex!important;
@@ -427,7 +427,7 @@ th{
     cursor: pointer;
 }
 .item-grid{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -449,4 +449,16 @@ th{
 
 #cruzado,.cruzado{
     background-color: rgba(199, 198, 198, 0.589);
+}
+.objeto{
+    border:0;
+    overflow:visible;
+    height: 100vh;
+    width: 100%;
+}
+.voltar-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 29px;
+    margin-left: 10px;
 }

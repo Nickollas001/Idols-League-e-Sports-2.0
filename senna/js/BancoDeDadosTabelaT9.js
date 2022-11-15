@@ -974,7 +974,8 @@ var PilotoDoDiajailsonMouraT9 = "0";
 var PilotoDoDiapabloMullerT9 = "0";
 var PilotoDoDiafredBederT9 = "0";
 var PilotoDoDiaraulSilvaT9 = "0";
-var PilotoDoDianelsonViannaT9 = "0";
+var PilotoDoDianelsonViannaT9 = "1";
+//GP Da Bélgica et4 T9 Senna
 var PilotoDoDiaandersonRodriguesT9 = "0";
 var PilotoDoDiapedroPortelaT9 = "0";
 var PilotoDoDiamuriloHenriqueT9 = "0";

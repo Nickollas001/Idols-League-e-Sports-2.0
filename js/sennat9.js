@@ -107,4 +107,3 @@ if (currentDate < nextRacingDateHolanda){
     countdown();
     setInterval(countdown,1000); 
 }
-
