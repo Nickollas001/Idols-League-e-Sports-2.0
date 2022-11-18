@@ -20,9 +20,25 @@
     <script>
         $(document).ready(function () {
         $('#example').DataTable( {
+            language: {
+            lengthMenu: 'Mostrando _MENU_ Pilotos por página',
+            zeroRecords: 'Ops! Não foi encontrado!',
+            info: 'Mostrando _PAGE_ de _PAGES_ páginas',
+            infoEmpty: 'Sem resultado!',
+            filter: 'Teste',
+            infoFiltered: '(Nenhum resultado encontrado em _MAX_ pilotos)',
+            
+        },
+
+
+        
             "order": [[ 0, "desc" ]] //Ordena pela quarta coluna de forma descrescente
+            
         });
+        
 });
+
+
     </script>
     <script>
         $(function(){
