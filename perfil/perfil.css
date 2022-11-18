@@ -5,3 +5,12 @@
     max-width: 100%;
     height: auto;
 }
+.container2{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.container2 img{
+    max-width: 400px;
+    height: auto;
+}
